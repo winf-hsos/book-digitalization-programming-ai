@@ -1,1 +1,6 @@
-# Variables
+# Variablen
+
+```{python}
+# Dies ist eine neue Variable mit dem Namen "x"
+x = 1
+```

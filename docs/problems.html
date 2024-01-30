@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./summary.html" rel="next">
+<link href="./counting.html" rel="next">
 <link href="./part_1_digitization.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -61,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -113,7 +114,22 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Summary</span></a>
+  <a href="./counting.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Zählen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./codes.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Codes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./algorithms.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Algorithmen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./logic.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Logik</span></a>
   </div>
 </li>
       </ul>
@@ -128,7 +144,17 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./variables.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Variables</span></a>
+  <a href="./variables.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Variablen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./control_structures.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Kontrollstrukturen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./loops.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Schleifen</span></a>
   </div>
 </li>
       </ul>
@@ -143,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./learning_but_rules.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Lernen statt Regeln</span></a>
+  <a href="./learning_but_rules.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Lernen statt Regeln</span></a>
   </div>
 </li>
       </ul>
@@ -205,6 +231,13 @@ ul.task-list li input[type="checkbox"] {
 <figure class="figure">
 <p><img src="https://winf-hsos.github.io/university-docs/images/problem_model_input_solution_output.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Abbildung&nbsp;1.1: Ein Modell für das Lösen von Problemen.</figcaption><p></p>
+</figure>
+</div>
+<p>Nehmen wir das Beispiel der Addition zweier ganzer Zahlen <span class="math inline">\(a\)</span> und <span class="math inline">\(b\)</span>. Die Eingabe besteht für dieses einfache Problem aus konkreten Werten für <span class="math inline">\(a\)</span> und <span class="math inline">\(b\)</span>. Die Lösung für das Problem bekommen wir, wenn wir den Additionsoperator <span class="math inline">\(+\)</span> auf die beiden Zahlen aus der Eingabe anwenden. Als Ergebnis bekommen wir die sogenannte Summe, die wir mit <span class="math inline">\(s\)</span> abkürzen. Also: <span class="math inline">\(a + b = s\)</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://winf-hsos.github.io/university-docs/images/problem_example_addition.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Addition als Beispiel für das Lösen eines Problems.</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -328,8 +361,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./summary.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./counting.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Zählen</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

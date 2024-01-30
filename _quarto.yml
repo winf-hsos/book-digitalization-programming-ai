@@ -18,12 +18,17 @@ book:
       chapters:
         
         - problems.qmd
-        - summary.qmd
+        - counting.qmd
+        - codes.qmd
+        - algorithms.qmd
+        - logic.qmd
         
     - part: part_2_programming.qmd
       chapters:
         
         - variables.qmd
+        - control_structures.qmd
+        - loops.qmd
     
     - part: part_3_ai.qmd
       chapters:

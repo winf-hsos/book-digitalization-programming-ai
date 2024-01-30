@@ -16,6 +16,10 @@ Egal, wie komplex das Problem ist, wir können seine Lösung mithilfe eines digi
 
 ![Ein Modell für das Lösen von Problemen.](https://winf-hsos.github.io/university-docs/images/problem_model_input_solution_output.png){#fig-model-problem-solving}
 
+Nehmen wir das Beispiel der Addition zweier ganzer Zahlen $a$ und $b$. Die Eingabe besteht für dieses einfache Problem aus konkreten Werten für $a$ und $b$. Die Lösung für das Problem bekommen wir, wenn wir den Additionsoperator $+$ auf die beiden Zahlen aus der Eingabe anwenden. Als Ergebnis bekommen wir die sogenannte Summe, die wir mit $s$ abkürzen. Also: $a + b = s$
+
+![Addition als Beispiel für das Lösen eines Problems.](https://winf-hsos.github.io/university-docs/images/problem_example_addition.png)
+
 ## Problemlösung als Informationsverarbeitung
 
 Modelle sind wie vereinfachte Landkarten für komplexe Themen. Stellt euch vor, ihr nehmt einen komplizierten Sachverhalt und entfernt alles, was für euer Ziel nicht wichtig ist. Am Ende bleibt ein Modell übrig, das nur die Kernpunkte beinhaltet. Nehmen wir als Beispiel ein Modell, das erklärt, wie die Informationsverarbeitung in unseren digitalen Computern funktioniert. Hier konzentrieren wir uns auf drei Schlüsselelemente.

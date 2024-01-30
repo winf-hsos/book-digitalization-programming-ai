@@ -1,0 +1,9 @@
+# Kontrollstrukturen
+
+```{python}
+# Eine If-Anweisung in Pyhton
+if True:
+  ...
+else:
+  ...
+```

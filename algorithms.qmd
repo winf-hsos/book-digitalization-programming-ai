@@ -1,0 +1,5 @@
+# Algorithmen
+
+Das folgende Video empfehle ich als Ergänzung zu diesem Kapitel:
+
+{{< video https://www.youtube.com/watch?v=4oqjcKenCH8 >}}
