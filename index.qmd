@@ -1,0 +1,12 @@
+# Vorwort {.unnumbered}
+
+## Inspiration für dieses Buch
+
+In dieses Buch sind viele Ideen aus den CS50-Kursen von [David J. Malan](https://cs.harvard.edu/malan/ "Zur Harvard-Webseite von Professor David J. Malan") und seinem fantastischen Team eingeflossen. Ich kann die Kurse sehr empfehlen und euch speziell als Ergänzung zu diesem Buch die folgenden ans Herz legen:
+
+-   [CS50's Introduction to Programming with Python (2022)](https://cs50.harvard.edu/python/2022/ "Gehe direkt zur Website des Kurses")
+
+-   [CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science "Gehe direkt zur Website des Kurses")
+
+Besonder im ersten Teil dieses Buchs hat mich Charles Petzold [-@petzold2022] mit seinem Buch [Code: The Hidden Language of Computer Hardware and Software](https://amzn.eu/d/aSn6Goo "Gehe direkt zur Amazon-Produktseite") inspiriert. Es ist ein verständlich geschriebenes und gut lesbares Buch, das mittlerweile in der zweiten Auflage vorliert. Ich empfehle es allen, die sich für die Grundlagen der Informatik interessieren.
+

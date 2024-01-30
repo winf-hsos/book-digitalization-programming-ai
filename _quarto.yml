@@ -1,0 +1,54 @@
+project:
+  type: book
+  output-dir: docs
+
+number-sections: true
+number-depth: 2
+
+book:
+  title: "Digitalisierung, Programmieren und Künstliche Intelligenz"
+  lang: de
+  author: "Nicolas Meseth"
+  date: today
+  chapters:
+    - index.qmd
+    #- motivation.qmd
+    
+    - part: part_1_digitization.qmd
+      chapters:
+        
+        - problems.qmd
+        - summary.qmd
+        
+    - part: part_2_programming.qmd
+      chapters:
+        
+        - variables.qmd
+    
+    - part: part_3_ai.qmd
+      chapters:
+        
+        - learning_but_rules.qmd
+    
+    
+    - references.qmd
+    - appendix.qmd
+    
+language:
+    title-block-author-single: "Autor"
+    title-block-published: "Veröffentlicht"
+    toc-title-document: "Inhalt"
+    search-matching-documents-text: "Suchtreffer"
+    crossref-ch-prefix: "Kapitel"
+    crossref-sec-prefix: "Abschnitt"
+    crossref-exr-prefix: "Übungsaufgabe"
+    crossref-fig-title: "Abbildung"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    
+editor: visual
+
