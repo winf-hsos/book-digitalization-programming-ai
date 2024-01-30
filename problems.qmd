@@ -10,7 +10,7 @@ Egal, wie komplex das Problem ist, wir können seine Lösung mithilfe eines digi
 
 1.  Die **Eingabe** ist das, was wir zur genaueren Beschreibung des Problems wissen müssen. Das können etwa die zwei Zahlen sein, die miteinander addiert werden sollen. Oder sind die Milliarden Datensätze zusammen mit der Information, wonach wir suchen.
 
-2.  Die Beschreibung der notwendigen Schritte, um das Problem aus Basis der Eingabe zu lösen. Später werden wir hierfür den Begriff **Algorithmus** einführen.
+2.  Die Beschreibung der notwendigen Schritte, um das Problem auf Basis der Eingabe zu lösen. Später werden wir hierfür den Begriff **Algorithmus** einführen.
 
 3.  Die **Ausgabe** ist Repräsentation der Lösung des Problems. Das kann eine Zahl sein, wie das Ergebnis der Addition zweier Zahlen. Es kann auch ein Datensatz sein, der aus mehreren Milliarden als der Gesuchte erkannt wurde.
 
