@@ -2,4 +2,4 @@
 
 Das folgende Video empfehle ich als Ergänzung zu diesem Kapitel:
 
-{{< video https://www.youtube.com/watch?v=4oqjcKenCH8 >}}
+[CS50x 2023 - Lecture 3 - Algorithms](https://www.youtube.com/watch?v=4oqjcKenCH8)
