@@ -1,5 +1,14 @@
 # Vorwort {.unnumbered}
 
+## Aufbau des Buches
+
+## Material
+
+Die Abbildungen aus diesem Buch entstammen den zugehörigen Vorlesungsfolien und sind hier zu finden:
+
+-   [Google Slides](https://docs.google.com/presentation/d/1uxnlvUs4Ik6eqZOXSicL0H2OwoqFmDLiwREq3sD1C9A/edit?usp=sharing)
+-   [PDF](https://winf-hsos.github.io/university-docs/google_slides/wirtschaftsinformatik/Digitization%20and%20Programming.pdf)
+
 ## Inspiration für dieses Buch
 
 In dieses Buch sind viele Ideen aus den CS50-Kursen von [David J. Malan](https://cs.harvard.edu/malan/ "Zur Harvard-Webseite von Professor David J. Malan") und seinem fantastischen Team eingeflossen. Ich kann die Kurse sehr empfehlen und euch speziell als Ergänzung zu diesem Buch die folgenden ans Herz legen:
@@ -9,4 +18,3 @@ In dieses Buch sind viele Ideen aus den CS50-Kursen von [David J. Malan](https:/
 -   [CS50: Introduction to Computer Science (2023)](https://cs50.harvard.edu/x/2023/ "Gehe direkt zur Website des Kurses")
 
 Besonder im ersten Teil dieses Buchs hat mich Charles Petzold [-@petzold2022] mit seinem Buch [Code: The Hidden Language of Computer Hardware and Software](https://amzn.eu/d/aSn6Goo "Gehe direkt zur Amazon-Produktseite") inspiriert. Es ist ein verständlich geschriebenes und gut lesbares Buch, das mittlerweile in der zweiten Auflage vorliert. Ich empfehle es allen, die sich für die Grundlagen der Informatik interessieren.
-

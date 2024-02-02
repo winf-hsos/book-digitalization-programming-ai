@@ -17,27 +17,30 @@ book:
     - part: part_1_digitization.qmd
       chapters:
         
-        - problems.qmd
-        - counting.qmd
-        - codes.qmd
-        - algorithms.qmd
-        - logic.qmd
+        - chapters/problems.qmd
+        - chapters/counting.qmd
+        - chapters/bits.qmd
+        - chapters/codes.qmd
+        - chapters/analog_digital.qmd
+        - chapters/algorithms.qmd
+        - chapters/logic.qmd
+        - chapters/arithmetic.qmd
         
     - part: part_2_programming.qmd
       chapters:
         
-        - variables.qmd
-        - control_structures.qmd
-        - loops.qmd
+        - chapters/variables.qmd
+        - chapters/control_structures.qmd
+        - chapters/loops.qmd
     
     - part: part_3_ai.qmd
       chapters:
         
-        - learning_but_rules.qmd
+        - chapters/learning_but_rules.qmd
     
     
-    - references.qmd
-    - appendix.qmd
+    - chapters/references.qmd
+    - chapters/appendix.qmd
     
 language:
     title-block-author-single: "Autor"
