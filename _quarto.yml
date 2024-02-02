@@ -4,10 +4,11 @@ project:
 
 number-sections: true
 number-depth: 2
+lightbox: true
 
 book:
   title: "Digitalisierung, Programmieren und Künstliche Intelligenz"
-  lang: de
+  language: de
   author: "Nicolas Meseth"
   date: today
   chapters:
