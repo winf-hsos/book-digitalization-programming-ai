@@ -7,55 +7,6 @@
     "text": "Die Abbildungen aus diesem Buch entstammen den zugehörigen Vorlesungsfolien und sind hier zu finden:\n\nGoogle Slides\nPDF\n\n\n\n\nIn dieses Buch sind viele Ideen aus den CS50-Kursen von David J. Malan und seinem fantastischen Team eingeflossen. Ich kann die Kurse sehr empfehlen und euch speziell als Ergänzung zu diesem Buch die folgenden ans Herz legen:\n\nCS50’s Introduction to Programming with Python (2022)\nCS50: Introduction to Computer Science (2023)\n\nBesonder im ersten Teil dieses Buchs hat mich Charles Petzold (2022) mit seinem Buch Code: The Hidden Language of Computer Hardware and Software inspiriert. Es ist ein verständlich geschriebenes und gut lesbares Buch, das mittlerweile in der zweiten Auflage vorliert. Ich empfehle es allen, die sich für die Grundlagen der Informatik interessieren.\n\n\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer Hardware and Software. 2nd ed. Hoboken: Microsoft Press."
   },
   {
-    "objectID": "problems.html",
-    "href": "problems.html",
-    "title": "1  Probleme",
-    "section": "",
-    "text": "Vom simpelsten Programm bis hin zur fortschrittlichsten Künstlichen Intelligenz – all das können wir auf ein grundlegendes Modell reduzieren. Das ist unser Startpunkt in die Welt der Digitalisierung."
-  },
-  {
-    "objectID": "problems.html#ein-modell-für-die-problemlösung",
-    "href": "problems.html#ein-modell-für-die-problemlösung",
-    "title": "1  Probleme",
-    "section": "1.1 Ein Modell für die Problemlösung",
-    "text": "1.1 Ein Modell für die Problemlösung\nAls ehemaliger Berater wurde mir beigebracht, den Begriff “Problem” zu vermeiden, weil er negativ konnotiert ist. Stattdessen sollte man von Herausforderungen sprechen, was den positiven Aspekt hervorhebt. In diesem Kapitel ist der Begriff “Problem” abstrakter gemeint. Es geht um das Bewältigen einer Aufgabe, die komplex, wie das Durchsuchen von mehreren Milliarden Datensätzen, oder einfach, wie das Addieren von 1 und 1, sein kann.\nEgal, wie komplex das Problem ist, wir können seine Lösung mithilfe eines digitalen Computers auf ein einfaches Modell reduzieren. Dieses Modell werden wir im Laufe des Buches an verschiedenen Stellen wiedersehen. Das Modell in Abbildung 1.1 hat drei Bestandteile:\n\nDie Eingabe ist das, was wir zur genaueren Beschreibung des Problems wissen müssen. Das können etwa die zwei Zahlen sein, die miteinander addiert werden sollen. Oder sind die Milliarden Datensätze zusammen mit der Information, wonach wir suchen.\nDie Beschreibung der notwendigen Schritte, um das Problem auf Basis der Eingabe zu lösen. Später werden wir hierfür den Begriff Algorithmus einführen.\nDie Ausgabe ist Repräsentation der Lösung des Problems. Das kann eine Zahl sein, wie das Ergebnis der Addition zweier Zahlen. Es kann auch ein Datensatz sein, der aus mehreren Milliarden als der Gesuchte erkannt wurde.\n\n\n\n\nAbbildung 1.1: Ein Modell für das Lösen von Problemen.\n\n\nNehmen wir das Beispiel der Addition zweier ganzer Zahlen \\(a\\) und \\(b\\). Die Eingabe besteht für dieses einfache Problem aus konkreten Werten für \\(a\\) und \\(b\\). Die Lösung für das Problem bekommen wir, wenn wir den Additionsoperator \\(+\\) auf die beiden Zahlen aus der Eingabe anwenden. Als Ergebnis bekommen wir die sogenannte Summe, die wir mit \\(s\\) abkürzen. Also: \\(a + b = s\\)\n\n\n\nAddition als Beispiel für das Lösen eines Problems."
-  },
-  {
-    "objectID": "problems.html#problemlösung-als-informationsverarbeitung",
-    "href": "problems.html#problemlösung-als-informationsverarbeitung",
-    "title": "1  Probleme",
-    "section": "1.2 Problemlösung als Informationsverarbeitung",
-    "text": "1.2 Problemlösung als Informationsverarbeitung\nModelle sind wie vereinfachte Landkarten für komplexe Themen. Stellt euch vor, ihr nehmt einen komplizierten Sachverhalt und entfernt alles, was für euer Ziel nicht wichtig ist. Am Ende bleibt ein Modell übrig, das nur die Kernpunkte beinhaltet. Nehmen wir als Beispiel ein Modell, das erklärt, wie die Informationsverarbeitung in unseren digitalen Computern funktioniert. Hier konzentrieren wir uns auf drei Schlüsselelemente.\nErstens gibt es die Eingabe. Das ist das, was ihr dem Computer sagt oder gebt, also eure Fragen, Informationen oder Befehle. Dann kommt das Programm selbst, das wir zuerst als Blackbox betrachten – also als etwas Geheimnisvolles, dessen Inneres wir bis jetzt nicht kennen. Später werden wir dieses Unbekannte durch unterschiedliche Anwendungen ersetzen. Und schließlich haben wir die Ausgabe, also das, was der Computer nach der Verarbeitung eurer Eingabe zurückgibt.\n\n\n\nAbbildung 1.2: Ein Modell für die Informationsverarbeitung digitaler Computer."
-  },
-  {
-    "objectID": "algorithms.html",
-    "href": "algorithms.html",
-    "title": "4  Algorithmen",
-    "section": "",
-    "text": "CS50x 2023 - Lecture 3 - Algorithms"
-  },
-  {
-    "objectID": "variables.html",
-    "href": "variables.html",
-    "title": "6  Variablen",
-    "section": "",
-    "text": "# Dies ist eine neue Variable mit dem Namen \"x\"\nx = 1"
-  },
-  {
-    "objectID": "control_structures.html",
-    "href": "control_structures.html",
-    "title": "7  Kontrollstrukturen",
-    "section": "",
-    "text": "# Eine If-Anweisung in Pyhton\nif True:\n  ...\nelse:\n  ..."
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "Literaturverzeichnis",
-    "section": "",
-    "text": "Petzold, Charles. 2022. Code: The Hidden Language of Computer\nHardware and Software. 2nd ed. Hoboken: Microsoft Press."
-  },
-  {
     "objectID": "chapters/problems.html",
     "href": "chapters/problems.html",
     "title": "1  Probleme",
@@ -79,21 +30,21 @@
   {
     "objectID": "chapters/algorithms.html",
     "href": "chapters/algorithms.html",
-    "title": "5  Algorithmen",
+    "title": "6  Algorithmen",
     "section": "",
     "text": "CS50x 2023 - Lecture 3 - Algorithms"
   },
   {
     "objectID": "chapters/variables.html",
     "href": "chapters/variables.html",
-    "title": "7  Variablen",
+    "title": "9  Variablen",
     "section": "",
     "text": "# Dies ist eine neue Variable mit dem Namen \"x\"\nx = 1"
   },
   {
     "objectID": "chapters/control_structures.html",
     "href": "chapters/control_structures.html",
-    "title": "8  Kontrollstrukturen",
+    "title": "10  Kontrollstrukturen",
     "section": "",
     "text": "# Eine If-Anweisung in Pyhton\nif True:\n  ...\nelse:\n  ..."
   },
