@@ -7,38 +7,50 @@ number-depth: 2
 lightbox: true
 
 book:
-  title: "Digitalisierung, Programmieren und Künstliche Intelligenz"
+  title: "Digital Literacy"
   language: de
   author: "Nicolas Meseth"
   date: today
   chapters:
     - index.qmd
     #- motivation.qmd
-    
-    - part: part_1_digitization.qmd
+
+    - part: parts/part_1_representation.qmd
       chapters:
-        
-        - chapters/problems.qmd
+        - chapters/representation/problems.qmd
         - chapters/counting.qmd
         - chapters/bits.qmd
         - chapters/codes.qmd
-        - chapters/analog_digital.qmd
+        
+    
+    - part: parts/part_2_processing.qmd
+      chapters:
         - chapters/algorithms.qmd
         - chapters/logic.qmd
         - chapters/arithmetic.qmd
-        
-    - part: part_2_programming.qmd
+        - chapters/analog_digital.qmd
+
+    - part: parts/part_2_programming.qmd
       chapters:
         
         - chapters/variables.qmd
         - chapters/control_structures.qmd
         - chapters/loops.qmd
     
-    - part: part_3_ai.qmd
+    - part: parts/part_3_ai.qmd
       chapters:
         
-        - chapters/learning_but_rules.qmd
-    
+        - chapters/ai/learning_but_rules.qmd
+        - chapters/ai/supervised_learning.qmd
+        - chapters/ai/neural_networks.qmd
+        
+    - part: parts/part_4_daten.qmd
+      chapters:
+        
+        - chapters/data_overview.qmd
+        - chapters/data/vectors.qmd
+        - chapters/data/data_frames.qmd
+
     
     - chapters/references.qmd
     - chapters/appendix.qmd
@@ -57,7 +69,7 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: comso
     
 editor: visual
 
