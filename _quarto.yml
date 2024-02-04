@@ -47,9 +47,10 @@ book:
     - part: parts/part_4_daten.qmd
       chapters:
         
-        - chapters/data_overview.qmd
+        - chapters/data/data_analysis_with_r.qmd
         - chapters/data/vectors.qmd
         - chapters/data/data_frames.qmd
+        - chapters/data/data_transformation.qmd
 
     
     - chapters/references.qmd
@@ -64,6 +65,12 @@ language:
     crossref-sec-prefix: "Abschnitt"
     crossref-exr-prefix: "Übungsaufgabe"
     crossref-fig-title: "Abbildung"
+    
+crossref:
+  custom:
+    - kind: float
+      reference-prefix: Video
+      key: vid
 
 bibliography: references.bib
 

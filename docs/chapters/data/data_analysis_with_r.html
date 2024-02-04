@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Digital Literacy - 15&nbsp; Überblick</title>
+<title>Digital Literacy - 15&nbsp; Datenanalyse mit R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../chapters/data/vectors.html" rel="next">
-<link href="../parts/part_4_daten.html" rel="prev">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../chapters/data/vectors.html" rel="next">
+<link href="../../parts/part_4_daten.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../parts/part_4_daten.html">Daten</a></li><li class="breadcrumb-item"><a href="../chapters/data_overview.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Überblick</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../parts/part_4_daten.html">Daten</a></li><li class="breadcrumb-item"><a href="../../chapters/data/data_analysis_with_r.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Datenanalyse mit R</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="../">Digital Literacy</a> 
+      <a href="../../">Digital Literacy</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -108,13 +108,13 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vorwort</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../parts/part_1_representation.html" class="sidebar-item-text sidebar-link">
+            <a href="../../parts/part_1_representation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Repräsentation</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -123,25 +123,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/representation/problems.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/representation/problems.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Probleme</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/counting.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/counting.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Zählen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/bits.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/bits.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Bits</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/codes.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/codes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Codes</span></span></a>
   </div>
 </li>
@@ -149,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../parts/part_2_processing.html" class="sidebar-item-text sidebar-link">
+            <a href="../../parts/part_2_processing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Verarbeitung</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -158,25 +158,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/algorithms.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/algorithms.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Algorithmen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/logic.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/logic.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Logik</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/arithmetic.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/arithmetic.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Arithmetik</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/analog_digital.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/analog_digital.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Analog und Digital</span></span></a>
   </div>
 </li>
@@ -184,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../parts/part_2_programming.html" class="sidebar-item-text sidebar-link">
+            <a href="../../parts/part_2_programming.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Programmieren</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -193,19 +193,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/variables.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/variables.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Variablen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/control_structures.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/control_structures.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Kontrollstrukturen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/loops.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/loops.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Schleifen</span></span></a>
   </div>
 </li>
@@ -213,7 +213,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../parts/part_3_ai.html" class="sidebar-item-text sidebar-link">
+            <a href="../../parts/part_3_ai.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Künstliche Intelligenz</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -222,19 +222,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/ai/learning_but_rules.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/ai/learning_but_rules.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Lernen statt Regeln</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/ai/supervised_learning.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/ai/supervised_learning.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Überwachtes Lernen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/ai/neural_networks.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/ai/neural_networks.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Neuronale Netze</span></span></a>
   </div>
 </li>
@@ -242,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../parts/part_4_daten.html" class="sidebar-item-text sidebar-link">
+            <a href="../../parts/part_4_daten.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Daten</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -251,33 +251,39 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/data_overview.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Überblick</span></span></a>
+  <a href="../../chapters/data/data_analysis_with_r.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Datenanalyse mit R</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/data/vectors.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/data/vectors.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Vektoren</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/data/data_frames.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/data/data_frames.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Data Frames</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/data/data_transformation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Datentransformation</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/references.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Literaturverzeichnis</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/appendix.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/appendix.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Anhang</span></a>
   </div>
 </li>
@@ -287,14 +293,25 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhalt</h2>
+   
+  <ul>
+  <li><a href="#warum-r" id="toc-warum-r" class="nav-link active" data-scroll-target="#warum-r"><span class="header-section-number">15.1</span> Warum R?</a>
+  <ul class="collapse">
+  <li><a href="#r-oder-python" id="toc-r-oder-python" class="nav-link" data-scroll-target="#r-oder-python">R oder Python?</a></li>
+  <li><a href="#r-oder-spss" id="toc-r-oder-spss" class="nav-link" data-scroll-target="#r-oder-spss">R oder SPSS?</a></li>
+  <li><a href="#r-oder-excel" id="toc-r-oder-excel" class="nav-link" data-scroll-target="#r-oder-excel">R oder Excel?</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../parts/part_4_daten.html">Daten</a></li><li class="breadcrumb-item"><a href="../chapters/data_overview.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Überblick</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../parts/part_4_daten.html">Daten</a></li><li class="breadcrumb-item"><a href="../../chapters/data/data_analysis_with_r.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Datenanalyse mit R</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Überblick</span></h1>
+<h1 class="title"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Datenanalyse mit R</span></h1>
 </div>
 
 
@@ -311,8 +328,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="warum-r" class="level2" data-number="15.1">
+<h2 data-number="15.1" class="anchored" data-anchor-id="warum-r"><span class="header-section-number">15.1</span> Warum R?</h2>
+<section id="r-oder-python" class="level3">
+<h3 class="anchored" data-anchor-id="r-oder-python">R oder Python?</h3>
+<p>Diese Frage kann ich nicht eindeutig pro R beantworten. Es gibt gute Gründe, beide Sprachen für die Datenanalyse zu verwenden.</p>
+<ul>
+<li><p>Beide Sprachen sind frei verfügbar und Open Source.</p></li>
+<li><p>Beide Sprachen haben in der Praxis eine hohe Verbreitung und damit eine große Community, die sich um die Entwicklung und Pflege der Sprachen und der Pakete kümmert.</p></li>
+</ul>
+<p>Die beiden wichtigsten Gründe, warum ich R bevorzuge, sind:</p>
+<ul>
+<li><p>R ist eine Sprache, die speziell für den Zweck der statistischen Datenanalyse entwickelt und verwendet wird. Python dagegen ist eine allgemeine Programmiersprache, deren größte Stärke in ihrer Vielseitigkeit liegt.</p></li>
+<li><p>R und das <a href="https://www.tidyverse.org/">Tidyverse</a>, ein Metapaket für R, das eine Vielzahl von Paketen für die Datenanalyse zusammenfasst, sind in der Wissenschaft und in der Wirtschaft speziell für die Datenvisualisierung weit verbreitet. Mit gutem Grund: Aus meiner persönlichen Erfahrung mit Python und R heraus kann ich sagen, dass der Arbeitsfluss mit R und dem Tidyverse intuitiver ist und die unterschiedlichen Pakete für das Laden von Daten, die Datentransformation und die Visualisierung von Daten problemlos miteinander verwendet werden können.</p></li>
+</ul>
+</section>
+<section id="r-oder-spss" class="level3">
+<h3 class="anchored" data-anchor-id="r-oder-spss">R oder SPSS?</h3>
+<p>Für diese Frage empfehle ich euch das <a href="#vid-spss-vs-r" class="quarto-xref">Video&nbsp;<span>15.1</span></a>.</p>
+<div id="vid-spss-vs-r" class="quarto-float">
+<figure class="quarto-float quarto-float-vid figure">
+<div aria-describedby="vid-spss-vs-r-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/JhKfehtXcHA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-vid" id="vid-spss-vs-r-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Video&nbsp;15.1: “Why you should abandon SPSS for R”
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="r-oder-excel" class="level3">
+<h3 class="anchored" data-anchor-id="r-oder-excel">R oder Excel?</h3>
+<p>Die Antwort auf diese Frage folgt der gleichen Argumentation wie der Frage, warum eine digitale Ausbildung mehr als nur die gekonnte und kritische Anwendung von Werkzeugen ausmachen sollte. Kurz gesagt: Wir wollen von Werkzeug<em>nutzern</em> zu Werkzeug<em>bauern</em> werden.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -704,12 +755,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../parts/part_4_daten.html" class="pagination-link  aria-label=" daten"="">
+      <a href="../../parts/part_4_daten.html" class="pagination-link  aria-label=" daten"="">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Daten</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/data/vectors.html" class="pagination-link" aria-label="<span class='chapter-number'>16</span>&nbsp; <span class='chapter-title'>Vektoren</span>">
+      <a href="../../chapters/data/vectors.html" class="pagination-link" aria-label="<span class='chapter-number'>16</span>&nbsp; <span class='chapter-title'>Vektoren</span>">
         <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Vektoren</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>

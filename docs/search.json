@@ -14,7 +14,7 @@
     "href": "index.html#aufbau-des-buches",
     "title": "Digital Literacy",
     "section": "Aufbau des Buches",
-    "text": "Aufbau des Buches",
+    "text": "Aufbau des Buches\nDie folgende Abbildung zeigt die Kompetenzen der Digital Literacy, die in diesem Buch vermitteltquart werden..\n\n\n\n\n\n\nAbbildung 1: Kompetenzen der Digital Literacy, die in diesem Buch vermitteltquart werden.",
     "crumbs": [
       "Vorwort"
     ]
@@ -34,7 +34,7 @@
     "href": "index.html#inspiration-für-dieses-buch",
     "title": "Digital Literacy",
     "section": "Inspiration für dieses Buch",
-    "text": "Inspiration für dieses Buch\nIn dieses Buch sind viele Ideen aus den CS50-Kursen von David J. Malan und seinem fantastischen Team eingeflossen. Ich kann die Kurse sehr empfehlen und euch speziell als Ergänzung zu diesem Buch die folgenden ans Herz legen:\n\nCS50’s Introduction to Programming with Python (2022)\nCS50: Introduction to Computer Science (2023)\n\nBesonder im ersten Teil dieses Buchs hat mich Charles Petzold (2022) mit seinem Buch Code: The Hidden Language of Computer Hardware and Software inspiriert. Es ist ein verständlich geschriebenes und gut lesbares Buch, das mittlerweile in der zweiten Auflage vorliert. Ich empfehle es allen, die sich für die Grundlagen der Informatik interessieren.\n\n\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer Hardware and Software. 2nd ed. Hoboken: Microsoft Press.",
+    "text": "Inspiration für dieses Buch\nIn dieses Buch sind viele Ideen aus den CS50-Kursen von David J. Malan und seinem fantastischen Team eingeflossen. Ich kann die Kurse sehr empfehlen und euch speziell als Ergänzung zu diesem Buch die folgenden ans Herz legen:\n\nCS50’s Introduction to Programming with Python (2022)\nCS50: Introduction to Computer Science (2023)\n\nBesonders im ersten Teil dieses Buchs hat mich Charles Petzold (2022) mit seinem Buch Code: The Hidden Language of Computer Hardware and Software inspiriert. Es ist ein verständlich geschriebenes und gut lesbares Buch, das mittlerweile in der zweiten Auflage vorliegt. Ich empfehle es allen, die sich für die Grundlagen der Informatik interessieren.\n\n\n\nAbbildung 1: Kompetenzen der Digital Literacy, die in diesem Buch vermitteltquart werden.\n\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer Hardware and Software. 2nd ed. Hoboken: Microsoft Press.",
     "crumbs": [
       "Vorwort"
     ]
@@ -114,6 +114,38 @@
     "crumbs": [
       "Programmieren",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Kontrollstrukturen</span>"
+    ]
+  },
+  {
+    "objectID": "parts/part_4_daten.html",
+    "href": "parts/part_4_daten.html",
+    "title": "Daten",
+    "section": "",
+    "text": "Dieser letzte Teil des Buches widmet sich der Data Literacy als ein wichtiger Bestandteil von Digital Literacy.",
+    "crumbs": [
+      "Daten"
+    ]
+  },
+  {
+    "objectID": "chapters/data/data_analysis_with_r.html",
+    "href": "chapters/data/data_analysis_with_r.html",
+    "title": "15  Datenanalyse mit R",
+    "section": "",
+    "text": "15.1 Warum R?",
+    "crumbs": [
+      "Daten",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Datenanalyse mit R</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/data/data_analysis_with_r.html#warum-r",
+    "href": "chapters/data/data_analysis_with_r.html#warum-r",
+    "title": "15  Datenanalyse mit R",
+    "section": "",
+    "text": "R oder Python?\nDiese Frage kann ich nicht eindeutig pro R beantworten. Es gibt gute Gründe, beide Sprachen für die Datenanalyse zu verwenden.\n\nBeide Sprachen sind frei verfügbar und Open Source.\nBeide Sprachen haben in der Praxis eine hohe Verbreitung und damit eine große Community, die sich um die Entwicklung und Pflege der Sprachen und der Pakete kümmert.\n\nDie beiden wichtigsten Gründe, warum ich R bevorzuge, sind:\n\nR ist eine Sprache, die speziell für den Zweck der statistischen Datenanalyse entwickelt und verwendet wird. Python dagegen ist eine allgemeine Programmiersprache, deren größte Stärke in ihrer Vielseitigkeit liegt.\nR und das Tidyverse, ein Metapaket für R, das eine Vielzahl von Paketen für die Datenanalyse zusammenfasst, sind in der Wissenschaft und in der Wirtschaft speziell für die Datenvisualisierung weit verbreitet. Mit gutem Grund: Aus meiner persönlichen Erfahrung mit Python und R heraus kann ich sagen, dass der Arbeitsfluss mit R und dem Tidyverse intuitiver ist und die unterschiedlichen Pakete für das Laden von Daten, die Datentransformation und die Visualisierung von Daten problemlos miteinander verwendet werden können.\n\n\n\nR oder SPSS?\nFür diese Frage empfehle ich euch das Video 15.1.\n\n\n\n\n\n\nVideo 15.1: “Why you should abandon SPSS for R”\n\n\n\n\n\nR oder Excel?\nDie Antwort auf diese Frage folgt der gleichen Argumentation wie der Frage, warum eine digitale Ausbildung mehr als nur die gekonnte und kritische Anwendung von Werkzeugen ausmachen sollte. Kurz gesagt: Wir wollen von Werkzeugnutzern zu Werkzeugbauern werden.",
+    "crumbs": [
+      "Daten",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Datenanalyse mit R</span>"
     ]
   },
   {

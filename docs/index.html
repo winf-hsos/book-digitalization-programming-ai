@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Nicolas Meseth">
-<meta name="dcterms.date" content="2024-02-04">
+<meta name="dcterms.date" content="2024-02-05">
 
 <title>Digital Literacy</title>
 <style>
@@ -62,6 +62,9 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -272,8 +275,8 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapters/data_overview.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Überblick</span></span></a>
+  <a href="./chapters/data/data_analysis_with_r.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Datenanalyse mit R</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -286,6 +289,12 @@ div.csl-indent {
   <div class="sidebar-item-container"> 
   <a href="./chapters/data/data_frames.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Data Frames</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapters/data/data_transformation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Datentransformation</span></span></a>
   </div>
 </li>
       </ul>
@@ -343,7 +352,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Veröffentlicht</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 4, 2024</p>
+      <p class="date">February 5, 2024</p>
     </div>
   </div>
   
@@ -359,6 +368,17 @@ div.csl-indent {
 <h1 class="unnumbered">Vorwort</h1>
 <section id="aufbau-des-buches" class="level2">
 <h2 class="anchored" data-anchor-id="aufbau-des-buches">Aufbau des Buches</h2>
+<p>Die folgende Abbildung zeigt die <a href="#fig-data-literacy-skills" class="quarto-xref"><span>Kompetenzen der Digital Literacy, die in diesem Buch vermitteltquart werden.</span></a>.</p>
+<div id="fig-data-literacy-skills" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-data-literacy-skills-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://winf-hsos.github.io/university-docs/images/digital_literacy_skills.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1"><img src="https://winf-hsos.github.io/university-docs/images/digital_literacy_skills.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-data-literacy-skills-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1: Kompetenzen der Digital Literacy, die in diesem Buch vermitteltquart werden.
+</figcaption>
+</figure>
+</div>
 </section>
 <section id="material" class="level2">
 <h2 class="anchored" data-anchor-id="material">Material</h2>
@@ -375,9 +395,12 @@ div.csl-indent {
 <li><p><a href="https://cs50.harvard.edu/python/2022/" title="Gehe direkt zur Website des Kurses">CS50’s Introduction to Programming with Python (2022)</a></p></li>
 <li><p><a href="https://cs50.harvard.edu/x/2023/" title="Gehe direkt zur Website des Kurses">CS50: Introduction to Computer Science (2023)</a></p></li>
 </ul>
-<p>Besonder im ersten Teil dieses Buchs hat mich Charles Petzold <span class="citation" data-cites="petzold2022">(<a href="chapters/references.html#ref-petzold2022" role="doc-biblioref">2022</a>)</span> mit seinem Buch <a href="https://amzn.eu/d/aSn6Goo" title="Gehe direkt zur Amazon-Produktseite">Code: The Hidden Language of Computer Hardware and Software</a> inspiriert. Es ist ein verständlich geschriebenes und gut lesbares Buch, das mittlerweile in der zweiten Auflage vorliert. Ich empfehle es allen, die sich für die Grundlagen der Informatik interessieren.</p>
+<p>Besonders im ersten Teil dieses Buchs hat mich Charles Petzold <span class="citation" data-cites="petzold2022">(<a href="chapters/references.html#ref-petzold2022" role="doc-biblioref">2022</a>)</span> mit seinem Buch <a href="https://amzn.eu/d/aSn6Goo" title="Gehe direkt zur Amazon-Produktseite">Code: The Hidden Language of Computer Hardware and Software</a> inspiriert. Es ist ein verständlich geschriebenes und gut lesbares Buch, das mittlerweile in der zweiten Auflage vorliegt. Ich empfehle es allen, die sich für die Grundlagen der Informatik interessieren.</p>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Abbildung&nbsp;1: Kompetenzen der Digital Literacy, die in diesem Buch vermitteltquart werden.</span>
+</div>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
 <div id="ref-petzold2022" class="csl-entry" role="listitem">
 Petzold, Charles. 2022. <em>Code: The Hidden Language of Computer Hardware and Software</em>. 2nd ed. Hoboken: Microsoft Press.
@@ -784,6 +807,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":false,"openEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

@@ -1,1 +1,3 @@
 # Daten
+
+Dieser letzte Teil des Buches widmet sich der Data Literacy als ein wichtiger Bestandteil von Digital Literacy.
