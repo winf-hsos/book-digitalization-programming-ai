@@ -14,7 +14,7 @@
     "href": "index.html#aufbau-des-buches",
     "title": "Digital Literacy",
     "section": "Aufbau des Buches",
-    "text": "Aufbau des Buches\nDie folgende Abbildung zeigt die Kompetenzen der Digital Literacy, die in diesem Buch vermitteltquart werden..\n\n\n\n\n\n\nAbbildung 1: Kompetenzen der Digital Literacy, die in diesem Buch vermitteltquart werden.",
+    "text": "Aufbau des Buches\nDie folgende Abbildung zeigt die Kompetenzen, die in diesem Buch vermittelt werden. Die unteren drei Blöcke stehen für das Wissen, wie Informationen in digitalen Computern abgebildet werden (representation), wie sie verarbeitet werden (processing) und wie wir beides für unsere Zwecke einsetzen können, um Probleme zu lösen (programming). Diese Bereiche sind die Grundlagen der Digitalisierung und deren Beherrschung ist die Voraussetzung für eine weitergehende Auseinandersetzung mit dem Thema. Diese erfolgt im Rahmen dieses Buches mit der Betrachtung der beiden wichtigsten Anwendungsfelder der Digitalisierung aus Sicht einer digital mündigen Person. Zum einen steigen wir in die Hintergründe der Künstlichen Intelligenz (artificial intelligence) ein, eine Entwicklung, die ein nie zuvor gesehenens Transformationspotenzial besitzt. Als zweite Säule digitaler Anwendungen beschäftigen wir uns mit den Möglichkeiten der Datenanalyse (data analysis), die durch die wachsende Menge digitaler Prozesse und Daten jeden Tag an Relevanz gewinnt.",
     "crumbs": [
       "Vorwort"
     ]
@@ -34,7 +34,7 @@
     "href": "index.html#inspiration-für-dieses-buch",
     "title": "Digital Literacy",
     "section": "Inspiration für dieses Buch",
-    "text": "Inspiration für dieses Buch\nIn dieses Buch sind viele Ideen aus den CS50-Kursen von David J. Malan und seinem fantastischen Team eingeflossen. Ich kann die Kurse sehr empfehlen und euch speziell als Ergänzung zu diesem Buch die folgenden ans Herz legen:\n\nCS50’s Introduction to Programming with Python (2022)\nCS50: Introduction to Computer Science (2023)\n\nBesonders im ersten Teil dieses Buchs hat mich Charles Petzold (2022) mit seinem Buch Code: The Hidden Language of Computer Hardware and Software inspiriert. Es ist ein verständlich geschriebenes und gut lesbares Buch, das mittlerweile in der zweiten Auflage vorliegt. Ich empfehle es allen, die sich für die Grundlagen der Informatik interessieren.\n\n\n\nAbbildung 1: Kompetenzen der Digital Literacy, die in diesem Buch vermitteltquart werden.\n\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer Hardware and Software. 2nd ed. Hoboken: Microsoft Press.",
+    "text": "Inspiration für dieses Buch\nIn dieses Buch sind viele Ideen aus den CS50-Kursen von David J. Malan und seinem fantastischen Team eingeflossen. Ich kann die Kurse sehr empfehlen und euch speziell als Ergänzung zu diesem Buch die folgenden ans Herz legen:\n\nCS50’s Introduction to Programming with Python (2022)\nCS50: Introduction to Computer Science (2023)\n\nBesonders im ersten Teil dieses Buchs hat mich Charles Petzold (2022) mit seinem Buch Code: The Hidden Language of Computer Hardware and Software inspiriert. Es ist ein verständlich geschriebenes und gut lesbares Buch, das mittlerweile in der zweiten Auflage vorliegt. Ich empfehle es allen, die sich für die Grundlagen der Informatik interessieren.\n\n\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer Hardware and Software. 2nd ed. Hoboken: Microsoft Press.",
     "crumbs": [
       "Vorwort"
     ]
@@ -66,15 +66,37 @@
     "href": "chapters/representation/problems.html#problemlösung-als-informationsverarbeitung",
     "title": "1  Probleme",
     "section": "1.2 Problemlösung als Informationsverarbeitung",
-    "text": "1.2 Problemlösung als Informationsverarbeitung\nModelle sind wie vereinfachte Landkarten für komplexe Themen. Stellt euch vor, ihr nehmt einen komplizierten Sachverhalt und entfernt alles, was für euer Ziel nicht wichtig ist. Am Ende bleibt ein Modell übrig, das nur die Kernpunkte beinhaltet. Nehmen wir als Beispiel ein Modell, das erklärt, wie die Informationsverarbeitung in unseren digitalen Computern funktioniert. Hier konzentrieren wir uns auf drei Schlüsselelemente.\nErstens gibt es die Eingabe. Das ist das, was ihr dem Computer sagt oder gebt, also eure Fragen, Informationen oder Befehle. Dann kommt das Programm selbst, das wir zuerst als Blackbox betrachten – also als etwas Geheimnisvolles, dessen Inneres wir bis jetzt nicht kennen. Später werden wir dieses Unbekannte durch unterschiedliche Anwendungen ersetzen. Und schließlich haben wir die Ausgabe, also das, was der Computer nach der Verarbeitung eurer Eingabe zurückgibt.\n\n\n\n\n\n\nAbbildung 1.2: Ein Modell für die Informationsverarbeitung digitaler Computer.\n\n\n\n\n\n\nAbbildung 1.1: Ein Modell für das Lösen von Problemen.\nAddition als Beispiel für das Lösen eines Problems.\nAbbildung 1.2: Ein Modell für die Informationsverarbeitung digitaler Computer.",
+    "text": "1.2 Problemlösung als Informationsverarbeitung\nModelle sind wie vereinfachte Landkarten für komplexe Themen. Stellt euch vor, ihr nehmt einen komplizierten Sachverhalt und entfernt alles, was für euer Ziel nicht wichtig ist. Am Ende bleibt ein Modell übrig, das nur die Kernpunkte beinhaltet. Nehmen wir als Beispiel ein Modell, das erklärt, wie die Informationsverarbeitung in unseren digitalen Computern funktioniert. Hier konzentrieren wir uns auf drei Schlüsselelemente.\nErstens gibt es die Eingabe. Das ist das, was ihr dem Computer sagt oder gebt, also eure Fragen, Informationen oder Befehle. Dann kommt das Programm selbst, das wir zuerst als Blackbox betrachten – also als etwas Geheimnisvolles, dessen Inneres wir bis jetzt nicht kennen. Später werden wir dieses Unbekannte durch unterschiedliche Anwendungen ersetzen. Und schließlich haben wir die Ausgabe, also das, was der Computer nach der Verarbeitung eurer Eingabe zurückgibt.\n\n\n\n\n\n\nAbbildung 1.2: Ein Modell für die Informationsverarbeitung digitaler Computer.",
     "crumbs": [
       "Repräsentation",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Probleme</span>"
     ]
   },
   {
-    "objectID": "chapters/algorithms.html",
-    "href": "chapters/algorithms.html",
+    "objectID": "chapters/representation/problems.html#übungen",
+    "href": "chapters/representation/problems.html#übungen",
+    "title": "1  Probleme",
+    "section": "Übungen",
+    "text": "Übungen\n\nFormuliert drei weitere Probleme mithilfe des vorgestellten Modells für die Problemlösung mittels digitaler Computer. Nennt jeweils die Eingabe, Lösung und die Ausgabe des Problems!\n\n\n\n\nAbbildung 1.1: Ein Modell für das Lösen von Problemen.\nAddition als Beispiel für das Lösen eines Problems.\nAbbildung 1.2: Ein Modell für die Informationsverarbeitung digitaler Computer.",
+    "crumbs": [
+      "Repräsentation",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Probleme</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/representation/codes.html",
+    "href": "chapters/representation/codes.html",
+    "title": "4  Codes",
+    "section": "",
+    "text": "Abbildung 4.1: Ein Herz als Pixelmatrix.\n\n\n\n\n\n\nAbbildung 4.1: Ein Herz als Pixelmatrix.",
+    "crumbs": [
+      "Repräsentation",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Codes</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/processing/algorithms.html",
+    "href": "chapters/processing/algorithms.html",
     "title": "5  Algorithmen",
     "section": "",
     "text": "Das folgende Video empfehle ich als Ergänzung zu diesem Kapitel:\nCS50x 2023 - Lecture 3 - Algorithms",
@@ -84,8 +106,8 @@
     ]
   },
   {
-    "objectID": "chapters/arithmetic.html",
-    "href": "chapters/arithmetic.html",
+    "objectID": "chapters/processing/arithmetic.html",
+    "href": "chapters/processing/arithmetic.html",
     "title": "7  Arithmetik",
     "section": "",
     "text": "7.1 Binäre Addition",
@@ -95,8 +117,19 @@
     ]
   },
   {
-    "objectID": "chapters/variables.html",
-    "href": "chapters/variables.html",
+    "objectID": "chapters/processing/arithmetic.html#zum-weiterlesen",
+    "href": "chapters/processing/arithmetic.html#zum-weiterlesen",
+    "title": "7  Arithmetik",
+    "section": "7.2 Zum Weiterlesen",
+    "text": "7.2 Zum Weiterlesen\nFür ein tieferes Verständnis der binären Addition mit Logikgattern empfehle ich das Kapitel 14 “Adding with Logic Gates” aus Petzold (2022).\n\n\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer Hardware and Software. 2nd ed. Hoboken: Microsoft Press.",
+    "crumbs": [
+      "Verarbeitung",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Arithmetik</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/programming/variables.html",
+    "href": "chapters/programming/variables.html",
     "title": "9  Variablen",
     "section": "",
     "text": "# Dies ist eine neue Variable mit dem Namen \"x\"\nx = 1",
@@ -106,8 +139,8 @@
     ]
   },
   {
-    "objectID": "chapters/control_structures.html",
-    "href": "chapters/control_structures.html",
+    "objectID": "chapters/programming/control_structures.html",
+    "href": "chapters/programming/control_structures.html",
     "title": "10  Kontrollstrukturen",
     "section": "",
     "text": "# Eine If-Anweisung in Pyhton\nif True:\n  ...\nelse:\n  ...",
@@ -121,7 +154,7 @@
     "href": "parts/part_4_daten.html",
     "title": "Daten",
     "section": "",
-    "text": "Dieser letzte Teil des Buches widmet sich der Data Literacy als ein wichtiger Bestandteil von Digital Literacy.",
+    "text": "Dieser letzte Teil des Buches widmet sich der Data Literacy als ein wichtiger Bestandteil von Digital Literacy. Als Standardwerk zum Nachlesen empfehle ich Wickham, Çetinkaya-Rundel, and Grolemund (2023).\n\n\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023. R for data science: import, tidy, transform, visualize, and model data. 2nd edition. Sebastopol, CA: O’Reilly Media, Inc.",
     "crumbs": [
       "Daten"
     ]
@@ -186,7 +219,7 @@
     "href": "chapters/references.html",
     "title": "Literaturverzeichnis",
     "section": "",
-    "text": "Petzold, Charles. 2022. Code: The Hidden Language of Computer\nHardware and Software. 2nd ed. Hoboken: Microsoft Press.",
+    "text": "Petzold, Charles. 2022. Code: The Hidden Language of Computer\nHardware and Software. 2nd ed. Hoboken: Microsoft Press.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023.\nR for data science: import, tidy, transform, visualize, and model\ndata. 2nd edition. Sebastopol, CA: O’Reilly Media, Inc.",
     "crumbs": [
       "Literaturverzeichnis"
     ]

@@ -1,3 +1,8 @@
+---
+nocite: |
+  @wickham2023
+---
+
 # Daten
 
-Dieser letzte Teil des Buches widmet sich der Data Literacy als ein wichtiger Bestandteil von Digital Literacy.
+Dieser letzte Teil des Buches widmet sich der Data Literacy als ein wichtiger Bestandteil von Digital Literacy. Als Standardwerk zum Nachlesen empfehle ich @wickham2023.

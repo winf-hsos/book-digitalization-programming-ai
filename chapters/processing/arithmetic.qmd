@@ -1,0 +1,7 @@
+# Arithmetik
+
+## Binäre Addition
+
+## Zum Weiterlesen
+
+Für ein tieferes Verständnis der binären Addition mit Logikgattern empfehle ich das Kapitel 14 "Adding with Logic Gates" aus @petzold2022.

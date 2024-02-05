@@ -27,3 +27,7 @@ Modelle sind wie vereinfachte Landkarten für komplexe Themen. Stellt euch vor, 
 Erstens gibt es die **Eingabe**. Das ist das, was ihr dem Computer sagt oder gebt, also eure Fragen, Informationen oder Befehle. Dann kommt das **Programm** selbst, das wir zuerst als Blackbox betrachten – also als etwas Geheimnisvolles, dessen Inneres wir bis jetzt nicht kennen. Später werden wir dieses Unbekannte durch unterschiedliche Anwendungen ersetzen. Und schließlich haben wir die **Ausgabe**, also das, was der Computer nach der Verarbeitung eurer Eingabe zurückgibt.
 
 ![Ein Modell für die Informationsverarbeitung digitaler Computer.](https://winf-hsos.github.io/university-docs/images/computational_schema_blackbox.png){#fig-model-computation-general}
+
+## Übungen {.unnumbered}
+
+1.  Formuliert drei weitere Probleme mithilfe des vorgestellten Modells für die Problemlösung mittels digitaler Computer. Nennt jeweils die Eingabe, Lösung und die Ausgabe des Problems!

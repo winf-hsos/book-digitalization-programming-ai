@@ -18,24 +18,24 @@ book:
     - part: parts/part_1_representation.qmd
       chapters:
         - chapters/representation/problems.qmd
-        - chapters/counting.qmd
-        - chapters/bits.qmd
-        - chapters/codes.qmd
+        - chapters/representation/counting.qmd
+        - chapters/representation/bits.qmd
+        - chapters/representation/codes.qmd
         
     
     - part: parts/part_2_processing.qmd
       chapters:
-        - chapters/algorithms.qmd
-        - chapters/logic.qmd
-        - chapters/arithmetic.qmd
-        - chapters/analog_digital.qmd
+        - chapters/processing/algorithms.qmd
+        - chapters/processing/logic.qmd
+        - chapters/processing/arithmetic.qmd
+        - chapters/processing/analog_digital.qmd
 
     - part: parts/part_2_programming.qmd
       chapters:
         
-        - chapters/variables.qmd
-        - chapters/control_structures.qmd
-        - chapters/loops.qmd
+        - chapters/programming/variables.qmd
+        - chapters/programming/control_structures.qmd
+        - chapters/programming/loops.qmd
     
     - part: parts/part_3_ai.qmd
       chapters:
