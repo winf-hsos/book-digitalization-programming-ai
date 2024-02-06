@@ -1,0 +1,54 @@
+# Information
+
+## Schach
+
+*"Wir befinden uns in einer Zeit vor der Erfindung von digitalen Technologien wie dem Smartphone, Tablets oder dem PC. Max und Ida sind zwei Kinder im Alter von 9 Jahren und beste Freunde. Max wohnt in einem Haus in einem kleinen Dorf auf dem Land. Seine Freundin Ida wohnt ebenfalls in einem Haus, das gute 200 Meter von Max' Haus entfernt liegt. Zwischen ihren Häusern befindet sich ein Acker.*
+
+*Max und Ida spielen leidenschaftlich gerne Schach gegeneinander. Sie verbringen tagsüber jede freie Minute damit, wenn sie nicht gerade von den Eltern nach draußen kommandiert werden. Da due Zeit am Tag oft zu knapp ist und Schachpartien eine Weile dauern können, wollen Max und Ida ihre Spiele am Abend fortsetzen, wenn es nichts anderes zu tun gibt und es dazu im Haus schön ruhig geworden ist.*
+
+*Leider dürfen Max und Ida dürfen während der Schulzeit spät Abends nicht mehr miteinander telefonieren. Schließlich ist Schlaf wichtig, um in Schule aufmerksam zu sein. Dazu war telefonieren früher teuer, weil jede Minute einzeln abgerechnet wurde. Handy und Tablets gab es noch nicht und Kinder, und selbst wenn, wäre das für Kinder in ihrem Alter noch zu früh. So einfach wolIen die beiden aber nicht aufgeben und suchen trotz der widrigen Umstände nach einer Möglichkeit, ihr Schachspiel am Abend fortzusetzen.*
+
+*Glücklicherweise liegen die Fenster ihrer Kinderzimmer günstig und sie haben Sichtkontakt zueinander. Das Licht in ihren Zimmern dürfen sie nicht einschalten, das bekämen die Eltern sofort mit. Aber beide haben sich zu ihrem letzten Geburtstag eine Taschenlampe gewünscht..."*
+
+![](https://winf-hsos.github.io/university-docs/images/flashlight.png)
+
+Hier endet die kurze Geschichte von Max und Ida und ihrer Leideschaft für das Schachspiel. Wir wollen den Ball aufnehmen und uns ihrem Problem annehmen: Wie können beide nur mit einer Taschenlampe ihren nächsten Schachzug dem Gegenüber mitteilen?
+
+Um Informationen zu übermitteln, sollten wir uns zunächst darüber im Klaren sein, wie die Information genau aussieht. Wie können wir möglichst effizient den Zug einer beliebigen Schachfigur als Information ausdrücken, um diesen dann an unseren Gegenspieler zu schicken?
+
+Wer schon einmal Schach gespielt hat weiß, dass ein Schachbrett aus $8 \times 8 = 64$ Feldern besteht, die sich in den Farben Schwarz und Weiß abwechseln. Um jedes der 64 Felder genau benennen zu können, nummerieren wir die horizontale Achse mit Buchstaben und die vertikale Achse mit Zahlen durch. Auf diese Weise kann jedes Feld durch eine Kombination aus Buchstabe und Zahl genau benannt werden. In der @fig-chessboard-1 steht der weiße König somit auf dem Feld mit der Bezeichnung **d1**. Wir sprechen auch von der Koordinate eines Feldes. Der schwarze König steht entsprechend auf **f8**.
+
+![](https://winf-hsos.github.io/university-docs/images/chess_1.png){#fig-chessboard-1}
+
+Ein Schachzug kann mithilfe der Koordinate des Feldes, auf dem die zu ziehende Figur vor dem Zug steht, und der Koordinate des Feldes, auf dem sie nach dem Zug stehen wird, genau angegeben werden. Im Beispiel aus @fig-chess-move soll der Bauer auf **c2** zwei Felder nach vorne auf **c4** bewegt werden. Wir schreiben dafür **c2 → c4** oder einfach nur **c2c4**. Wenn von Beginn des Spiels an alle Züge korrekt notiert werden, beginnendend mit Weiß, dann kann mithilfe eines Protokolls [in diesem Format](https://de.wikipedia.org/wiki/Schachnotation#Ausf%C3%BChrliche_Notation) der Zustand des Schachspiels nach jedem Zug eindeutig ermittelt werden.
+
+![](https://winf-hsos.github.io/university-docs/images/chess_move.png){#fig-chess-move}
+
+Wir haben jetzt eine Idee, wie die Information aussieht, die wir oder Max und Ida mithilfe ihrer Taschenlampen einander mitteilen wollen. Aber wie genau kann das funktionieren?
+
+## Information entsteht durch Variation
+
+Informationen können nur existieren, wenn wir die Möglichkeit haben, unterschiedliche Symbole in einer Abfolge mit festgelegter Länge von Symbolen zu verwenden. Das klingt vielleicht abstrakt, wird aber schnell deutlicher, wenn wir uns ein Beispiel anschauen.
+
+Stellen wir uns vor, wir hätten nur einen Buchstaben im Alphabet, etwa das *A*. Und das *A* existiert auch nur in dieser groß geschriebenen Form; es gibt kein kleines *a*. Gleichzeitig sei festgelegt, dass unsere Nachrichten immer genau zwei Symbole lang sein müssen. Können wir mit dieser Konstellation aus Nachrichtenlänge und Anzahl Symbolen überhaupt Informationen übermitteln? Die Antwort lautet *Nein*, und die Begründung ist einfach: Wir sind auf diese eine Nachricht festgelegt: *AA* - zwei Mal das große *A*. Egal was wir tun, mit den gegebenen Umständen lautet unsere Nachricht immer *AA*. Dadurch ist unsere Nachricht wertlos, oder anders gesagt, sie enthält keine **Information**.
+
+Information kann nur durch Variation von Symbolen innerhalb einer Nachricht mit fester Länge entstehen. Wir erkennen das sofort, wenn wir zu unserem *A* ein weiteres Symbol hinzufügen, das *B*. Welche Nachrichten können wir jetzt abbilden, weiterhin unter der Annahme, dass unsere Nachricht die feste Länge 2 hat?
+
+-   *AA*
+-   *AB*
+-   *BA*
+-   *BB*
+
+Wir haben durch die Hinzunahme eines weiteren Symbols nun die Möglichkeit, vier unterschiedliche Nachrichten abzubilden.
+
+Die allgemeine Formel für die Anzahl möglicher Nachrichten können wir wie folgt benennen:
+
+$$
+N = R^n
+$$
+
+wobei $R$ für die Anzahl verfügbarer Symbole steht und $n$ durch die festgelegte Länge der Nachricht bestimmt ist.
+
+## Morse Code
+
+[Hier](https://upload.wikimedia.org/wikipedia/commons/9/9e/A_through_Z_in_Morse_code.ogg) können Interessierte sich das gesamte Alphabet als Morse Code in Audioform anhören

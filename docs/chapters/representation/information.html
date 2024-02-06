@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Digital Literacy - 5&nbsp; Codes</title>
+<title>Digital Literacy - 2&nbsp; Information</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../parts/part_2_processing.html" rel="next">
-<link href="../../chapters/representation/bits.html" rel="prev">
+<link href="../../chapters/representation/counting.html" rel="next">
+<link href="../../chapters/representation/problems.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -72,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -84,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../parts/part_1_representation.html">Repräsentation</a></li><li class="breadcrumb-item"><a href="../../chapters/representation/codes.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Codes</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../parts/part_1_representation.html">Repräsentation</a></li><li class="breadcrumb-item"><a href="../../chapters/representation/information.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Information</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -132,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/representation/information.html" class="sidebar-item-text sidebar-link">
+  <a href="../../chapters/representation/information.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Information</span></span></a>
   </div>
 </li>
@@ -150,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/representation/codes.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../chapters/representation/codes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Codes</span></span></a>
   </div>
 </li>
@@ -302,14 +331,22 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhalt</h2>
+   
+  <ul>
+  <li><a href="#schach" id="toc-schach" class="nav-link active" data-scroll-target="#schach"><span class="header-section-number">2.1</span> Schach</a></li>
+  <li><a href="#information-entsteht-durch-variation" id="toc-information-entsteht-durch-variation" class="nav-link" data-scroll-target="#information-entsteht-durch-variation"><span class="header-section-number">2.2</span> Information entsteht durch Variation</a></li>
+  <li><a href="#morse-code" id="toc-morse-code" class="nav-link" data-scroll-target="#morse-code"><span class="header-section-number">2.3</span> Morse Code</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../parts/part_1_representation.html">Repräsentation</a></li><li class="breadcrumb-item"><a href="../../chapters/representation/codes.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Codes</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../parts/part_1_representation.html">Repräsentation</a></li><li class="breadcrumb-item"><a href="../../chapters/representation/information.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Information</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Codes</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Information</span></h1>
 </div>
 
 
@@ -326,21 +363,67 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div id="fig-heart-pixel-matrix" class="quarto-figure quarto-figure-center quarto-float anchored">
+<section id="schach" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="schach"><span class="header-section-number">2.1</span> Schach</h2>
+<p><em>“Wir befinden uns in einer Zeit vor der Erfindung von digitalen Technologien wie dem Smartphone, Tablets oder dem PC. Max und Ida sind zwei Kinder im Alter von 9 Jahren und beste Freunde. Max wohnt in einem Haus in einem kleinen Dorf auf dem Land. Seine Freundin Ida wohnt ebenfalls in einem Haus, das gute 200 Meter von Max’ Haus entfernt liegt. Zwischen ihren Häusern befindet sich ein Acker.</em></p>
+<p><em>Max und Ida spielen leidenschaftlich gerne Schach gegeneinander. Sie verbringen tagsüber jede freie Minute damit, wenn sie nicht gerade von den Eltern nach draußen kommandiert werden. Da due Zeit am Tag oft zu knapp ist und Schachpartien eine Weile dauern können, wollen Max und Ida ihre Spiele am Abend fortsetzen, wenn es nichts anderes zu tun gibt und es dazu im Haus schön ruhig geworden ist.</em></p>
+<p><em>Leider dürfen Max und Ida dürfen während der Schulzeit spät Abends nicht mehr miteinander telefonieren. Schließlich ist Schlaf wichtig, um in Schule aufmerksam zu sein. Dazu war telefonieren früher teuer, weil jede Minute einzeln abgerechnet wurde. Handy und Tablets gab es noch nicht und Kinder, und selbst wenn, wäre das für Kinder in ihrem Alter noch zu früh. So einfach wolIen die beiden aber nicht aufgeben und suchen trotz der widrigen Umstände nach einer Möglichkeit, ihr Schachspiel am Abend fortzusetzen.</em></p>
+<p><em>Glücklicherweise liegen die Fenster ihrer Kinderzimmer günstig und sie haben Sichtkontakt zueinander. Das Licht in ihren Zimmern dürfen sie nicht einschalten, das bekämen die Eltern sofort mit. Aber beide haben sich zu ihrem letzten Geburtstag eine Taschenlampe gewünscht…“</em></p>
+<p><a href="https://winf-hsos.github.io/university-docs/images/flashlight.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://winf-hsos.github.io/university-docs/images/flashlight.png" class="img-fluid"></a></p>
+<p>Hier endet die kurze Geschichte von Max und Ida und ihrer Leideschaft für das Schachspiel. Wir wollen den Ball aufnehmen und uns ihrem Problem annehmen: Wie können beide nur mit einer Taschenlampe ihren nächsten Schachzug dem Gegenüber mitteilen?</p>
+<p>Um Informationen zu übermitteln, sollten wir uns zunächst darüber im Klaren sein, wie die Information genau aussieht. Wie können wir möglichst effizient den Zug einer beliebigen Schachfigur als Information ausdrücken, um diesen dann an unseren Gegenspieler zu schicken?</p>
+<p>Wer schon einmal Schach gespielt hat weiß, dass ein Schachbrett aus <span class="math inline">\(8 \times 8 = 64\)</span> Feldern besteht, die sich in den Farben Schwarz und Weiß abwechseln. Um jedes der 64 Felder genau benennen zu können, nummerieren wir die horizontale Achse mit Buchstaben und die vertikale Achse mit Zahlen durch. Auf diese Weise kann jedes Feld durch eine Kombination aus Buchstabe und Zahl genau benannt werden. In der <a href="#fig-chessboard-1" class="quarto-xref">Abbildung&nbsp;<span>2.1</span></a> steht der weiße König somit auf dem Feld mit der Bezeichnung <strong>d1</strong>. Wir sprechen auch von der Koordinate eines Feldes. Der schwarze König steht entsprechend auf <strong>f8</strong>.</p>
+<div id="fig-chessboard-1" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-heart-pixel-matrix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://winf-hsos.github.io/university-docs/images/codes_heart_pixel.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1"><img src="https://winf-hsos.github.io/university-docs/images/codes_heart_pixel.png" class="img-fluid figure-img"></a>
+<div aria-describedby="fig-chessboard-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://winf-hsos.github.io/university-docs/images/chess_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2"><img src="https://winf-hsos.github.io/university-docs/images/chess_1.png" id="fig-chessboard-1" class="img-fluid figure-img"></a>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-heart-pixel-matrix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;5.1: Ein Herz als Pixelmatrix.
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-chessboard-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2.1
 </figcaption>
 </figure>
 </div>
+<p>Ein Schachzug kann mithilfe der Koordinate des Feldes, auf dem die zu ziehende Figur vor dem Zug steht, und der Koordinate des Feldes, auf dem sie nach dem Zug stehen wird, genau angegeben werden. Im Beispiel aus <a href="#fig-chess-move" class="quarto-xref">Abbildung&nbsp;<span>2.2</span></a> soll der Bauer auf <strong>c2</strong> zwei Felder nach vorne auf <strong>c4</strong> bewegt werden. Wir schreiben dafür <strong>c2 → c4</strong> oder einfach nur <strong>c2c4</strong>. Wenn von Beginn des Spiels an alle Züge korrekt notiert werden, beginnendend mit Weiß, dann kann mithilfe eines Protokolls <a href="https://de.wikipedia.org/wiki/Schachnotation#Ausf%C3%BChrliche_Notation">in diesem Format</a> der Zustand des Schachspiels nach jedem Zug eindeutig ermittelt werden.</p>
+<div id="fig-chess-move" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-chess-move-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://winf-hsos.github.io/university-docs/images/chess_move.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-glightbox="description: .lightbox-desc-3"><img src="https://winf-hsos.github.io/university-docs/images/chess_move.png" id="fig-chess-move" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-chess-move-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2.2
+</figcaption>
+</figure>
+</div>
+<p>Wir haben jetzt eine Idee, wie die Information aussieht, die wir oder Max und Ida mithilfe ihrer Taschenlampen einander mitteilen wollen. Aber wie genau kann das funktionieren?</p>
+</section>
+<section id="information-entsteht-durch-variation" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="information-entsteht-durch-variation"><span class="header-section-number">2.2</span> Information entsteht durch Variation</h2>
+<p>Informationen können nur existieren, wenn wir die Möglichkeit haben, unterschiedliche Symbole in einer Abfolge mit festgelegter Länge von Symbolen zu verwenden. Das klingt vielleicht abstrakt, wird aber schnell deutlicher, wenn wir uns ein Beispiel anschauen.</p>
+<p>Stellen wir uns vor, wir hätten nur einen Buchstaben im Alphabet, etwa das <em>A</em>. Und das <em>A</em> existiert auch nur in dieser groß geschriebenen Form; es gibt kein kleines <em>a</em>. Gleichzeitig sei festgelegt, dass unsere Nachrichten immer genau zwei Symbole lang sein müssen. Können wir mit dieser Konstellation aus Nachrichtenlänge und Anzahl Symbolen überhaupt Informationen übermitteln? Die Antwort lautet <em>Nein</em>, und die Begründung ist einfach: Wir sind auf diese eine Nachricht festgelegt: <em>AA</em> - zwei Mal das große <em>A</em>. Egal was wir tun, mit den gegebenen Umständen lautet unsere Nachricht immer <em>AA</em>. Dadurch ist unsere Nachricht wertlos, oder anders gesagt, sie enthält keine <strong>Information</strong>.</p>
+<p>Information kann nur durch Variation von Symbolen innerhalb einer Nachricht mit fester Länge entstehen. Wir erkennen das sofort, wenn wir zu unserem <em>A</em> ein weiteres Symbol hinzufügen, das <em>B</em>. Welche Nachrichten können wir jetzt abbilden, weiterhin unter der Annahme, dass unsere Nachricht die feste Länge 2 hat?</p>
+<ul>
+<li><em>AA</em></li>
+<li><em>AB</em></li>
+<li><em>BA</em></li>
+<li><em>BB</em></li>
+</ul>
+<p>Wir haben durch die Hinzunahme eines weiteren Symbols nun die Möglichkeit, vier unterschiedliche Nachrichten abzubilden.</p>
+<p>Die allgemeine Formel für die Anzahl möglicher Nachrichten können wir wie folgt benennen:</p>
+<p><span class="math display">\[
+N = R^n
+\]</span></p>
+<p>wobei <span class="math inline">\(R\)</span> für die Anzahl verfügbarer Symbole steht und <span class="math inline">\(n\)</span> durch die festgelegte Länge der Nachricht bestimmt ist.</p>
+</section>
+<section id="morse-code" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="morse-code"><span class="header-section-number">2.3</span> Morse Code</h2>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/9/9e/A_through_Z_in_Morse_code.ogg">Hier</a> können Interessierte sich das gesamte Alphabet als Morse Code in Audioform anhören</p>
 
 
 <div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-1">Abbildung&nbsp;5.1: Ein Herz als Pixelmatrix.</span>
+<span class="glightbox-desc lightbox-desc-2">Abbildung&nbsp;2.1: </span>
+<span class="glightbox-desc lightbox-desc-3">Abbildung&nbsp;2.2: </span>
 </div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -732,18 +815,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../chapters/representation/bits.html" class="pagination-link  aria-label=" &lt;span="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Bits</span></span>
+      <a href="../../chapters/representation/problems.html" class="pagination-link  aria-label=" &lt;span="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Probleme</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../parts/part_2_processing.html" class="pagination-link" aria-label="Verarbeitung">
-        <span class="nav-page-text">Verarbeitung</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../chapters/representation/counting.html" class="pagination-link" aria-label="<span class='chapter-number'>3</span>&nbsp; <span class='chapter-title'>Zählen</span>">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Zählen</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom","loop":false,"selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

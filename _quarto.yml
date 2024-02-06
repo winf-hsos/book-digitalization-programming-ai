@@ -18,6 +18,7 @@ book:
     - part: parts/part_1_representation.qmd
       chapters:
         - chapters/representation/problems.qmd
+        - chapters/representation/information.qmd
         - chapters/representation/counting.qmd
         - chapters/representation/bits.qmd
         - chapters/representation/codes.qmd

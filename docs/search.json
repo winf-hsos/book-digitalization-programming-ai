@@ -84,69 +84,113 @@
     ]
   },
   {
-    "objectID": "chapters/representation/codes.html",
-    "href": "chapters/representation/codes.html",
-    "title": "4  Codes",
+    "objectID": "chapters/representation/information.html",
+    "href": "chapters/representation/information.html",
+    "title": "2  Information",
     "section": "",
-    "text": "Abbildung 4.1: Ein Herz als Pixelmatrix.\n\n\n\n\n\n\nAbbildung 4.1: Ein Herz als Pixelmatrix.",
+    "text": "2.1 Schach\n“Wir befinden uns in einer Zeit vor der Erfindung von digitalen Technologien wie dem Smartphone, Tablets oder dem PC. Max und Ida sind zwei Kinder im Alter von 9 Jahren und beste Freunde. Max wohnt in einem Haus in einem kleinen Dorf auf dem Land. Seine Freundin Ida wohnt ebenfalls in einem Haus, das gute 200 Meter von Max’ Haus entfernt liegt. Zwischen ihren Häusern befindet sich ein Acker.\nMax und Ida spielen leidenschaftlich gerne Schach gegeneinander. Sie verbringen tagsüber jede freie Minute damit, wenn sie nicht gerade von den Eltern nach draußen kommandiert werden. Da due Zeit am Tag oft zu knapp ist und Schachpartien eine Weile dauern können, wollen Max und Ida ihre Spiele am Abend fortsetzen, wenn es nichts anderes zu tun gibt und es dazu im Haus schön ruhig geworden ist.\nLeider dürfen Max und Ida dürfen während der Schulzeit spät Abends nicht mehr miteinander telefonieren. Schließlich ist Schlaf wichtig, um in Schule aufmerksam zu sein. Dazu war telefonieren früher teuer, weil jede Minute einzeln abgerechnet wurde. Handy und Tablets gab es noch nicht und Kinder, und selbst wenn, wäre das für Kinder in ihrem Alter noch zu früh. So einfach wolIen die beiden aber nicht aufgeben und suchen trotz der widrigen Umstände nach einer Möglichkeit, ihr Schachspiel am Abend fortzusetzen.\nGlücklicherweise liegen die Fenster ihrer Kinderzimmer günstig und sie haben Sichtkontakt zueinander. Das Licht in ihren Zimmern dürfen sie nicht einschalten, das bekämen die Eltern sofort mit. Aber beide haben sich zu ihrem letzten Geburtstag eine Taschenlampe gewünscht…“\nHier endet die kurze Geschichte von Max und Ida und ihrer Leideschaft für das Schachspiel. Wir wollen den Ball aufnehmen und uns ihrem Problem annehmen: Wie können beide nur mit einer Taschenlampe ihren nächsten Schachzug dem Gegenüber mitteilen?\nUm Informationen zu übermitteln, sollten wir uns zunächst darüber im Klaren sein, wie die Information genau aussieht. Wie können wir möglichst effizient den Zug einer beliebigen Schachfigur als Information ausdrücken, um diesen dann an unseren Gegenspieler zu schicken?\nWer schon einmal Schach gespielt hat weiß, dass ein Schachbrett aus \\(8 \\times 8 = 64\\) Feldern besteht, die sich in den Farben Schwarz und Weiß abwechseln. Um jedes der 64 Felder genau benennen zu können, nummerieren wir die horizontale Achse mit Buchstaben und die vertikale Achse mit Zahlen durch. Auf diese Weise kann jedes Feld durch eine Kombination aus Buchstabe und Zahl genau benannt werden. In der Abbildung 2.1 steht der weiße König somit auf dem Feld mit der Bezeichnung d1. Wir sprechen auch von der Koordinate eines Feldes. Der schwarze König steht entsprechend auf f8.\nEin Schachzug kann mithilfe der Koordinate des Feldes, auf dem die zu ziehende Figur vor dem Zug steht, und der Koordinate des Feldes, auf dem sie nach dem Zug stehen wird, genau angegeben werden. Im Beispiel aus Abbildung 2.2 soll der Bauer auf c2 zwei Felder nach vorne auf c4 bewegt werden. Wir schreiben dafür c2 → c4 oder einfach nur c2c4. Wenn von Beginn des Spiels an alle Züge korrekt notiert werden, beginnendend mit Weiß, dann kann mithilfe eines Protokolls in diesem Format der Zustand des Schachspiels nach jedem Zug eindeutig ermittelt werden.\nWir haben jetzt eine Idee, wie die Information aussieht, die wir oder Max und Ida mithilfe ihrer Taschenlampen einander mitteilen wollen. Aber wie genau kann das funktionieren?",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Codes</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Information</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/representation/information.html#schach",
+    "href": "chapters/representation/information.html#schach",
+    "title": "2  Information",
+    "section": "",
+    "text": "Abbildung 2.1\n\n\n\n\n\n\n\n\n\n\nAbbildung 2.2",
+    "crumbs": [
+      "Repräsentation",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Information</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/representation/information.html#information-entsteht-durch-variation",
+    "href": "chapters/representation/information.html#information-entsteht-durch-variation",
+    "title": "2  Information",
+    "section": "2.2 Information entsteht durch Variation",
+    "text": "2.2 Information entsteht durch Variation\nInformationen können nur existieren, wenn wir die Möglichkeit haben, unterschiedliche Symbole in einer Abfolge mit festgelegter Länge von Symbolen zu verwenden. Das klingt vielleicht abstrakt, wird aber schnell deutlicher, wenn wir uns ein Beispiel anschauen.\nStellen wir uns vor, wir hätten nur einen Buchstaben im Alphabet, etwa das A. Und das A existiert auch nur in dieser groß geschriebenen Form; es gibt kein kleines a. Gleichzeitig sei festgelegt, dass unsere Nachrichten immer genau zwei Symbole lang sein müssen. Können wir mit dieser Konstellation aus Nachrichtenlänge und Anzahl Symbolen überhaupt Informationen übermitteln? Die Antwort lautet Nein, und die Begründung ist einfach: Wir sind auf diese eine Nachricht festgelegt: AA - zwei Mal das große A. Egal was wir tun, mit den gegebenen Umständen lautet unsere Nachricht immer AA. Dadurch ist unsere Nachricht wertlos, oder anders gesagt, sie enthält keine Information.\nInformation kann nur durch Variation von Symbolen innerhalb einer Nachricht mit fester Länge entstehen. Wir erkennen das sofort, wenn wir zu unserem A ein weiteres Symbol hinzufügen, das B. Welche Nachrichten können wir jetzt abbilden, weiterhin unter der Annahme, dass unsere Nachricht die feste Länge 2 hat?\n\nAA\nAB\nBA\nBB\n\nWir haben durch die Hinzunahme eines weiteren Symbols nun die Möglichkeit, vier unterschiedliche Nachrichten abzubilden.\nDie allgemeine Formel für die Anzahl möglicher Nachrichten können wir wie folgt benennen:\n\\[\nN = R^n\n\\]\nwobei \\(R\\) für die Anzahl verfügbarer Symbole steht und \\(n\\) durch die festgelegte Länge der Nachricht bestimmt ist.",
+    "crumbs": [
+      "Repräsentation",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Information</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/representation/information.html#morse-code",
+    "href": "chapters/representation/information.html#morse-code",
+    "title": "2  Information",
+    "section": "2.3 Morse Code",
+    "text": "2.3 Morse Code\nHier können Interessierte sich das gesamte Alphabet als Morse Code in Audioform anhören\n\n\n\nAbbildung 2.1: \nAbbildung 2.2:",
+    "crumbs": [
+      "Repräsentation",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Information</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/representation/codes.html",
+    "href": "chapters/representation/codes.html",
+    "title": "5  Codes",
+    "section": "",
+    "text": "Abbildung 5.1: Ein Herz als Pixelmatrix.\n\n\n\n\n\n\nAbbildung 5.1: Ein Herz als Pixelmatrix.",
+    "crumbs": [
+      "Repräsentation",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Codes</span>"
     ]
   },
   {
     "objectID": "chapters/processing/algorithms.html",
     "href": "chapters/processing/algorithms.html",
-    "title": "5  Algorithmen",
+    "title": "6  Algorithmen",
     "section": "",
     "text": "Das folgende Video empfehle ich als Ergänzung zu diesem Kapitel:\nCS50x 2023 - Lecture 3 - Algorithms",
     "crumbs": [
       "Verarbeitung",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Algorithmen</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Algorithmen</span>"
     ]
   },
   {
     "objectID": "chapters/processing/arithmetic.html",
     "href": "chapters/processing/arithmetic.html",
-    "title": "7  Arithmetik",
+    "title": "8  Arithmetik",
     "section": "",
-    "text": "7.1 Binäre Addition",
+    "text": "8.1 Binäre Addition",
     "crumbs": [
       "Verarbeitung",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Arithmetik</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Arithmetik</span>"
     ]
   },
   {
     "objectID": "chapters/processing/arithmetic.html#zum-weiterlesen",
     "href": "chapters/processing/arithmetic.html#zum-weiterlesen",
-    "title": "7  Arithmetik",
-    "section": "7.2 Zum Weiterlesen",
-    "text": "7.2 Zum Weiterlesen\nFür ein tieferes Verständnis der binären Addition mit Logikgattern empfehle ich das Kapitel 14 “Adding with Logic Gates” aus Petzold (2022).\n\n\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer Hardware and Software. 2nd ed. Hoboken: Microsoft Press.",
+    "title": "8  Arithmetik",
+    "section": "8.2 Zum Weiterlesen",
+    "text": "8.2 Zum Weiterlesen\nFür ein tieferes Verständnis der binären Addition mit Logikgattern empfehle ich das Kapitel 14 “Adding with Logic Gates” aus Petzold (2022).\n\n\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer Hardware and Software. 2nd ed. Hoboken: Microsoft Press.",
     "crumbs": [
       "Verarbeitung",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Arithmetik</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Arithmetik</span>"
     ]
   },
   {
     "objectID": "chapters/programming/variables.html",
     "href": "chapters/programming/variables.html",
-    "title": "9  Variablen",
+    "title": "10  Variablen",
     "section": "",
     "text": "# Dies ist eine neue Variable mit dem Namen \"x\"\nx = 1",
     "crumbs": [
       "Programmieren",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Variablen</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Variablen</span>"
     ]
   },
   {
     "objectID": "chapters/programming/control_structures.html",
     "href": "chapters/programming/control_structures.html",
-    "title": "10  Kontrollstrukturen",
+    "title": "11  Kontrollstrukturen",
     "section": "",
     "text": "# Eine If-Anweisung in Pyhton\nif True:\n  ...\nelse:\n  ...",
     "crumbs": [
       "Programmieren",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Kontrollstrukturen</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Kontrollstrukturen</span>"
     ]
   },
   {
@@ -162,56 +206,56 @@
   {
     "objectID": "chapters/data/data_analysis_with_r.html",
     "href": "chapters/data/data_analysis_with_r.html",
-    "title": "15  Datenanalyse mit R",
+    "title": "16  Datenanalyse mit R",
     "section": "",
-    "text": "15.1 Warum R?",
+    "text": "16.1 Warum R?",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Datenanalyse mit R</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Datenanalyse mit R</span>"
     ]
   },
   {
     "objectID": "chapters/data/data_analysis_with_r.html#warum-r",
     "href": "chapters/data/data_analysis_with_r.html#warum-r",
-    "title": "15  Datenanalyse mit R",
+    "title": "16  Datenanalyse mit R",
     "section": "",
-    "text": "R oder Python?\nDiese Frage kann ich nicht eindeutig pro R beantworten. Es gibt gute Gründe, beide Sprachen für die Datenanalyse zu verwenden.\n\nBeide Sprachen sind frei verfügbar und Open Source.\nBeide Sprachen haben in der Praxis eine hohe Verbreitung und damit eine große Community, die sich um die Entwicklung und Pflege der Sprachen und der Pakete kümmert.\n\nDie beiden wichtigsten Gründe, warum ich R bevorzuge, sind:\n\nR ist eine Sprache, die speziell für den Zweck der statistischen Datenanalyse entwickelt und verwendet wird. Python dagegen ist eine allgemeine Programmiersprache, deren größte Stärke in ihrer Vielseitigkeit liegt.\nR und das Tidyverse, ein Metapaket für R, das eine Vielzahl von Paketen für die Datenanalyse zusammenfasst, sind in der Wissenschaft und in der Wirtschaft speziell für die Datenvisualisierung weit verbreitet. Mit gutem Grund: Aus meiner persönlichen Erfahrung mit Python und R heraus kann ich sagen, dass der Arbeitsfluss mit R und dem Tidyverse intuitiver ist und die unterschiedlichen Pakete für das Laden von Daten, die Datentransformation und die Visualisierung von Daten problemlos miteinander verwendet werden können.\n\n\n\nR oder SPSS?\nFür diese Frage empfehle ich euch das Video 15.1.\n\n\n\n\n\n\nVideo 15.1: “Why you should abandon SPSS for R”\n\n\n\n\n\nR oder Excel?\nDie Antwort auf diese Frage folgt der gleichen Argumentation wie der Frage, warum eine digitale Ausbildung mehr als nur die gekonnte und kritische Anwendung von Werkzeugen ausmachen sollte. Kurz gesagt: Wir wollen von Werkzeugnutzern zu Werkzeugbauern werden.",
+    "text": "R oder Python?\nDiese Frage kann ich nicht eindeutig pro R beantworten. Es gibt gute Gründe, beide Sprachen für die Datenanalyse zu verwenden.\n\nBeide Sprachen sind frei verfügbar und Open Source.\nBeide Sprachen haben in der Praxis eine hohe Verbreitung und damit eine große Community, die sich um die Entwicklung und Pflege der Sprachen und der Pakete kümmert.\n\nDie beiden wichtigsten Gründe, warum ich R bevorzuge, sind:\n\nR ist eine Sprache, die speziell für den Zweck der statistischen Datenanalyse entwickelt und verwendet wird. Python dagegen ist eine allgemeine Programmiersprache, deren größte Stärke in ihrer Vielseitigkeit liegt.\nR und das Tidyverse, ein Metapaket für R, das eine Vielzahl von Paketen für die Datenanalyse zusammenfasst, sind in der Wissenschaft und in der Wirtschaft speziell für die Datenvisualisierung weit verbreitet. Mit gutem Grund: Aus meiner persönlichen Erfahrung mit Python und R heraus kann ich sagen, dass der Arbeitsfluss mit R und dem Tidyverse intuitiver ist und die unterschiedlichen Pakete für das Laden von Daten, die Datentransformation und die Visualisierung von Daten problemlos miteinander verwendet werden können.\n\n\n\nR oder SPSS?\nFür diese Frage empfehle ich euch das Video 16.1.\n\n\n\n\n\n\nVideo 16.1: “Why you should abandon SPSS for R”\n\n\n\n\n\nR oder Excel?\nDie Antwort auf diese Frage folgt der gleichen Argumentation wie der Frage, warum eine digitale Ausbildung mehr als nur die gekonnte und kritische Anwendung von Werkzeugen ausmachen sollte. Kurz gesagt: Wir wollen von Werkzeugnutzern zu Werkzeugbauern werden.",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Datenanalyse mit R</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Datenanalyse mit R</span>"
     ]
   },
   {
     "objectID": "chapters/data/vectors.html",
     "href": "chapters/data/vectors.html",
-    "title": "16  Vektoren",
+    "title": "17  Vektoren",
     "section": "",
     "text": "Ein Vektor ist eine Liste mit Elementen gleichen Typs.",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Vektoren</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Vektoren</span>"
     ]
   },
   {
     "objectID": "chapters/data/data_frames.html",
     "href": "chapters/data/data_frames.html",
-    "title": "17  Data Frames",
+    "title": "18  Data Frames",
     "section": "",
-    "text": "17.1 Tabellen",
+    "text": "18.1 Tabellen",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Data Frames</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Data Frames</span>"
     ]
   },
   {
     "objectID": "chapters/data/data_frames.html#tibbles",
     "href": "chapters/data/data_frames.html#tibbles",
-    "title": "17  Data Frames",
-    "section": "17.2 Tibbles",
-    "text": "17.2 Tibbles",
+    "title": "18  Data Frames",
+    "section": "18.2 Tibbles",
+    "text": "18.2 Tibbles",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Data Frames</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Data Frames</span>"
     ]
   },
   {
