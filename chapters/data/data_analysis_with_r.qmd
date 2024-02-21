@@ -1,31 +1,5 @@
 # Explorative Datenanalyse
 
-## Warum R?
+## Vorgehensmodell
 
-### R oder Python?
-
-Diese Frage kann ich nicht eindeutig pro R beantworten. Es gibt gute Gründe, beide Sprachen für die Datenanalyse zu verwenden.
-
--   Beide Sprachen sind frei verfügbar und Open Source.
-
--   Beide Sprachen haben in der Praxis eine hohe Verbreitung und damit eine große Community, die sich um die Entwicklung und Pflege der Sprachen und der Pakete kümmert.
-
-Die beiden wichtigsten Gründe, warum ich R bevorzuge, sind:
-
--   R ist eine Sprache, die speziell für den Zweck der statistischen Datenanalyse entwickelt und verwendet wird. Python dagegen ist eine allgemeine Programmiersprache, deren größte Stärke in ihrer Vielseitigkeit liegt.
-
--   R und das [Tidyverse](https://www.tidyverse.org/), ein Metapaket für R, das eine Vielzahl von Paketen für die Datenanalyse zusammenfasst, sind in der Wissenschaft und in der Wirtschaft speziell für die Datenvisualisierung weit verbreitet. Mit gutem Grund: Aus meiner persönlichen Erfahrung mit Python und R heraus kann ich sagen, dass der Arbeitsfluss mit R und dem Tidyverse intuitiver ist und die unterschiedlichen Pakete für das Laden von Daten, die Datentransformation und die Visualisierung von Daten problemlos miteinander verwendet werden können.
-
-### R oder SPSS?
-
-Für diese Frage empfehle ich euch das @vid-spss-vs-r.
-
-::: {#vid-spss-vs-r}
-{{< video https://www.youtube.com/watch?v=JhKfehtXcHA >}}
-
-"Why you should abandon SPSS for R"
-:::
-
-### R oder Excel?
-
-Die Antwort auf diese Frage folgt der gleichen Argumentation wie der Frage, warum eine digitale Ausbildung mehr als nur die gekonnte und kritische Anwendung von Werkzeugen ausmachen sollte. Kurz gesagt: Wir wollen von Werkzeug*nutzern* zu Werkzeug*bauern* werden.
+![Vereinfachtes Prozessmodell für die explorative Datenanalyse.](https://winf-hsos.github.io/university-docs/images/eda_process.png)

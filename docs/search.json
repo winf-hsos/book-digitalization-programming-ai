@@ -44,7 +44,7 @@
     "href": "chapters/representation/problems.html",
     "title": "1  Probleme",
     "section": "",
-    "text": "1.1 Ein Modell für die Problemlösung\nAls ehemaliger Berater wurde mir beigebracht, den Begriff “Problem” zu vermeiden, weil er negativ konnotiert ist. Stattdessen sollte man von Herausforderungen sprechen, was den positiven Aspekt hervorhebt. In diesem Kapitel ist der Begriff “Problem” abstrakter gemeint. Es geht um das Bewältigen einer Aufgabe, die komplex, wie das Durchsuchen von mehreren Milliarden Datensätzen, oder einfach, wie das Addieren von 1 und 1, sein kann.\nEgal, wie komplex das Problem ist, wir können seine Lösung mithilfe eines digitalen Computers auf ein einfaches Modell reduzieren. Dieses Modell werden wir im Laufe des Buches an verschiedenen Stellen wiedersehen. Das Modell in Abbildung 1.1 hat drei Bestandteile:\nNehmen wir das Beispiel der Addition zweier ganzer Zahlen \\(a\\) und \\(b\\). Die Eingabe besteht für dieses einfache Problem aus konkreten Werten für \\(a\\) und \\(b\\). Die Lösung für das Problem bekommen wir, wenn wir den Additionsoperator \\(+\\) auf die beiden Zahlen aus der Eingabe anwenden. Als Ergebnis bekommen wir die sogenannte Summe, die wir mit \\(s\\) abkürzen. Also: \\(a + b = s\\)",
+    "text": "Ein Modell für die Problemlösung\nAls ehemaliger Berater wurde mir beigebracht, den Begriff “Problem” zu vermeiden, weil er negativ konnotiert ist. Stattdessen sollte man von Herausforderungen sprechen, was den positiven Aspekt hervorhebt. In diesem Kapitel ist der Begriff “Problem” abstrakter gemeint. Es geht um das Bewältigen einer Aufgabe, die komplex, wie das Durchsuchen von mehreren Milliarden Datensätzen, oder einfach, wie das Addieren von 1 und 1, sein kann.\nEgal, wie komplex das Problem ist, wir können seine Lösung mithilfe eines digitalen Computers auf ein einfaches Modell reduzieren. Dieses Modell werden wir im Laufe des Buches an verschiedenen Stellen wiedersehen. Das Modell in Abbildung 1.1 hat drei Bestandteile:\nNehmen wir das Beispiel der Addition zweier ganzer Zahlen \\(a\\) und \\(b\\). Die Eingabe besteht für dieses einfache Problem aus konkreten Werten für \\(a\\) und \\(b\\). Die Lösung für das Problem bekommen wir, wenn wir den Additionsoperator \\(+\\) auf die beiden Zahlen aus der Eingabe anwenden. Als Ergebnis bekommen wir die sogenannte Summe, die wir mit \\(s\\) abkürzen. Also: \\(a + b = s\\)",
     "crumbs": [
       "Repräsentation",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Probleme</span>"
@@ -65,8 +65,8 @@
     "objectID": "chapters/representation/problems.html#problemlösung-als-informationsverarbeitung",
     "href": "chapters/representation/problems.html#problemlösung-als-informationsverarbeitung",
     "title": "1  Probleme",
-    "section": "1.2 Problemlösung als Informationsverarbeitung",
-    "text": "1.2 Problemlösung als Informationsverarbeitung\nModelle sind wie vereinfachte Landkarten für komplexe Themen. Stellt euch vor, ihr nehmt einen komplizierten Sachverhalt und entfernt alles, was für euer Ziel nicht wichtig ist. Am Ende bleibt ein Modell übrig, das nur die Kernpunkte beinhaltet. Nehmen wir als Beispiel ein Modell, das erklärt, wie die Informationsverarbeitung in unseren digitalen Computern funktioniert. Hier konzentrieren wir uns auf drei Schlüsselelemente.\nErstens gibt es die Eingabe. Das ist das, was ihr dem Computer sagt oder gebt, also eure Fragen, Informationen oder Befehle. Dann kommt das Programm selbst, das wir zuerst als Blackbox betrachten – also als etwas Geheimnisvolles, dessen Inneres wir bis jetzt nicht kennen. Später werden wir dieses Unbekannte durch unterschiedliche Anwendungen ersetzen. Und schließlich haben wir die Ausgabe, also das, was der Computer nach der Verarbeitung eurer Eingabe zurückgibt.\n\n\n\n\n\n\nAbbildung 1.2: Ein Modell für die Informationsverarbeitung digitaler Computer.",
+    "section": "Problemlösung als Informationsverarbeitung",
+    "text": "Problemlösung als Informationsverarbeitung\nModelle sind wie vereinfachte Landkarten für komplexe Themen. Stellt euch vor, ihr nehmt einen komplizierten Sachverhalt und entfernt alles, was für euer Ziel nicht wichtig ist. Am Ende bleibt ein Modell übrig, das nur die Kernpunkte beinhaltet. Nehmen wir als Beispiel ein Modell, das erklärt, wie die Informationsverarbeitung in unseren digitalen Computern funktioniert. Hier konzentrieren wir uns auf drei Schlüsselelemente.\nErstens gibt es die Eingabe. Das ist das, was ihr dem Computer sagt oder gebt, also eure Fragen, Informationen oder Befehle. Dann kommt das Programm selbst, das wir zuerst als Blackbox betrachten – also als etwas Geheimnisvolles, dessen Inneres wir bis jetzt nicht kennen. Später werden wir dieses Unbekannte durch unterschiedliche Anwendungen ersetzen. Und schließlich haben wir die Ausgabe, also das, was der Computer nach der Verarbeitung eurer Eingabe zurückgibt.\n\n\n\n\n\n\nAbbildung 1.2: Ein Modell für die Informationsverarbeitung digitaler Computer.",
     "crumbs": [
       "Repräsentation",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Probleme</span>"
@@ -88,7 +88,7 @@
     "href": "chapters/representation/information.html",
     "title": "2  Information",
     "section": "",
-    "text": "2.1 Schach\nWir beginnen dieses Kapitel mit einer kurzen Geschichte:\nIn einer Zeit, lange bevor digitale Technologien wie Smartphones, Tablets oder PCs unseren Alltag bereicherten, lebten zwei neunjährige Kinder, Max und Ida, als beste Freunde in einem kleinen Dorf. Max wohnte in einem Haus, das gute 200 Meter von Idas Zuhause entfernt lag. Zwischen beiden Häusern lag nichts außer einem weiten Feld.\nMax und Ida teilten eine besondere Leidenschaft: das Schachspiel. Sie nutzten jede freie Minute des Tages, um gegeneinander anzutreten, es sei denn, ihre Eltern schickten sie zum Spielen nach draußen. Da der Tag oft zu kurz für ihre ausgiebigen Partien war, wollten sie ihre Schachspiele auch abends fortsetzen – eine Zeit, in der es ruhig im Haus war und sie sich voll und ganz auf das Spiel konzentrieren konnten.\nDoch ein Problem stand im Weg: In der Schulzeit war es ihnen nicht gestattet, spätabends miteinander zu telefonieren, da ausreichend Schlaf essentiell für die Aufmerksamkeit in der Schule ist. Zudem war das Telefonieren zu jener Zeit eine kostspielige Angelegenheit, da jede Minute berechnet wurde. Handys und Tablets, die diese Hürde hätten überwinden können, waren noch nicht erfunden – und selbst wenn, wären sie für Kinder ihres Alters kaum zugänglich gewesen. Doch Max und Ida ließen sich nicht entmutigen und suchten nach einer kreativen Lösung, um ihr Spiel auch unter diesen Umständen fortsetzen zu können.\nGlücklicherweise bot sich eine Lösung an: Die Fenster ihrer Kinderzimmer waren so positioniert, dass sie direkten Sichtkontakt zueinander hatten. Licht anzumachen war keine Option – das hätten die Eltern sofort bemerkt. Doch beide hatten zu ihrem letzten Geburtstag je eine Taschenlampe geschenkt bekommen…\nHier endet die Geschichte von Max und Ida und ihrer Leidenschaft für Schach. Nun setzen wir unsere Reise in die digitale Welt fort und stellen uns die Frage: Wie können Max und Ida mit nichts weiter als einer Taschenlampe ihre Schachzüge kommunizieren?\nUm diese Frage zu beantworten, müssen wir zuerst verstehen, wie sich die Information eines Schachzugs präzise ausdrücken lässt. Jeder, der schon einmal Schach gespielt hat, weiß, dass das Brett quadratisch ist und aus 64 Feldern besteht, aufgeteilt in schwarze und weiße Quadrate. Durch die Kennzeichnung der horizontalen Reihen mit Buchstaben und der vertikalen Reihen mit Zahlen lässt sich jedes Feld eindeutig identifizieren. So steht beispielsweise der weiße König in der Abbildung 2.1 auf dem Feld d1 – wir sprechen hier von der Koordinate des Feldes. Ein Schachzug lässt sich demnach als Bewegung von einer Koordinate zur nächsten darstellen, wie im Zug c2 nach c4 in Abbildung 2.2, der einfach als c2c4 notiert wird. Diese Art der Notation ermöglicht es, den Spielstand nach jedem Zug genau zu erfassen, wobei im professionellen Bereich eine erweiterte Notation, wie etwa die ausführliche algebraische Notation, zum Einsatz kommt, die auch die Schachfiguren und das Schlagen von Gegnern miteinbezieht.\nFür unsere Zwecke und die Kommunikation zwischen Max und Ida halten wir uns jedoch an die einfache Notation, um Schachzüge als vierstellige Zeichenketten darzustellen. Doch wie lässt sich eine solche Zeichenkette mit einer Taschenlampe übermitteln? Dazu müssen wir zunächst klären, was Information ist und wie sie übertragen werden kann.",
+    "text": "Schach\nWir beginnen dieses Kapitel mit einer kurzen Geschichte:\nIn einer Zeit, lange bevor digitale Technologien wie Smartphones, Tablets oder PCs unseren Alltag bereicherten, lebten zwei neunjährige Kinder, Max und Ida, als beste Freunde in einem kleinen Dorf. Max wohnte in einem Haus, das gute 200 Meter von Idas Zuhause entfernt lag. Zwischen beiden Häusern lag nichts außer einem weiten Feld.\nMax und Ida teilten eine besondere Leidenschaft: das Schachspiel. Sie nutzten jede freie Minute des Tages, um gegeneinander anzutreten, es sei denn, ihre Eltern schickten sie zum Spielen nach draußen. Da der Tag oft zu kurz für ihre ausgiebigen Partien war, wollten sie ihre Schachspiele auch abends fortsetzen – eine Zeit, in der es ruhig im Haus war und sie sich voll und ganz auf das Spiel konzentrieren konnten.\nDoch ein Problem stand im Weg: In der Schulzeit war es ihnen nicht gestattet, spätabends miteinander zu telefonieren, da ausreichend Schlaf essentiell für die Aufmerksamkeit in der Schule ist. Zudem war das Telefonieren zu jener Zeit eine kostspielige Angelegenheit, da jede Minute berechnet wurde. Handys und Tablets, die diese Hürde hätten überwinden können, waren noch nicht erfunden – und selbst wenn, wären sie für Kinder ihres Alters kaum zugänglich gewesen. Doch Max und Ida ließen sich nicht entmutigen und suchten nach einer kreativen Lösung, um ihr Spiel auch unter diesen Umständen fortsetzen zu können.\nGlücklicherweise bot sich eine Lösung an: Die Fenster ihrer Kinderzimmer waren so positioniert, dass sie direkten Sichtkontakt zueinander hatten. Licht anzumachen war keine Option – das hätten die Eltern sofort bemerkt. Doch beide hatten zu ihrem letzten Geburtstag je eine Taschenlampe geschenkt bekommen…\nHier endet die Geschichte von Max und Ida und ihrer Leidenschaft für Schach. Nun setzen wir unsere Reise in die digitale Welt fort und stellen uns die Frage: Wie können Max und Ida mit nichts weiter als einer Taschenlampe ihre Schachzüge kommunizieren?\nUm diese Frage zu beantworten, müssen wir zuerst verstehen, wie sich die Information eines Schachzugs präzise ausdrücken lässt. Jeder, der schon einmal Schach gespielt hat, weiß, dass das Brett quadratisch ist und aus 64 Feldern besteht, aufgeteilt in schwarze und weiße Quadrate. Durch die Kennzeichnung der horizontalen Reihen mit Buchstaben und der vertikalen Reihen mit Zahlen lässt sich jedes Feld eindeutig identifizieren. So steht beispielsweise der weiße König in der Abbildung 2.1 auf dem Feld d1 – wir sprechen hier von der Koordinate des Feldes. Ein Schachzug lässt sich demnach als Bewegung von einer Koordinate zur nächsten darstellen, wie im Zug c2 nach c4 in Abbildung 2.2, der einfach als c2c4 notiert wird. Diese Art der Notation ermöglicht es, den Spielstand nach jedem Zug genau zu erfassen, wobei im professionellen Bereich eine erweiterte Notation, wie etwa die ausführliche algebraische Notation, zum Einsatz kommt, die auch die Schachfiguren und das Schlagen von Gegnern miteinbezieht.\nFür unsere Zwecke und die Kommunikation zwischen Max und Ida halten wir uns jedoch an die einfache Notation, um Schachzüge als vierstellige Zeichenketten darzustellen. Doch wie lässt sich eine solche Zeichenkette mit einer Taschenlampe übermitteln? Dazu müssen wir zunächst klären, was Information ist und wie sie übertragen werden kann.",
     "crumbs": [
       "Repräsentation",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Information</span>"
@@ -109,8 +109,8 @@
     "objectID": "chapters/representation/information.html#information-braucht-variation",
     "href": "chapters/representation/information.html#information-braucht-variation",
     "title": "2  Information",
-    "section": "2.2 Information braucht Variation",
-    "text": "2.2 Information braucht Variation\nInformation existiert nur, wenn wir die Freiheit haben, innerhalb einer Sequenz aus einer Reihe verschiedener Symbole zu wählen. Dies mag zunächst abstrakt klingen, aber ein Beispiel verdeutlicht es schnell.\n\nSymbolvielfalt\nStellt euch vor, unser Alphabet bestünde nur aus dem Buchstaben “A”, und zwar ausschließlich in Großbuchstaben. Nehmen wir weiter an, eine Sequenz - oder Nachricht - dürfte genau zwei Zeichen lang sein. Können wir unter diesen Bedingungen Informationen übermitteln? Die Antwort ist nein, denn unsere einzige Nachricht wäre immer “AA”. Mit diesen Einschränkungen ist unsere Nachricht wertlos, da sie keine Information trägt.\nErst die Variation der Symbole innerhalb einer Nachricht, und damit die Erzeugung unterschiedlicher Nachrichten, ermöglicht die Entstehung von Information. Fügen wir dem “A” ein “B” hinzu, ergeben sich bereits vier mögliche Nachrichten mit der Länge von zwei Zeichen: AA, AB, BA, BB.\nMit einem dritten Symbol, “C”, erweitert sich unser Repertoire auf neun Nachrichten:\n\n\n\n\n\n\nAbbildung 2.3: Mit 2 Stellen und 3 Symbolen gibt es 9 Möglichkeiten.\n\n\n\nFügen wir ein viertes Symbol, “D”, hinzu, erreichen wir schon 16 mögliche Nachrichten:\n\n\n\n\n\n\nAbbildung 2.4: Mit 2 Stellen und 4 Symbolen gibt es 16 Möglichkeiten.\n\n\n\nInteressanterweise scheint die Anzahl möglicher Nachrichten mit der Quadratzahl der verfügbaren Symbole zu steigen:\n\n1 Symbol → 1 Nachricht\n2 Symbole → 4 Nachrichten\n3 Symbole → 9 Nachrichten\n\nBei fünf Symbolen wären es demnach 25 Nachrichten, was unsere Vermutung bestätigt:\n\n\n\n\n\n\nAbbildung 2.5: Mit 2 Stellen und 5 Symbolen gibt es 25 Möglichkeiten.\n\n\n\nAber warum genau potenzieren wir die Anzahl der Symbole in dem Beispiel mit 2? Womit könnte das zusammenhängen?\n\n\nNachrichtenlänge\nTatsächlich spielt neben der Anzahl der Symbole auch die Länge der Nachricht eine entscheidende Rolle, wie ihr sicher schon vermutet habt. Mit zwei Symbolen und zwei Stellen konnten wir vier Nachrichten abbilden. Erhöhen wir die Länge auf drei Stellen, aber beschränken uns weiterhin auf die Symbole A und B, verdoppeln sich die Möglichkeiten auf acht:\nAAA, AAB, ABA, ABB, BAA, BAB, BBA, BBB.\nExperimentell können wir folgern, dass sich mit jeder zusätzlichen Stelle die Anzahl der möglichen Nachrichten verdoppelt, vorausgesetzt, wir haben nur zwei Symbole. Bei drei Stellen und zwei Symbolen ergeben sich somit 16 unterschiedliche Nachrichten. Jede Nachricht, die wir mit zwei Stellen bereits abbilden konnten, existiert bei drei Stellen in zwei Varianten, jeweils mit einem der beiden Symbole am Ende:\nAAAA, AABA, ABAA, ABBA, BBBA, BAAA, BABA, BBAA\nund\nAAAB, AABB, ABAB, ABBB, BBBB, BAAB, BABB, BBAB\nNehmen wir nun drei Symbole A, B, C und zwei Stellen, haben wir bereits gesehen, dass neun Nachrichten möglich sind. Fügen wir eine dritte Stelle hinzu, verdreifacht sich die Menge der Nachrichten aufgrund der drei möglichen Symbole an jeder neuen Stelle.\nAllgemein ausgedrückt multiplizieren wir die Anzahl der Symbole mit sich selbst, entsprechend der Anzahl der Stellen in einer Nachricht. Dies führt uns zu der Formel für die Berechnung der Anzahl an möglichen Nachrichten \\(N\\):\n\\[\nN = R^n\n\\]\nwobei \\(R\\) die Anzahl der Symbole und \\(n\\) die Anzahl der Stellen in einer Nachricht darstellt.",
+    "section": "Information braucht Variation",
+    "text": "Information braucht Variation\nInformation existiert nur, wenn wir die Freiheit haben, innerhalb einer Sequenz aus einer Reihe verschiedener Symbole zu wählen. Dies mag zunächst abstrakt klingen, aber ein Beispiel verdeutlicht es schnell.\n\nSymbolvielfalt\nStellt euch vor, unser Alphabet bestünde nur aus dem Buchstaben “A”, und zwar ausschließlich in Großbuchstaben. Nehmen wir weiter an, eine Sequenz - oder Nachricht - dürfte genau zwei Zeichen lang sein. Können wir unter diesen Bedingungen Informationen übermitteln? Die Antwort ist nein, denn unsere einzige Nachricht wäre immer “AA”. Mit diesen Einschränkungen ist unsere Nachricht wertlos, da sie keine Information trägt.\nErst die Variation der Symbole innerhalb einer Nachricht, und damit die Erzeugung unterschiedlicher Nachrichten, ermöglicht die Entstehung von Information. Fügen wir dem “A” ein “B” hinzu, ergeben sich bereits vier mögliche Nachrichten mit der Länge von zwei Zeichen: AA, AB, BA, BB.\nMit einem dritten Symbol, “C”, erweitert sich unser Repertoire auf neun Nachrichten:\n\n\n\n\n\n\nAbbildung 2.3: Mit 2 Stellen und 3 Symbolen gibt es 9 Möglichkeiten.\n\n\n\nFügen wir ein viertes Symbol, “D”, hinzu, erreichen wir schon 16 mögliche Nachrichten:\n\n\n\n\n\n\nAbbildung 2.4: Mit 2 Stellen und 4 Symbolen gibt es 16 Möglichkeiten.\n\n\n\nInteressanterweise scheint die Anzahl möglicher Nachrichten mit der Quadratzahl der verfügbaren Symbole zu steigen:\n\n1 Symbol → 1 Nachricht\n2 Symbole → 4 Nachrichten\n3 Symbole → 9 Nachrichten\n\nBei fünf Symbolen wären es demnach 25 Nachrichten, was unsere Vermutung bestätigt:\n\n\n\n\n\n\nAbbildung 2.5: Mit 2 Stellen und 5 Symbolen gibt es 25 Möglichkeiten.\n\n\n\nAber warum genau potenzieren wir die Anzahl der Symbole in dem Beispiel mit 2? Womit könnte das zusammenhängen?\n\n\nNachrichtenlänge\nTatsächlich spielt neben der Anzahl der Symbole auch die Länge der Nachricht eine entscheidende Rolle, wie ihr sicher schon vermutet habt. Mit zwei Symbolen und zwei Stellen konnten wir vier Nachrichten abbilden. Erhöhen wir die Länge auf drei Stellen, aber beschränken uns weiterhin auf die Symbole A und B, verdoppeln sich die Möglichkeiten auf acht:\nAAA, AAB, ABA, ABB, BAA, BAB, BBA, BBB.\nExperimentell können wir folgern, dass sich mit jeder zusätzlichen Stelle die Anzahl der möglichen Nachrichten verdoppelt, vorausgesetzt, wir haben nur zwei Symbole. Bei drei Stellen und zwei Symbolen ergeben sich somit 16 unterschiedliche Nachrichten. Jede Nachricht, die wir mit zwei Stellen bereits abbilden konnten, existiert bei drei Stellen in zwei Varianten, jeweils mit einem der beiden Symbole am Ende:\nAAAA, AABA, ABAA, ABBA, BBBA, BAAA, BABA, BBAA\nund\nAAAB, AABB, ABAB, ABBB, BBBB, BAAB, BABB, BBAB\nNehmen wir nun drei Symbole A, B, C und zwei Stellen, haben wir bereits gesehen, dass neun Nachrichten möglich sind. Fügen wir eine dritte Stelle hinzu, verdreifacht sich die Menge der Nachrichten aufgrund der drei möglichen Symbole an jeder neuen Stelle.\nAllgemein ausgedrückt multiplizieren wir die Anzahl der Symbole mit sich selbst, entsprechend der Anzahl der Stellen in einer Nachricht. Dies führt uns zu der Formel für die Berechnung der Anzahl an möglichen Nachrichten \\(N\\):\n\\[\nN = R^n\n\\]\nwobei \\(R\\) die Anzahl der Symbole und \\(n\\) die Anzahl der Stellen in einer Nachricht darstellt.",
     "crumbs": [
       "Repräsentation",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Information</span>"
@@ -120,8 +120,8 @@
     "objectID": "chapters/representation/information.html#kodierung",
     "href": "chapters/representation/information.html#kodierung",
     "title": "2  Information",
-    "section": "2.3 Kodierung",
-    "text": "2.3 Kodierung\n\nNachrichten\nWir wissen nun, das Information nur Variation entsteht und dass wir folglich unterschiedliche Nachrichten übermitteln können müssen, um Informationen zu teilen. Das bringt uns zurück zur Max und Idas Taschenlampe. Wenn beide auch nachts weiter Schach spielen wollen, müssen sie sich überlegen, welche Nachrichten sie verwenden wollen, um ihre Züge dem Gegenüber mitzuteilen. Dazu müssen sie sich zunächst einmal zwei Dinge überlegen:\n\nWelche Symbole sollen in den Nachrichten verwendet werden?\nWie lang soll oder muss eine Nachricht sein?\n\n\n\nBedeutung\nMax und Ida wissen jetzt, wie viele Symbole sie nutzen wollen und wie lang eine Nachricht sein muss, um die die vier Bestandteile eines Schachzuges zu übermitteln. Die beiden müssen sich nun noch darauf einigen, welche Nachricht welche Bedeutung bekommt. Die beiden benötigen ein Codesystem. driv",
+    "section": "Kodierung",
+    "text": "Kodierung\n\nNachrichten\nWir wissen nun, das Information nur Variation entsteht und dass wir folglich unterschiedliche Nachrichten übermitteln können müssen, um Informationen zu teilen. Das bringt uns zurück zur Max und Idas Taschenlampe. Wenn beide auch nachts weiter Schach spielen wollen, müssen sie sich überlegen, welche Nachrichten sie verwenden wollen, um ihre Züge dem Gegenüber mitzuteilen. Dazu müssen sie sich zunächst einmal zwei Dinge überlegen:\n\nWelche Symbole sollen in den Nachrichten verwendet werden?\nWie lang soll oder muss eine Nachricht sein?\n\n\n\nBedeutung\nMax und Ida wissen jetzt, wie viele Symbole sie nutzen wollen und wie lang eine Nachricht sein muss, um die die vier Bestandteile eines Schachzuges zu übermitteln. Die beiden müssen sich nun noch darauf einigen, welche Nachricht welche Bedeutung bekommt. Die beiden benötigen ein Codesystem. driv",
     "crumbs": [
       "Repräsentation",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Information</span>"
@@ -131,8 +131,8 @@
     "objectID": "chapters/representation/information.html#morse-code",
     "href": "chapters/representation/information.html#morse-code",
     "title": "2  Information",
-    "section": "2.4 Morse Code",
-    "text": "2.4 Morse Code\nHier können Interessierte sich das gesamte Alphabet als Morse Code in Audioform anhören\n\n\n\nAbbildung 2.1: Ein Schachbrett im Endspiel. Der weiße König steht auf d1.\nAbbildung 2.2: Der Bauer bewegt sich von c2 nach c4, was wir mit der Zeichenkette c2c4 darstellen.\nAbbildung 2.3: Mit 2 Stellen und 3 Symbolen gibt es 9 Möglichkeiten.\nAbbildung 2.4: Mit 2 Stellen und 4 Symbolen gibt es 16 Möglichkeiten.\nAbbildung 2.5: Mit 2 Stellen und 5 Symbolen gibt es 25 Möglichkeiten.",
+    "section": "Morse Code",
+    "text": "Morse Code\nHier können Interessierte sich das gesamte Alphabet als Morse Code in Audioform anhören\n\n\n\nAbbildung 2.1: Ein Schachbrett im Endspiel. Der weiße König steht auf d1.\nAbbildung 2.2: Der Bauer bewegt sich von c2 nach c4, was wir mit der Zeichenkette c2c4 darstellen.\nAbbildung 2.3: Mit 2 Stellen und 3 Symbolen gibt es 9 Möglichkeiten.\nAbbildung 2.4: Mit 2 Stellen und 4 Symbolen gibt es 16 Möglichkeiten.\nAbbildung 2.5: Mit 2 Stellen und 5 Symbolen gibt es 25 Möglichkeiten.",
     "crumbs": [
       "Repräsentation",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Information</span>"
@@ -165,7 +165,7 @@
     "href": "chapters/processing/arithmetic.html",
     "title": "8  Arithmetik",
     "section": "",
-    "text": "8.1 Binäre Addition",
+    "text": "Binäre Addition",
     "crumbs": [
       "Verarbeitung",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Arithmetik</span>"
@@ -175,8 +175,8 @@
     "objectID": "chapters/processing/arithmetic.html#zum-weiterlesen",
     "href": "chapters/processing/arithmetic.html#zum-weiterlesen",
     "title": "8  Arithmetik",
-    "section": "8.2 Zum Weiterlesen",
-    "text": "8.2 Zum Weiterlesen\nFür ein tieferes Verständnis der binären Addition mit Logikgattern empfehle ich das Kapitel 14 “Adding with Logic Gates” aus Petzold (2022).\n\n\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer Hardware and Software. 2nd ed. Hoboken: Microsoft Press.",
+    "section": "Zum Weiterlesen",
+    "text": "Zum Weiterlesen\nFür ein tieferes Verständnis der binären Addition mit Logikgattern empfehle ich das Kapitel 14 “Adding with Logic Gates” aus Petzold (2022).\n\n\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer Hardware and Software. 2nd ed. Hoboken: Microsoft Press.",
     "crumbs": [
       "Verarbeitung",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Arithmetik</span>"
@@ -227,111 +227,144 @@
   {
     "objectID": "chapters/data/programming_with_r.html",
     "href": "chapters/data/programming_with_r.html",
-    "title": "16  Programmieren mit R",
+    "title": "20  Programmieren mit R",
     "section": "",
-    "text": "16.1 Variablen",
+    "text": "Variablen",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Programmieren mit R</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Programmieren mit R</span>"
     ]
   },
   {
     "objectID": "chapters/data/programming_with_r.html#kontrollstrukturen",
     "href": "chapters/data/programming_with_r.html#kontrollstrukturen",
-    "title": "16  Programmieren mit R",
-    "section": "16.2 Kontrollstrukturen",
-    "text": "16.2 Kontrollstrukturen",
+    "title": "20  Programmieren mit R",
+    "section": "Kontrollstrukturen",
+    "text": "Kontrollstrukturen",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Programmieren mit R</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Programmieren mit R</span>"
     ]
   },
   {
     "objectID": "chapters/data/programming_with_r.html#schleifen",
     "href": "chapters/data/programming_with_r.html#schleifen",
-    "title": "16  Programmieren mit R",
-    "section": "16.3 Schleifen",
-    "text": "16.3 Schleifen",
+    "title": "20  Programmieren mit R",
+    "section": "Schleifen",
+    "text": "Schleifen",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Programmieren mit R</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Programmieren mit R</span>"
     ]
   },
   {
     "objectID": "chapters/data/programming_with_r.html#funktionen",
     "href": "chapters/data/programming_with_r.html#funktionen",
-    "title": "16  Programmieren mit R",
-    "section": "16.4 Funktionen",
-    "text": "16.4 Funktionen",
+    "title": "20  Programmieren mit R",
+    "section": "Funktionen",
+    "text": "Funktionen",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Programmieren mit R</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Programmieren mit R</span>"
     ]
   },
   {
     "objectID": "chapters/data/programming_with_r.html#bibliotheken",
     "href": "chapters/data/programming_with_r.html#bibliotheken",
-    "title": "16  Programmieren mit R",
-    "section": "16.5 Bibliotheken",
-    "text": "16.5 Bibliotheken",
+    "title": "20  Programmieren mit R",
+    "section": "Bibliotheken",
+    "text": "Bibliotheken",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Programmieren mit R</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Programmieren mit R</span>"
     ]
   },
   {
     "objectID": "chapters/data/data_analysis_with_r.html",
     "href": "chapters/data/data_analysis_with_r.html",
-    "title": "17  Explorative Datenanalyse",
+    "title": "21  Explorative Datenanalyse",
     "section": "",
-    "text": "17.1 Warum R?",
+    "text": "Vorgehensmodell",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Explorative Datenanalyse</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Explorative Datenanalyse</span>"
     ]
   },
   {
-    "objectID": "chapters/data/data_analysis_with_r.html#warum-r",
-    "href": "chapters/data/data_analysis_with_r.html#warum-r",
-    "title": "17  Explorative Datenanalyse",
+    "objectID": "chapters/data/data_analysis_with_r.html#vorgehensmodell",
+    "href": "chapters/data/data_analysis_with_r.html#vorgehensmodell",
+    "title": "21  Explorative Datenanalyse",
     "section": "",
-    "text": "R oder Python?\nDiese Frage kann ich nicht eindeutig pro R beantworten. Es gibt gute Gründe, beide Sprachen für die Datenanalyse zu verwenden.\n\nBeide Sprachen sind frei verfügbar und Open Source.\nBeide Sprachen haben in der Praxis eine hohe Verbreitung und damit eine große Community, die sich um die Entwicklung und Pflege der Sprachen und der Pakete kümmert.\n\nDie beiden wichtigsten Gründe, warum ich R bevorzuge, sind:\n\nR ist eine Sprache, die speziell für den Zweck der statistischen Datenanalyse entwickelt und verwendet wird. Python dagegen ist eine allgemeine Programmiersprache, deren größte Stärke in ihrer Vielseitigkeit liegt.\nR und das Tidyverse, ein Metapaket für R, das eine Vielzahl von Paketen für die Datenanalyse zusammenfasst, sind in der Wissenschaft und in der Wirtschaft speziell für die Datenvisualisierung weit verbreitet. Mit gutem Grund: Aus meiner persönlichen Erfahrung mit Python und R heraus kann ich sagen, dass der Arbeitsfluss mit R und dem Tidyverse intuitiver ist und die unterschiedlichen Pakete für das Laden von Daten, die Datentransformation und die Visualisierung von Daten problemlos miteinander verwendet werden können.\n\n\n\nR oder SPSS?\nFür diese Frage empfehle ich euch das Video 17.1.\n\n\n\n\n\n\nVideo 17.1: “Why you should abandon SPSS for R”\n\n\n\n\n\nR oder Excel?\nDie Antwort auf diese Frage folgt der gleichen Argumentation wie der Frage, warum eine digitale Ausbildung mehr als nur die gekonnte und kritische Anwendung von Werkzeugen ausmachen sollte. Kurz gesagt: Wir wollen von Werkzeugnutzern zu Werkzeugbauern werden.",
+    "text": "Vereinfachtes Prozessmodell für die explorative Datenanalyse.\n\n\n\n\n\nVereinfachtes Prozessmodell für die explorative Datenanalyse.",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Explorative Datenanalyse</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Explorative Datenanalyse</span>"
     ]
   },
   {
-    "objectID": "chapters/data/vectors.html",
-    "href": "chapters/data/vectors.html",
-    "title": "18  Vektoren",
+    "objectID": "chapters/data/structured_data.html",
+    "href": "chapters/data/structured_data.html",
+    "title": "\n22  Strukturierte Daten\n",
     "section": "",
-    "text": "Ein Vektor ist eine Liste mit Elementen gleichen Typs.",
+    "text": "Vektoren\nEin Vektor ist eine Liste mit Elementen gleichen Typs.",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Vektoren</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Strukturierte Daten</span>"
     ]
   },
   {
-    "objectID": "chapters/data/data_frames.html",
-    "href": "chapters/data/data_frames.html",
-    "title": "19  Data Frames",
-    "section": "",
-    "text": "19.1 Tabellen",
+    "objectID": "chapters/data/structured_data.html#tabellen",
+    "href": "chapters/data/structured_data.html#tabellen",
+    "title": "\n22  Strukturierte Daten\n",
+    "section": "Tabellen",
+    "text": "Tabellen\nData Frames\nTibbles\n\nstudents &lt;- tibble(\n  first_name = c(\"Amy\", \"Bob\", \"Carl\"),\n  last_name = c(\"Amerson\", \"Barlow\", \"Chow\"),\n  age = c(19, 21, 20)\n)",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Data Frames</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Strukturierte Daten</span>"
     ]
   },
   {
-    "objectID": "chapters/data/data_frames.html#tibbles",
-    "href": "chapters/data/data_frames.html#tibbles",
-    "title": "19  Data Frames",
-    "section": "19.2 Tibbles",
-    "text": "19.2 Tibbles",
+    "objectID": "chapters/data/load_data.html",
+    "href": "chapters/data/load_data.html",
+    "title": "\n23  Daten laden\n",
+    "section": "",
+    "text": "CSV-Dateien\nIm ersten Schritt jeder Datenanalyse müssen wir unserem Computer den Datensatz zur Verfügung stellen. Wir sprechen dabei auch vom Laden des Datesatzes. Dabei sagen wir dem Computer, wo die Daten zu finden sind, und dass er sie für den schnelleren Zugriff in seinen Arbeitsspeicher holen soll.\nDaten liegen in den meisten Fällen in Form von Dateien vor. In manchen Fällen sind sie auch in einer Datenbank gespeichert. Im Fall einer Datei kann ein Datensatz in unterschiedlichen Formaten darin gespeichert werden. Ein gängiges Format ist das CSV-Format, das auf einfachen Textdateien basiert.",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Data Frames</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Daten laden</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/data/load_data.html#csv-dateien",
+    "href": "chapters/data/load_data.html#csv-dateien",
+    "title": "\n23  Daten laden\n",
+    "section": "",
+    "text": "Das CSV-Format\nEin weit verbreitetes Format\nTextdateien bieten sich für die Speicherung von Daten an, weil sie auf jedem Betriebsystem mit einem einfachen Texteditor betrachtet und bearbeitet werden können. Das ermöglicht das schnelle Teilen von Daten und somit die Zusammenarbeit. Auch für den Datenaustausch zwischen verschiedenen Informationssystemen wird häufig ein textbasiertes Format verwendet, um spezifisches Formate der jeweiligen Hersteller, wie etwa proprieäte Datenbanken, zu überbrücken. Deshalb bieten die meisten Informationssysteme Schnittstellen für den Export und Import von Textdateien an. Speziell das CSV-Format ist hier sehr beliebt, aus guten Gründen:\n\nDie Verwendung von einfachen Textdateien erlaubt die Speicherung und Verarbeitung auf unterschiedlichen Umgebungen wie Windows, macOS oder Linux.\nDas Format ist einfach zu verstehen und auch für Menschen lesbar.\nCSV ist ein offenes Format, d. h. es gibt keine Organisation, die daran die Rechte besitzt und es kann daher von jeder Software verwendet werden. Es gab lange nicht einmal eine offizielle Spezifikation des Formats. Mittlerweile gibt es eine Spezifikation als offizieller MIME Type.\n\nAuch das E-Commerce-System Shopify, aus dem die vorligenden Verkaufsdaten stammen, bietet eine Möglichkeit zum Exportieren von Textdateien im sogenannten CSV-Format an.\nCSV für strukturierte Daten\nCSV steht für Comma Separated Values und beschreibt ein Format, um strukturierte Daten in einer Textdatei abzuspeichern. Ihr erkennt eine Textdatei im CSV-Format an der Endung .csv.\nDas CSV-Format basiert auf einfachen Textkodierungen, häufig im UTF-8 oder ASCII-Kodierungssystem (letzeres immer seltener wegen der geringen Anzahl verfügbarer Zeichen), die mit fast jedem Werkzeug und Editor gelesen und bearbeitet werden können. Das CSV-Format speichert strukturierte Daten in einer tabellarischen Form, ähnlich wie in Spreadsheets. Die erste Zeile einer CSV-Datei ist üblicherweise der sogenannte Header (Kopfzeile) und beinhaltet die Spaltennamen mit Komma oder Semikolon (Trennzeichen) voneinander getrennt. Jede weitere Zeile stellt eine Beobachtung (Englisch: observation oder case) oder auch Datensatz (Englisch: record) dar. Jeder Datensatz enthält für die im Header definierten Attribute (oder Spalten) die beobachteten Werte, die durch das gleiche Trennzeichen voneinander getrennt sind. Es muss nicht jeder Spaltenwert existieren. Sollte ein Wert für eine Beobachtung nicht vorhanden sein, so wird nach dem Komma nichts eingetragen und es folgen zwei Kommata nacheinander. In R werden fehlende Werte beim Einlesen erkannt und mit NA gekennzeichnet.\nDie Verwendung des Komma als Trennzeichen in CSV-Dateien ist keineswegs verbindlich, auch wenn es Bestandteil des Namens ist. Generell kann jedes Symbol verwendet werden. Häufige Alternativen sind das Semikolon, Leerzeichen oder ein Tabstop. Letzteres wird oft mit der eigenen Endung .tsv für Tab Separated Values gespeichert.\nBeispiel einer CSV-Datei\nDer Auschnitt unten zeigt die ersten vier Zeilen der orders.csv. Die erste Zeile enthält die Namen der hier gezeigten vier Spalten (der Datensatz hat mehr Spalten, das ist nur ein Auszug), die mit einem Komma voneinander getrennt sind. Darunter folgen drei beispielhafte Datensätze:\nid,order_id,name,order_number,app_id,created_at\n1130007101519,B1014,1014,580111,2019-05-24T14:59:16+02:00\n1130014965839,B1015,1015,580111,2019-05-24T15:09:08+02:00\n1130026958927,B1016,1016,580111,2019-05-24T15:22:41+02:00\n...\nCSV-Daten laden mit {readr}\n\nAus einer lokalen Datei\nFür das Laden von Datensätzen aus CSV-Dateien bietet das Tidyverse ein Paket namens readr an. Dieses wird automatisch mit dem tidyverse-Paket mitgeladen. Das Paket bietet für CSV-Dateien, bei denen das Komma als Trennzeichen verwendet wird, die Funktion read_csv() an:\n\nlibrary(tidyverse)\norders &lt;- read_csv(\"data/orders.csv\")\n\n\n\n\n\n\n\nIn einigen Ländern Europas wird häufig ein Semikolon als Trennzeichen und ein Komma als Dezimaltrennzeichen verwendet (wie etwa in Deutschland). Für diesen Fall bietet readr die Funktion read_csv2. Um es selbst in der Hand zu haben, kann die Funktion read_delim verwendet werden und über den Parameter delim das Trennzeichen manuell eingestellt werden.\n\n\n\nAuch der R-Basisumfang bietet eine ähnliche Funktion für genau diesen Anwendungsfall an. Diese heisst read.csv(), man achte hier auf das Detail: Statt eines Unterstrichs _ wird bei der R-Basisfunktion ein Punkt . zwischen den beiden Wörtern read und csv verwendet. Wenn ihr mit dem Tidyverse und mit Tibbles arbeitet (wie in diesem Buch durchgängig), dann achtet darauf, stets die readr-Funktion read_csv() zu verwenden, weil nur diese die Daten als Tibble zurückgibt und zudem einige paar nützliche Zusatzfunktionen bietet.\nNur bestimmte Spalten laden\nDie read_csv()-Funktion erlaubt direkt beim Laden der Daten eine Auswahl der Spalten vorzunehmen. Ich empfehle hier immer die Verwendung der select-Funktion, die wir im nächsten Abschnitt kennenlernen werden. Dennoch möchte ich kurz demonstrieren, wie das Filtern der Spalten direkt beim Laden funktioniert.\nDer folgende Code lädt die Spalten order_id, name, sowie alle Spalten, deren Name mit “customer” beginnen:\n\norders &lt;- read_csv(\n  \"data/orders.csv\",\n  col_select = c(order_id, name, starts_with(\"customer\")))\n\nIm Ergebnis ist der resultierende Tibble dann sehr viel schmaler und beinhaltet nur die gewünschten Spalten:\n\ncolnames(orders)\n\n [1] \"order_id\"                             \n [2] \"name\"                                 \n [3] \"customer_id\"                          \n [4] \"customer_accepts_marketing\"           \n [5] \"customer_accepts_marketing_updated_at\"\n [6] \"customer_marketing_opt_in_level\"      \n [7] \"customer_sms_marketing_consent\"       \n [8] \"customer_created_at\"                  \n [9] \"customer_updated_at\"                  \n[10] \"customer_gender\"                      \n[11] \"customer_is_hsos\"                     \n[12] \"customer_state\"                       \n[13] \"customer_orders_count\"                \n[14] \"customer_total_spent\"                 \n[15] \"customer_last_order_id\"               \n[16] \"customer_note\"                        \n[17] \"customer_verified_email\"              \n[18] \"customer_tax_exempt\"                  \n[19] \"customer_tags\"                        \n[20] \"customer_last_order_name\"             \n\n\nHat man nur eine Filterbedingung, so kann man sich die c()-Funktion auch sparen:\n\norders &lt;- read_csv(\"data/orders.csv\", col_select = starts_with(\"shipping\"))\n\nDas Ergebnis:\n\ncolnames(orders)\n\n[1] \"shipping_address_city\"      \"shipping_address_zip\"      \n[3] \"shipping_address_country\"   \"shipping_address_latitude\" \n[5] \"shipping_address_longitude\"\n\n\nIst man auf möglichst wenige Zeilen Code aus, so kann die Verwendung des col_types-Parameters durchaus Sinn ergeben. Man könnte den gleichen Effekt auch mit einem anschließenden select erzielen:\n\norders &lt;- read_csv(\"data/orders.csv\") |&gt;\n  select(starts_with(\"shipping\"))\n\nMehr zur Auswahl von Spalten mit dplyr erfahrt ihr in ?sec-select_columns.\nDas Dezimaltrennzeichen bestimmen\nWollen wir nur das Dezimaltrennzeichen ändern, weil wir zum Beispiel Daten aus einem deutschen System exportiert haben, das ein Komma verwendet, so können wir das über den locale-Parameter erreichen. Im Beispiel unten verwenden wir zusätzlich das Pipe-Symbol | als Trennzeichen. Beides können wir über read_delim einstellen:\n\n# Daten in sales.csv\n# year,month,turnover\n# 2022|01|2700,85\n# 2022|02|2910,10\n# 2022|03|1802,37\n\nturnover &lt;- \n  read_delim(\n    \"sales.csv\",\n    delim = \"|\",\n    locale = locale(decimal_mark = \",\")\n    )\n\nDas Ergebnis:\n\n\n# A tibble: 3 x 3\n   year month turnover\n  &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt;\n1  2022 01       2701.\n2  2022 02       2910.\n3  2022 03       1802.\n\n\nDatentypen beim Laden setzen\nBeim Laden mit read_csv wird möglicherweise der Datentyp einiger Spalten falsch erkannt. Die Funktion betrachtet die ersten Zeilen und ermittelt darauf basierend den Datentyp. Wird dieser falsch erkannt, so können wir den Datentyp für Spalten explizit angeben. Wie auch das Auswählen von Spalten können wir den Datentyp schon beim Laden mitgeben. Alternativ können wir den Datentyp auch später mit mutate noch verändern.\n\n\n\n\n\n\nManchmal hilft es schon, den Parameter guess_max auf einen größeren Wert zu setzen. Dieser bestimmt, wie viele Werte die Funktion betrachtet, um daraus den Datentyp einer Spalte abzuleiten. Standardmäßig ist dieser Wert auf 1000 begrenzt.\n\n\n\nIn unserem Datensatz orders.csv sind tatsächlich einige Datentypen falsch erkannt worden. Etwa die Spalte order_id, die als Datentyp double erkannt wird. Auch wenn die Werte allesamt als Dezimalzahlen betrachtet werden können, handelt es sich bei einer Bestellnummer nicht um eine Zahl in dem Sinne, dass man damit rechnen möchte. Es ist vielmehr eine Zeichenfolge, die per Konvention nur aus Zahlen besteht (aber nicht müsste). Der Datentyp character wäre somit angebrachter. Das können wir wie folgt ändern:\n\norders &lt;- read_csv(\"data/orders.csv\",\n                   col_types = list(\"order_id\" = col_character()))\n\n# Die Spalte order_id ist jetzt vom Typ &lt;chr&gt;\norders |&gt;\n  select(order_id)\n\n# A tibble: 2,874 x 1\n   order_id     \n   &lt;chr&gt;        \n 1 1130007101519\n 2 1130014965839\n 3 1130026958927\n 4 1130030563407\n 5 1130038853711\n 6 1130045964367\n 7 1130050519119\n 8 1130060283983\n 9 1130102194255\n10 1130106880079\n# i 2,864 more rows\n\n\nDas Gleiche können wir mit beliebig vielen Spalten gleichzeitig durchführen. Denn auch die beiden Spalten mit Postleitzahlen wurden fälschlicherweise als double erkannt:\n\norders &lt;- read_csv(\"data/orders.csv\",\n                   col_types = list(\n                     \"order_id\" = col_character(),\n                     \"app_id\" = col_character(),\n                     \"billing_address_zip\"= col_character(),\n                     \"shipping_address_zip\"= col_character()\n                     )\n                   )\n\n# Die Spalte order_id ist jetzt vom Typ &lt;chr&gt;\norders |&gt;  \n  select(order_id, app_id, billing_address_zip, shipping_address_zip)\n\n# A tibble: 2,874 x 4\n   order_id      app_id billing_address_zip shipping_address_zip\n   &lt;chr&gt;         &lt;chr&gt;  &lt;chr&gt;               &lt;chr&gt;               \n 1 1130007101519 580111 49610               &lt;NA&gt;                \n 2 1130014965839 580111 49088               49088               \n 3 1130026958927 580111 49080               &lt;NA&gt;                \n 4 1130030563407 580111 45888               &lt;NA&gt;                \n 5 1130038853711 580111 49356               &lt;NA&gt;                \n 6 1130045964367 580111 49477               &lt;NA&gt;                \n 7 1130050519119 580111 49090               49090               \n 8 1130060283983 580111 48356               48356               \n 9 1130102194255 580111 49090               49090               \n10 1130106880079 580111 49090               &lt;NA&gt;                \n# i 2,864 more rows\n\n\nDaten von einem Webserver laden\nDie CSV-Datei muss nicht lokal auf dem eigenen Rechner vorliegen, sondern kann mit read_csv über das HTTP-Protkoll direkt von einem Webserver im Internet abgerufen werden. Dabei wird die URL anstelle des lokalen Dateinamens der Funktion übergeben. Der Code unten lädt die tagesaktuelle Version des Covid-19-Datensatzes, der auf den Servern von Our World in Data gehostet wird:\n\ncovid &lt;- read_csv(\"https://covid.ourworldindata.org/data/owid-covid-data.csv\")",
+    "crumbs": [
+      "Daten",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Daten laden</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/data/load_data.html#excel-dateien",
+    "href": "chapters/data/load_data.html#excel-dateien",
+    "title": "\n23  Daten laden\n",
+    "section": "Excel-Dateien",
+    "text": "Excel-Dateien\nMicrosoft Excel ist ein Programm, das in vielen Unternehmen der Standard für die Arbeit mit Daten verschiedenster Art darstellt. Aus diesem Grund ist es notwendig, dass wir auch dieses Format mit R einlesen und weiterverarbeiten können. Mit dem readxl Paket stehen alle notwendigen Funktionen dafür bereit.\n\nlibrary(readxl)",
+    "crumbs": [
+      "Daten",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Daten laden</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/data/load_data.html#übungen",
+    "href": "chapters/data/load_data.html#übungen",
+    "title": "\n23  Daten laden\n",
+    "section": "Übungen",
+    "text": "Übungen\n\nLadet den tagesaktuellen Datensatz für die Covid-Daten, lasst aber nur die Spalten date, location und new_cases_smoothed_per_million im Ergebnis!\nKorrigiert alle falsch als &lt;dbl&gt; erkannten ID-Spalten im Campusbier-Verkaufsdatensatz direkt beim Laden der Daten und wandelt sich in &lt;chr&gt; um.",
+    "crumbs": [
+      "Daten",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Daten laden</span>"
     ]
   },
   {
@@ -339,9 +372,31 @@
     "href": "chapters/references.html",
     "title": "Literaturverzeichnis",
     "section": "",
-    "text": "Petzold, Charles. 2022. Code: The Hidden Language of Computer\nHardware and Software. 2nd ed. Hoboken: Microsoft Press.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023.\nR for data science: import, tidy, transform, visualize, and model\ndata. 2nd edition. Sebastopol, CA: O’Reilly Media, Inc.",
+    "text": "Grolemund, Garrett. 2014. Hands-on Programming with\nR. First edition. Sebastopol, CA: O’Reilly.\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer\nHardware and Software. 2nd ed. Hoboken: Microsoft Press.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023.\nR for data science: import, tidy, transform, visualize, and model\ndata. 2nd edition. Sebastopol, CA: O’Reilly Media, Inc.",
     "crumbs": [
       "Literaturverzeichnis"
+    ]
+  },
+  {
+    "objectID": "chapters/appendix/which_programming_language.html",
+    "href": "chapters/appendix/which_programming_language.html",
+    "title": "Anhang A — R, Python, Excel?",
+    "section": "",
+    "text": "Warum R?",
+    "crumbs": [
+      "Anhang",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>R, Python, Excel?</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/appendix/which_programming_language.html#warum-r",
+    "href": "chapters/appendix/which_programming_language.html#warum-r",
+    "title": "Anhang A — R, Python, Excel?",
+    "section": "",
+    "text": "R oder Python?\nDiese Frage kann ich nicht eindeutig pro R beantworten. Es gibt gute Gründe, beide Sprachen für die Datenanalyse zu verwenden.\n\nBeide Sprachen sind frei verfügbar und Open Source.\nBeide Sprachen haben in der Praxis eine hohe Verbreitung und damit eine große Community, die sich um die Entwicklung und Pflege der Sprachen und der Pakete kümmert.\n\nDie beiden wichtigsten Gründe, warum ich R bevorzuge, sind:\n\nR ist eine Sprache, die speziell für den Zweck der statistischen Datenanalyse entwickelt und verwendet wird. Python dagegen ist eine allgemeine Programmiersprache, deren größte Stärke in ihrer Vielseitigkeit liegt.\nR und das Tidyverse, ein Metapaket für R, das eine Vielzahl von Paketen für die Datenanalyse zusammenfasst, sind in der Wissenschaft und in der Wirtschaft speziell für die Datenvisualisierung weit verbreitet. Mit gutem Grund: Aus meiner persönlichen Erfahrung mit Python und R heraus kann ich sagen, dass der Arbeitsfluss mit R und dem Tidyverse intuitiver ist und die unterschiedlichen Pakete für das Laden von Daten, die Datentransformation und die Visualisierung von Daten problemlos miteinander verwendet werden können.\n\n\n\nR oder SPSS?\nFür diese Frage empfehle ich euch das Video A.1.\n\n\n\n\n\n\nVideo A.1: “Why you should abandon SPSS for R”\n\n\n\n\n\nR oder Excel?\nDie Antwort auf diese Frage folgt der gleichen Argumentation wie der Frage, warum eine digitale Ausbildung mehr als nur die gekonnte und kritische Anwendung von Werkzeugen ausmachen sollte. Kurz gesagt: Wir wollen von Werkzeugnutzern zu Werkzeugbauern werden.",
+    "crumbs": [
+      "Anhang",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>R, Python, Excel?</span>"
     ]
   }
 ]

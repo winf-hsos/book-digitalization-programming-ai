@@ -9,3 +9,7 @@
 ## Funktionen
 
 ## Bibliotheken
+
+# Weitereführende Lektüre
+
+Als weiterführendes Werk für den Einstieg in die Programmierkonzepte mit R empfehle ich @grolemund_hands-programming_2014.

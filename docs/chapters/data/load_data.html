@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.549">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>Digital Literacy - 20&nbsp; Daten laden</title>
+<title>Digital Literacy - 23&nbsp; Daten laden</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,8 +17,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
-
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
@@ -31,7 +61,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../chapters/data/tidy_data.html" rel="next">
-<link href="../../chapters/data/data_frames.html" rel="prev">
+<link href="../../chapters/data/structured_data.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -40,8 +70,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
@@ -68,33 +97,24 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-
-
 </head>
-
 <body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../parts/part_4_daten.html">Daten</a></li><li class="breadcrumb-item"><a href="../../chapters/data/load_data.html"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Daten laden</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../parts/part_4_daten.html">Daten</a></li><li class="breadcrumb-item"><a href="../../chapters/data/load_data.html"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Daten laden</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="../../">Digital Literacy</a> 
     </div>
@@ -106,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vorwort</span></a>
@@ -116,12 +136,12 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../parts/part_1_representation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Repräsentation</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/representation/problems.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Probleme</span></span></a>
@@ -152,17 +172,17 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../parts/part_2_processing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Verarbeitung</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/processing/algorithms.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Algorithmen</span></span></a>
@@ -187,17 +207,17 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../parts/part_2_programming.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Programmieren</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/programming/variables.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Variablen</span></span></a>
@@ -215,37 +235,61 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Schleifen</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/programming/functions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Funktionen</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/programming/reusability.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Wiederverwendbarkeit</span></span></a>
+  </div>
+</li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../parts/part_3_ai.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Künstliche Intelligenz</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/ai/learning_but_rules.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Lernen statt Regeln</span></span></a>
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Lernen statt Regeln</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/ai/supervised_learning.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Überwachtes Lernen</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Überwachtes Lernen</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/ai/unsupervised_learning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Unüberwachtes Lernen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/ai/neural_networks.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Neuronale Netze</span></span></a>
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Neuronale Netze</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/ai/explainability.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Erklärbarkeit</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../parts/part_4_daten.html" class="sidebar-item-text sidebar-link">
@@ -254,89 +298,104 @@ ul.task-list li input[type="checkbox"] {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/data/programming_with_r.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Programmieren mit R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Programmieren mit R</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/data/data_analysis_with_r.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Explorative Datenanalyse</span></span></a>
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Explorative Datenanalyse</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/data/vectors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Vektoren</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../chapters/data/data_frames.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Data Frames</span></span></a>
+  <a href="../../chapters/data/structured_data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Strukturierte Daten</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/data/load_data.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Daten laden</span></span></a>
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Daten laden</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/data/tidy_data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Daten aufräumen</span></span></a>
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Daten aufräumen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/data/transform_data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Daten transformieren</span></span></a>
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Daten transformieren</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/data/visualize_data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Daten visualisieren</span></span></a>
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Daten visualisieren</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/data/communicate_findings.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Ergebnisse kommunizieren</span></span></a>
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Ergebnisse kommunizieren</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Literaturverzeichnis</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../chapters/appendix.html" class="sidebar-item-text sidebar-link">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">
  <span class="menu-text">Anhang</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/appendix/which_programming_language.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">R, Python, Excel?</span></span></a>
   </div>
 </li>
+      </ul>
+</li>
     </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+</div>
+</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Inhalt</h2>
+   
+  <ul>
+<li>
+<a href="#csv-dateien" id="toc-csv-dateien" class="nav-link active" data-scroll-target="#csv-dateien">CSV-Dateien</a>
+  <ul class="collapse">
+<li><a href="#das-csv-format" id="toc-das-csv-format" class="nav-link" data-scroll-target="#das-csv-format">Das CSV-Format</a></li>
+  <li><a href="#csv-daten-laden-mit-readr" id="toc-csv-daten-laden-mit-readr" class="nav-link" data-scroll-target="#csv-daten-laden-mit-readr">CSV-Daten laden mit <code>{readr}</code></a></li>
+  </ul>
+</li>
+  <li><a href="#excel-dateien" id="toc-excel-dateien" class="nav-link" data-scroll-target="#excel-dateien">Excel-Dateien</a></li>
+  <li><a href="#%C3%BCbungen" id="toc-übungen" class="nav-link" data-scroll-target="#%C3%BCbungen">Übungen</a></li>
+  </ul></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../parts/part_4_daten.html">Daten</a></li><li class="breadcrumb-item"><a href="../../chapters/data/load_data.html"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Daten laden</span></a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Daten laden</span></h1>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../parts/part_4_daten.html">Daten</a></li><li class="breadcrumb-item"><a href="../../chapters/data/load_data.html"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Daten laden</span></a></li></ol></nav><div class="quarto-title">
+<h1 class="title">
+<span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Daten laden</span>
+</h1>
 </div>
 
 
@@ -350,14 +409,214 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header>
+</header><section id="csv-dateien" class="level2"><h2 class="anchored" data-anchor-id="csv-dateien">CSV-Dateien</h2>
+<p>Im ersten Schritt jeder Datenanalyse müssen wir unserem Computer den Datensatz zur Verfügung stellen. Wir sprechen dabei auch vom <em>Laden</em> des Datesatzes. Dabei sagen wir dem Computer, wo die Daten zu finden sind, und dass er sie für den schnelleren Zugriff in seinen Arbeitsspeicher holen soll.</p>
+<p>Daten liegen in den meisten Fällen in Form von Dateien vor. In manchen Fällen sind sie auch in einer Datenbank gespeichert. Im Fall einer Datei kann ein Datensatz in unterschiedlichen <em>Formaten</em> darin gespeichert werden. Ein gängiges Format ist das CSV-Format, das auf einfachen Textdateien basiert.</p>
+<section id="das-csv-format" class="level3"><h3 class="anchored" data-anchor-id="das-csv-format">Das CSV-Format</h3>
+<section id="ein-weit-verbreitetes-format" class="level4"><h4 class="anchored" data-anchor-id="ein-weit-verbreitetes-format">Ein weit verbreitetes Format</h4>
+<p>Textdateien bieten sich für die Speicherung von Daten an, weil sie auf jedem Betriebsystem mit einem einfachen Texteditor betrachtet und bearbeitet werden können. Das ermöglicht das schnelle Teilen von Daten und somit die Zusammenarbeit. Auch für den Datenaustausch zwischen verschiedenen Informationssystemen wird häufig ein textbasiertes Format verwendet, um spezifisches Formate der jeweiligen Hersteller, wie etwa proprieäte Datenbanken, zu überbrücken. Deshalb bieten die meisten Informationssysteme Schnittstellen für den Export und Import von Textdateien an. Speziell das CSV-Format ist hier sehr beliebt, aus guten Gründen:</p>
+<ul>
+<li>Die Verwendung von einfachen Textdateien erlaubt die Speicherung und Verarbeitung auf unterschiedlichen Umgebungen wie Windows, macOS oder Linux.</li>
+<li>Das Format ist einfach zu verstehen und auch für Menschen lesbar.</li>
+<li>CSV ist ein offenes Format, d.&nbsp;h. es gibt keine Organisation, die daran die Rechte besitzt und es kann daher von jeder Software verwendet werden. Es gab lange nicht einmal eine offizielle Spezifikation des Formats. Mittlerweile gibt es eine Spezifikation als offizieller <a href="https://tools.ietf.org/html/rfc4180">MIME Type</a>.</li>
+</ul>
+<p>Auch das E-Commerce-System Shopify, aus dem die vorligenden Verkaufsdaten stammen, bietet eine Möglichkeit zum Exportieren von Textdateien im sogenannten CSV-Format an.</p>
+</section><section id="csv-für-strukturierte-daten" class="level4"><h4 class="anchored" data-anchor-id="csv-für-strukturierte-daten">CSV für strukturierte Daten</h4>
+<p>CSV steht für <em>Comma Separated Values</em> und beschreibt ein Format, um <em>strukturierte Daten</em> in einer Textdatei abzuspeichern. Ihr erkennt eine Textdatei im CSV-Format an der Endung <code>.csv</code>.</p>
+<p>Das CSV-Format basiert auf einfachen Textkodierungen, häufig im UTF-8 oder ASCII-Kodierungssystem (letzeres immer seltener wegen der geringen Anzahl verfügbarer Zeichen), die mit fast jedem Werkzeug und Editor gelesen und bearbeitet werden können. Das CSV-Format speichert strukturierte Daten in einer tabellarischen Form, ähnlich wie in Spreadsheets. Die erste Zeile einer CSV-Datei ist üblicherweise der sogenannte Header (Kopfzeile) und beinhaltet die Spaltennamen mit Komma oder Semikolon (Trennzeichen) voneinander getrennt. Jede weitere Zeile stellt eine Beobachtung (Englisch: <em>observation</em> oder <em>case</em>) oder auch Datensatz (Englisch: <em>record</em>) dar. Jeder Datensatz enthält für die im Header definierten Attribute (oder Spalten) die beobachteten Werte, die durch das gleiche Trennzeichen voneinander getrennt sind. Es muss nicht jeder Spaltenwert existieren. Sollte ein Wert für eine Beobachtung nicht vorhanden sein, so wird nach dem Komma nichts eingetragen und es folgen zwei Kommata nacheinander. In R werden fehlende Werte beim Einlesen erkannt und mit <code>NA</code> gekennzeichnet.</p>
+<p>Die Verwendung des Komma als Trennzeichen in CSV-Dateien ist keineswegs verbindlich, auch wenn es Bestandteil des Namens ist. Generell kann jedes Symbol verwendet werden. Häufige Alternativen sind das Semikolon, Leerzeichen oder ein Tabstop. Letzteres wird oft mit der eigenen Endung <code>.tsv</code> für <em>Tab Separated Values</em> gespeichert.</p>
+</section><section id="beispiel-einer-csv-datei" class="level4"><h4 class="anchored" data-anchor-id="beispiel-einer-csv-datei">Beispiel einer CSV-Datei</h4>
+<p>Der Auschnitt unten zeigt die ersten vier Zeilen der <code>orders.csv</code>. Die erste Zeile enthält die Namen der hier gezeigten vier Spalten (der Datensatz hat mehr Spalten, das ist nur ein Auszug), die mit einem Komma voneinander getrennt sind. Darunter folgen drei beispielhafte Datensätze:</p>
+<pre><code>id,order_id,name,order_number,app_id,created_at
+1130007101519,B1014,1014,580111,2019-05-24T14:59:16+02:00
+1130014965839,B1015,1015,580111,2019-05-24T15:09:08+02:00
+1130026958927,B1016,1016,580111,2019-05-24T15:22:41+02:00
+...</code></pre>
+</section></section><section id="csv-daten-laden-mit-readr" class="level3"><h3 class="anchored" data-anchor-id="csv-daten-laden-mit-readr">CSV-Daten laden mit <code>{readr}</code>
+</h3>
+<section id="aus-einer-lokalen-datei" class="level4"><h4 class="anchored" data-anchor-id="aus-einer-lokalen-datei">Aus einer lokalen Datei</h4>
+<p>Für das Laden von Datensätzen aus CSV-Dateien bietet das Tidyverse ein Paket namens <a href="https://readr.tidyverse.org">readr</a> an. Dieses wird automatisch mit dem <a href="https://tidyverse.tidyverse.org">tidyverse</a>-Paket mitgeladen. Das Paket bietet für CSV-Dateien, bei denen das Komma als Trennzeichen verwendet wird, die Funktion <code><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv()</a></code> an:</p>
+<div class="cell">
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
+<span><span class="va">orders</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv</a></span><span class="op">(</span><span class="st">"data/orders.csv"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>In einigen Ländern Europas wird häufig ein Semikolon als Trennzeichen und ein Komma als Dezimaltrennzeichen verwendet (wie etwa in Deutschland). Für diesen Fall bietet <a href="https://readr.tidyverse.org">readr</a> die Funktion <code>read_csv2</code>. Um es selbst in der Hand zu haben, kann die Funktion <code>read_delim</code> verwendet werden und über den Parameter <code>delim</code> das Trennzeichen manuell eingestellt werden.</p>
+</div>
+</div>
+</div>
+<p>Auch der R-Basisumfang bietet eine ähnliche Funktion für genau diesen Anwendungsfall an. Diese heisst <code><a href="https://rdrr.io/r/utils/read.table.html">read.csv()</a></code>, man achte hier auf das Detail: Statt eines Unterstrichs <code>_</code> wird bei der R-Basisfunktion ein Punkt <code>.</code> zwischen den beiden Wörtern <code>read</code> und <code>csv</code> verwendet. Wenn ihr mit dem Tidyverse und mit Tibbles arbeitet (wie in diesem Buch durchgängig), dann achtet darauf, stets die <a href="https://readr.tidyverse.org">readr</a>-Funktion <code><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv()</a></code> zu verwenden, weil nur diese die Daten als Tibble zurückgibt und zudem einige paar nützliche Zusatzfunktionen bietet.</p>
+</section><section id="nur-bestimmte-spalten-laden" class="level4"><h4 class="anchored" data-anchor-id="nur-bestimmte-spalten-laden">Nur bestimmte Spalten laden</h4>
+<p>Die <code><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv()</a></code>-Funktion erlaubt direkt beim Laden der Daten eine Auswahl der Spalten vorzunehmen. Ich empfehle hier immer die Verwendung der <code>select</code>-Funktion, die wir im nächsten Abschnitt kennenlernen werden. Dennoch möchte ich kurz demonstrieren, wie das Filtern der Spalten direkt beim Laden funktioniert.</p>
+<p>Der folgende Code lädt die Spalten <code>order_id</code>, <code>name</code>, sowie alle Spalten, deren Name mit “customer” beginnen:</p>
+<div class="cell">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">orders</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv</a></span><span class="op">(</span></span>
+<span>  <span class="st">"data/orders.csv"</span>,</span>
+<span>  col_select <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">order_id</span>, <span class="va">name</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">starts_with</a></span><span class="op">(</span><span class="st">"customer"</span><span class="op">)</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Im Ergebnis ist der resultierende Tibble dann sehr viel schmaler und beinhaltet nur die gewünschten Spalten:</p>
+<div class="cell">
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html">colnames</a></span><span class="op">(</span><span class="va">orders</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] "order_id"                             
+ [2] "name"                                 
+ [3] "customer_id"                          
+ [4] "customer_accepts_marketing"           
+ [5] "customer_accepts_marketing_updated_at"
+ [6] "customer_marketing_opt_in_level"      
+ [7] "customer_sms_marketing_consent"       
+ [8] "customer_created_at"                  
+ [9] "customer_updated_at"                  
+[10] "customer_gender"                      
+[11] "customer_is_hsos"                     
+[12] "customer_state"                       
+[13] "customer_orders_count"                
+[14] "customer_total_spent"                 
+[15] "customer_last_order_id"               
+[16] "customer_note"                        
+[17] "customer_verified_email"              
+[18] "customer_tax_exempt"                  
+[19] "customer_tags"                        
+[20] "customer_last_order_name"             </code></pre>
+</div>
+</div>
+<p>Hat man nur eine Filterbedingung, so kann man sich die <code><a href="https://rdrr.io/r/base/c.html">c()</a></code>-Funktion auch sparen:</p>
+<div class="cell">
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">orders</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv</a></span><span class="op">(</span><span class="st">"data/orders.csv"</span>, col_select <span class="op">=</span> <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">starts_with</a></span><span class="op">(</span><span class="st">"shipping"</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Das Ergebnis:</p>
+<div class="cell">
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html">colnames</a></span><span class="op">(</span><span class="va">orders</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "shipping_address_city"      "shipping_address_zip"      
+[3] "shipping_address_country"   "shipping_address_latitude" 
+[5] "shipping_address_longitude"</code></pre>
+</div>
+</div>
+<p>Ist man auf möglichst wenige Zeilen Code aus, so kann die Verwendung des <code>col_types</code>-Parameters durchaus Sinn ergeben. Man könnte den gleichen Effekt auch mit einem anschließenden <code>select</code> erzielen:</p>
+<div class="cell">
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">orders</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv</a></span><span class="op">(</span><span class="st">"data/orders.csv"</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">starts_with</a></span><span class="op">(</span><span class="st">"shipping"</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Mehr zur Auswahl von Spalten mit <a href="https://dplyr.tidyverse.org">dplyr</a> erfahrt ihr in <span class="quarto-unresolved-ref">?sec-select_columns</span>.</p>
+</section><section id="das-dezimaltrennzeichen-bestimmen" class="level4"><h4 class="anchored" data-anchor-id="das-dezimaltrennzeichen-bestimmen">Das Dezimaltrennzeichen bestimmen</h4>
+<p>Wollen wir nur das Dezimaltrennzeichen ändern, weil wir zum Beispiel Daten aus einem deutschen System exportiert haben, das ein Komma verwendet, so können wir das über den <code>locale</code>-Parameter erreichen. Im Beispiel unten verwenden wir zusätzlich das Pipe-Symbol | als Trennzeichen. Beides können wir über <code>read_delim</code> einstellen:</p>
+<div class="cell">
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Daten in sales.csv</span></span>
+<span><span class="co"># year,month,turnover</span></span>
+<span><span class="co"># 2022|01|2700,85</span></span>
+<span><span class="co"># 2022|02|2910,10</span></span>
+<span><span class="co"># 2022|03|1802,37</span></span>
+<span></span>
+<span><span class="va">turnover</span> <span class="op">&lt;-</span> </span>
+<span>  <span class="fu"><a href="https://readr.tidyverse.org/reference/read_delim.html">read_delim</a></span><span class="op">(</span></span>
+<span>    <span class="st">"sales.csv"</span>,</span>
+<span>    delim <span class="op">=</span> <span class="st">"|"</span>,</span>
+<span>    locale <span class="op">=</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/locale.html">locale</a></span><span class="op">(</span>decimal_mark <span class="op">=</span> <span class="st">","</span><span class="op">)</span></span>
+<span>    <span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Das Ergebnis:</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 x 3
+   year month turnover
+  &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt;
+1  2022 01       2701.
+2  2022 02       2910.
+3  2022 03       1802.</code></pre>
+</div>
+</div>
+</section><section id="datentypen-beim-laden-setzen" class="level4"><h4 class="anchored" data-anchor-id="datentypen-beim-laden-setzen">Datentypen beim Laden setzen</h4>
+<p>Beim Laden mit <code>read_csv</code> wird möglicherweise der Datentyp einiger Spalten falsch erkannt. Die Funktion betrachtet die ersten Zeilen und ermittelt darauf basierend den Datentyp. Wird dieser falsch erkannt, so können wir den Datentyp für Spalten explizit angeben. Wie auch das Auswählen von Spalten können wir den Datentyp schon beim Laden mitgeben. Alternativ können wir den Datentyp auch später mit <code>mutate</code> noch verändern.</p>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Manchmal hilft es schon, den Parameter <code>guess_max</code> auf einen größeren Wert zu setzen. Dieser bestimmt, wie viele Werte die Funktion betrachtet, um daraus den Datentyp einer Spalte abzuleiten. Standardmäßig ist dieser Wert auf 1000 begrenzt.</p>
+</div>
+</div>
+</div>
+<p>In unserem Datensatz <code>orders.csv</code> sind tatsächlich einige Datentypen falsch erkannt worden. Etwa die Spalte <code>order_id</code>, die als Datentyp <code>double</code> erkannt wird. Auch wenn die Werte allesamt als Dezimalzahlen betrachtet werden können, handelt es sich bei einer Bestellnummer nicht um eine Zahl in dem Sinne, dass man damit rechnen möchte. Es ist vielmehr eine Zeichenfolge, die per Konvention nur aus Zahlen besteht (aber nicht müsste). Der Datentyp <code>character</code> wäre somit angebrachter. Das können wir wie folgt ändern:</p>
+<div class="cell">
+<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">orders</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv</a></span><span class="op">(</span><span class="st">"data/orders.csv"</span>,</span>
+<span>                   col_types <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span><span class="st">"order_id"</span> <span class="op">=</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/parse_atomic.html">col_character</a></span><span class="op">(</span><span class="op">)</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Die Spalte order_id ist jetzt vom Typ &lt;chr&gt;</span></span>
+<span><span class="va">orders</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">order_id</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2,874 x 1
+   order_id     
+   &lt;chr&gt;        
+ 1 1130007101519
+ 2 1130014965839
+ 3 1130026958927
+ 4 1130030563407
+ 5 1130038853711
+ 6 1130045964367
+ 7 1130050519119
+ 8 1130060283983
+ 9 1130102194255
+10 1130106880079
+# i 2,864 more rows</code></pre>
+</div>
+</div>
+<p>Das Gleiche können wir mit beliebig vielen Spalten gleichzeitig durchführen. Denn auch die beiden Spalten mit Postleitzahlen wurden fälschlicherweise als <code>double</code> erkannt:</p>
+<div class="cell">
+<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">orders</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv</a></span><span class="op">(</span><span class="st">"data/orders.csv"</span>,</span>
+<span>                   col_types <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span></span>
+<span>                     <span class="st">"order_id"</span> <span class="op">=</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/parse_atomic.html">col_character</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>                     <span class="st">"app_id"</span> <span class="op">=</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/parse_atomic.html">col_character</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>                     <span class="st">"billing_address_zip"</span><span class="op">=</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/parse_atomic.html">col_character</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>                     <span class="st">"shipping_address_zip"</span><span class="op">=</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/parse_atomic.html">col_character</a></span><span class="op">(</span><span class="op">)</span></span>
+<span>                     <span class="op">)</span></span>
+<span>                   <span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Die Spalte order_id ist jetzt vom Typ &lt;chr&gt;</span></span>
+<span><span class="va">orders</span> <span class="op">|&gt;</span>  </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">order_id</span>, <span class="va">app_id</span>, <span class="va">billing_address_zip</span>, <span class="va">shipping_address_zip</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2,874 x 4
+   order_id      app_id billing_address_zip shipping_address_zip
+   &lt;chr&gt;         &lt;chr&gt;  &lt;chr&gt;               &lt;chr&gt;               
+ 1 1130007101519 580111 49610               &lt;NA&gt;                
+ 2 1130014965839 580111 49088               49088               
+ 3 1130026958927 580111 49080               &lt;NA&gt;                
+ 4 1130030563407 580111 45888               &lt;NA&gt;                
+ 5 1130038853711 580111 49356               &lt;NA&gt;                
+ 6 1130045964367 580111 49477               &lt;NA&gt;                
+ 7 1130050519119 580111 49090               49090               
+ 8 1130060283983 580111 48356               48356               
+ 9 1130102194255 580111 49090               49090               
+10 1130106880079 580111 49090               &lt;NA&gt;                
+# i 2,864 more rows</code></pre>
+</div>
+</div>
+</section><section id="daten-von-einem-webserver-laden" class="level4"><h4 class="anchored" data-anchor-id="daten-von-einem-webserver-laden">Daten von einem Webserver laden</h4>
+<p>Die CSV-Datei muss nicht lokal auf dem eigenen Rechner vorliegen, sondern kann mit <code>read_csv</code> über das HTTP-Protkoll direkt von einem Webserver im Internet abgerufen werden. Dabei wird die URL anstelle des lokalen Dateinamens der Funktion übergeben. Der Code unten lädt die tagesaktuelle Version des Covid-19-Datensatzes, der auf den Servern von <a href="https://ourworldindata.org/">Our World in Data</a> gehostet wird:</p>
+<div class="cell">
+<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">covid</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv</a></span><span class="op">(</span><span class="st">"https://covid.ourworldindata.org/data/owid-covid-data.csv"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section></section></section><section id="excel-dateien" class="level2"><h2 class="anchored" data-anchor-id="excel-dateien">Excel-Dateien</h2>
+<p>Microsoft Excel ist ein Programm, das in vielen Unternehmen der Standard für die Arbeit mit Daten verschiedenster Art darstellt. Aus diesem Grund ist es notwendig, dass wir auch dieses Format mit R einlesen und weiterverarbeiten können. Mit dem <a href="https://readxl.tidyverse.org">readxl</a> Paket stehen alle notwendigen Funktionen dafür bereit.</p>
+<div class="cell">
+<div class="sourceCode" id="cb17"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://readxl.tidyverse.org">readxl</a></span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section><section id="übungen" class="level2 unnumbered"><h2 class="unnumbered anchored" data-anchor-id="übungen">Übungen</h2>
+<ol type="1">
+<li><p>Ladet den tagesaktuellen Datensatz für die Covid-Daten, lasst aber nur die Spalten <code>date</code>, <code>location</code> und <code>new_cases_smoothed_per_million</code> im Ergebnis!</p></li>
+<li><p>Korrigiert alle falsch als <code>&lt;dbl&gt;</code> erkannten ID-Spalten im Campusbier-Verkaufsdatensatz direkt beim Laden der Daten und wandelt sich in <code>&lt;chr&gt;</code> um.</p></li>
+</ol>
 
 
-
-
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -436,6 +695,26 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -743,21 +1022,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../../chapters/data/data_frames.html" class="pagination-link  aria-label=" &lt;span="" frames&lt;="" span&gt;"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Data Frames</span></span>
+</script><nav class="page-navigation"><div class="nav-page nav-page-previous">
+      <a href="../../chapters/data/structured_data.html" class="pagination-link  aria-label=" daten="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Strukturierte Daten</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../chapters/data/tidy_data.html" class="pagination-link" aria-label="<span class='chapter-number'>21</span>&nbsp; <span class='chapter-title'>Daten aufräumen</span>">
-        <span class="nav-page-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Daten aufräumen</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../chapters/data/tidy_data.html" class="pagination-link" aria-label="<span class='chapter-number'>24</span>&nbsp; <span class='chapter-title'>Daten aufräumen</span>">
+        <span class="nav-page-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Daten aufräumen</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
-
 
 
 

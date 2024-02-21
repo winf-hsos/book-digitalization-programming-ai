@@ -1,0 +1,28 @@
+# Strukturierte Daten
+
+## Vektoren
+
+Ein Vektor ist eine Liste mit Elementen gleichen Typs.
+
+## Tabellen
+
+### Data Frames
+
+```{r}
+#| echo: false
+#| output: false
+library(tidyverse)
+```
+
+
+
+### Tibbles
+
+```{r}
+students <- tibble(
+  first_name = c("Amy", "Bob", "Carl"),
+  last_name = c("Amerson", "Barlow", "Chow"),
+  age = c(19, 21, 20)
+)
+```
+
