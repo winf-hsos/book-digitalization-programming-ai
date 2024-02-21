@@ -4,15 +4,26 @@
 
 Die folgende Abbildung zeigt die Kompetenzen, die in diesem Buch vermittelt werden. Die unteren drei Blöcke stehen für das Wissen, wie Informationen in digitalen Computern abgebildet werden (*representation*), wie sie verarbeitet werden (*processing*) und wie wir beides für unsere Zwecke einsetzen können, um Probleme zu lösen (*programming*). Diese Bereiche sind die Grundlagen der Digitalisierung und deren Beherrschung ist die Voraussetzung für eine weitergehende Auseinandersetzung mit dem Thema. Diese erfolgt im Rahmen dieses Buches mit der Betrachtung der beiden wichtigsten Anwendungsfelder der Digitalisierung aus Sicht einer digital mündigen Person. Zum einen steigen wir in die Hintergründe der Künstlichen Intelligenz (*artificial intelligence*) ein, eine Entwicklung, die ein nie zuvor gesehenens Transformationspotenzial besitzt. Als zweite Säule digitaler Anwendungen beschäftigen wir uns mit den Möglichkeiten der Datenanalyse (*data analysis*), die durch die wachsende Menge digitaler Prozesse und Daten jeden Tag an Relevanz gewinnt.
 
-
 ![](https://winf-hsos.github.io/university-docs/images/digital_literacy_skills.png)
 
 ## Material
 
 Die Abbildungen aus diesem Buch entstammen den zugehörigen Vorlesungsfolien und sind hier zu finden:
 
--   [Google Slides](https://docs.google.com/presentation/d/1uxnlvUs4Ik6eqZOXSicL0H2OwoqFmDLiwREq3sD1C9A/edit?usp=sharing)
--   [PDF](https://winf-hsos.github.io/university-docs/google_slides/wirtschaftsinformatik/Digitization%20and%20Programming.pdf)
+-   Digitalisierung (Repräsentation, Verarbeitung, Programmierung)
+
+    -   [Google Slides](https://docs.google.com/presentation/d/1uxnlvUs4Ik6eqZOXSicL0H2OwoqFmDLiwREq3sD1C9A/edit?usp=sharing)
+    -   [PDF](https://winf-hsos.github.io/university-docs/google_slides/wirtschaftsinformatik/Digitization%20and%20Programming.pdf)
+
+-   Künstliche Intelligenz
+
+    -   Google Slides
+    -   PDF
+
+-   Datenanalyse
+
+    -   [Google Slides](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit?usp=sharing)
+    -   PDF
 
 ## Inspiration für dieses Buch
 
@@ -22,4 +33,6 @@ In dieses Buch sind viele Ideen aus den CS50-Kursen von [David J. Malan](https:/
 
 -   [CS50: Introduction to Computer Science (2023)](https://cs50.harvard.edu/x/2023/ "Gehe direkt zur Website des Kurses")
 
-Besonders im ersten Teil dieses Buchs hat mich Charles Petzold [-@petzold2022] mit seinem Buch [Code: The Hidden Language of Computer Hardware and Software](https://amzn.eu/d/aSn6Goo "Gehe direkt zur Amazon-Produktseite") inspiriert. Es ist ein verständlich geschriebenes und gut lesbares Buch, das mittlerweile in der zweiten Auflage vorliegt. Ich empfehle es allen, die sich für die Grundlagen der Informatik interessieren.
+Besonders im ersten Teilen dieses Buchs, in denen es um die Grundlagen der Digitalisierung und digitaler Computer geht, hat mich Charles Petzold [-@petzold2022] mit seinem Buch [Code: The Hidden Language of Computer Hardware and Software](#0 "Gehe direkt zur Amazon-Produktseite") inspiriert. Es ist ein verständlich geschriebenes und gut lesbares Buch, das mittlerweile in der zweiten Auflage vorliegt. Ich empfehle es allen, die sich für die Grundlagen der Informatik interessieren.
+
+Im Teil zur Datenanalyse greife ich auf viele Ideen und Beispiele aus dem Klassiker [R for Data Science](https://r4ds.hadley.nz/) von Hadley Wickham [-@wickham2023] zurück. Dieses Buch wurde 2023 als überarbeitete zweite Auflage veröffentlicht und ist die beste Einführung in die explorative Datenanalyse mit R, die ich kenne. Dazu empfehle ich den Onlinekurs [CS50R - Introdiction to Programming with R](https://cs50.harvard.edu/r/2024/) von [Carter Zenke](https://carterzenke.me/), dessen Vorlesungen allesamt auf YouTube zu finden sind.

@@ -1,1 +1,3 @@
 # Programmieren
+
+In diesem Teil des Buches führen wir die Grundkonzepte der Programmierung ein. Dazu verwenden wir die Sprache Python, die sich mit ihrer Eleganz und Einfachheit hervorragend für den Einstieg in die Programmierung eignet. Später werden wir neben Python noch R als zweite Programmiersprache kennenlernen, wenn wir uns mit der Datenanalyse beschäftigen.

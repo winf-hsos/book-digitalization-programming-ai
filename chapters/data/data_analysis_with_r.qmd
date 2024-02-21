@@ -1,4 +1,4 @@
-# Datenanalyse mit R
+# Explorative Datenanalyse
 
 ## Warum R?
 
@@ -21,13 +21,10 @@ Die beiden wichtigsten Gründe, warum ich R bevorzuge, sind:
 Für diese Frage empfehle ich euch das @vid-spss-vs-r.
 
 ::: {#vid-spss-vs-r}
-
 {{< video https://www.youtube.com/watch?v=JhKfehtXcHA >}}
 
 "Why you should abandon SPSS for R"
-
 :::
-
 
 ### R oder Excel?
 

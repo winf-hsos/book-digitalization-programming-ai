@@ -4,7 +4,7 @@
 
 Wir beginnen dieses Kapitel mit einer kurzen Geschichte:
 
-In einer Zeit, lange bevor digitale Technologien wie Smartphones, Tablets oder PCs unseren Alltag bereicherten, lebten zwei neunjährige Kinder, Max und Ida, als beste Freunde in einem kleinen Dorf. Max bewohnte ein Haus mitten im Dorf, während Idas Zuhause etwa 200 Meter entfernt lag, getrennt durch ein weites Feld.
+In einer Zeit, lange bevor digitale Technologien wie Smartphones, Tablets oder PCs unseren Alltag bereicherten, lebten zwei neunjährige Kinder, Max und Ida, als beste Freunde in einem kleinen Dorf. Max wohnte in einem Haus, das gute 200 Meter von Idas Zuhause entfernt lag. Zwischen beiden Häusern lag nichts außer einem weiten Feld.
 
 Max und Ida teilten eine besondere Leidenschaft: das Schachspiel. Sie nutzten jede freie Minute des Tages, um gegeneinander anzutreten, es sei denn, ihre Eltern schickten sie zum Spielen nach draußen. Da der Tag oft zu kurz für ihre ausgiebigen Partien war, wollten sie ihre Schachspiele auch abends fortsetzen – eine Zeit, in der es ruhig im Haus war und sie sich voll und ganz auf das Spiel konzentrieren konnten.
 
@@ -12,7 +12,9 @@ Doch ein Problem stand im Weg: In der Schulzeit war es ihnen nicht gestattet, sp
 
 Glücklicherweise bot sich eine Lösung an: Die Fenster ihrer Kinderzimmer waren so positioniert, dass sie direkten Sichtkontakt zueinander hatten. Licht anzumachen war keine Option – das hätten die Eltern sofort bemerkt. Doch beide hatten zu ihrem letzten Geburtstag je eine Taschenlampe geschenkt bekommen...
 
-![](https://winf-hsos.github.io/university-docs/images/flashlight.png) Hier endet die Geschichte von Max und Ida und ihrer Leidenschaft für Schach. Nun setzen wir unsere Reise in die digitale Welt fort und stellen uns die Frage: Wie können Max und Ida mit nichts weiter als einer Taschenlampe ihre Schachzüge kommunizieren?
+![](https://winf-hsos.github.io/university-docs/images/flashlight.png) 
+
+Hier endet die Geschichte von Max und Ida und ihrer Leidenschaft für Schach. Nun setzen wir unsere Reise in die digitale Welt fort und stellen uns die Frage: Wie können Max und Ida mit nichts weiter als einer Taschenlampe ihre Schachzüge kommunizieren?
 
 Um diese Frage zu beantworten, müssen wir zuerst verstehen, wie sich die Information eines Schachzugs präzise ausdrücken lässt. Jeder, der schon einmal Schach gespielt hat, weiß, dass das Brett quadratisch ist und aus 64 Feldern besteht, aufgeteilt in schwarze und weiße Quadrate. Durch die Kennzeichnung der horizontalen Reihen mit Buchstaben und der vertikalen Reihen mit Zahlen lässt sich jedes Feld eindeutig identifizieren. So steht beispielsweise der weiße König in der @fig-chessboard-1 auf dem Feld d1 – wir sprechen hier von der Koordinate des Feldes. Ein Schachzug lässt sich demnach als Bewegung von einer Koordinate zur nächsten darstellen, wie im Zug c2 nach c4 in @fig-chess-move, der einfach als c2c4 notiert wird. Diese Art der Notation ermöglicht es, den Spielstand nach jedem Zug genau zu erfassen, wobei im professionellen Bereich eine erweiterte Notation, wie etwa die [ausführliche algebraische Notation](https://de.wikipedia.org/wiki/Schachnotation#Ausf%C3%BChrliche_Notation), zum Einsatz kommt, die auch die Schachfiguren und das Schlagen von Gegnern miteinbezieht.
 
@@ -24,11 +26,11 @@ Für unsere Zwecke und die Kommunikation zwischen Max und Ida halten wir uns jed
 
 ## Information braucht Variation
 
-Information existiert nur, wenn wir die Freiheit haben, aus einer Reihe verschiedener Symbole in einer Sequenz zu wählen. Dies mag zunächst abstrakt klingen, aber ein Beispiel verdeutlicht es schnell.
+Information existiert nur, wenn wir die Freiheit haben, innerhalb einer Sequenz aus einer Reihe verschiedener Symbole zu wählen. Dies mag zunächst abstrakt klingen, aber ein Beispiel verdeutlicht es schnell.
 
 ### Symbolvielfalt
 
-Stellt euch vor, unser Alphabet bestünde nur aus dem Buchstaben "A", und zwar ausschließlich in Großbuchstaben. Nehmen wir weiter an, unsere Nachrichten dürften genau zwei Zeichen lang sein. Können wir unter diesen Bedingungen Informationen übermitteln? Die Antwort ist *nein*, denn unsere einzige Nachricht wäre immer "AA". Mit diesen Einschränkungen ist unsere Nachricht wertlos, da sie keine Information trägt.
+Stellt euch vor, unser Alphabet bestünde nur aus dem Buchstaben "A", und zwar ausschließlich in Großbuchstaben. Nehmen wir weiter an, eine Sequenz - oder Nachricht - dürfte genau zwei Zeichen lang sein. Können wir unter diesen Bedingungen Informationen übermitteln? Die Antwort ist *nein*, denn unsere einzige Nachricht wäre immer "AA". Mit diesen Einschränkungen ist unsere Nachricht wertlos, da sie keine Information trägt.
 
 Erst die Variation der Symbole innerhalb einer Nachricht, und damit die Erzeugung unterschiedlicher Nachrichten, ermöglicht die Entstehung von Information. Fügen wir dem "A" ein "B" hinzu, ergeben sich bereits vier mögliche Nachrichten mit der Länge von zwei Zeichen: AA, AB, BA, BB. 
 

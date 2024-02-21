@@ -48,11 +48,15 @@ book:
     - part: parts/part_4_daten.qmd
       chapters:
         
+        - chapters/data/programming_with_r.qmd
         - chapters/data/data_analysis_with_r.qmd
         - chapters/data/vectors.qmd
         - chapters/data/data_frames.qmd
-        - chapters/data/data_transformation.qmd
-
+        - chapters/data/load_data.qmd
+        - chapters/data/tidy_data.qmd
+        - chapters/data/transform_data.qmd
+        - chapters/data/visualize_data.qmd
+        - chapters/data/communicate_findings.qmd
     
     - chapters/references.qmd
     - chapters/appendix.qmd

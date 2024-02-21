@@ -289,26 +289,56 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../chapters/data/programming_with_r.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Programmieren mit R</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../chapters/data/data_analysis_with_r.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Datenanalyse mit R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Explorative Datenanalyse</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/data/vectors.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Vektoren</span></span></a>
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Vektoren</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../chapters/data/data_frames.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Data Frames</span></span></a>
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Data Frames</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/data/data_transformation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Datentransformation</span></span></a>
+  <a href="../../chapters/data/load_data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Daten laden</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/data/tidy_data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Daten aufräumen</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/data/transform_data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Daten transformieren</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/data/visualize_data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Daten visualisieren</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../chapters/data/communicate_findings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Ergebnisse kommunizieren</span></span></a>
   </div>
 </li>
       </ul>
@@ -375,16 +405,17 @@ window.Quarto = {
 <section id="schach" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="schach"><span class="header-section-number">2.1</span> Schach</h2>
 <p>Wir beginnen dieses Kapitel mit einer kurzen Geschichte:</p>
-<p>In einer Zeit, lange bevor digitale Technologien wie Smartphones, Tablets oder PCs unseren Alltag bereicherten, lebten zwei neunjährige Kinder, Max und Ida, als beste Freunde in einem kleinen Dorf. Max bewohnte ein Haus mitten im Dorf, während Idas Zuhause etwa 200 Meter entfernt lag, getrennt durch ein weites Feld.</p>
+<p>In einer Zeit, lange bevor digitale Technologien wie Smartphones, Tablets oder PCs unseren Alltag bereicherten, lebten zwei neunjährige Kinder, Max und Ida, als beste Freunde in einem kleinen Dorf. Max wohnte in einem Haus, das gute 200 Meter von Idas Zuhause entfernt lag. Zwischen beiden Häusern lag nichts außer einem weiten Feld.</p>
 <p>Max und Ida teilten eine besondere Leidenschaft: das Schachspiel. Sie nutzten jede freie Minute des Tages, um gegeneinander anzutreten, es sei denn, ihre Eltern schickten sie zum Spielen nach draußen. Da der Tag oft zu kurz für ihre ausgiebigen Partien war, wollten sie ihre Schachspiele auch abends fortsetzen – eine Zeit, in der es ruhig im Haus war und sie sich voll und ganz auf das Spiel konzentrieren konnten.</p>
 <p>Doch ein Problem stand im Weg: In der Schulzeit war es ihnen nicht gestattet, spätabends miteinander zu telefonieren, da ausreichend Schlaf essentiell für die Aufmerksamkeit in der Schule ist. Zudem war das Telefonieren zu jener Zeit eine kostspielige Angelegenheit, da jede Minute berechnet wurde. Handys und Tablets, die diese Hürde hätten überwinden können, waren noch nicht erfunden – und selbst wenn, wären sie für Kinder ihres Alters kaum zugänglich gewesen. Doch Max und Ida ließen sich nicht entmutigen und suchten nach einer kreativen Lösung, um ihr Spiel auch unter diesen Umständen fortsetzen zu können.</p>
 <p>Glücklicherweise bot sich eine Lösung an: Die Fenster ihrer Kinderzimmer waren so positioniert, dass sie direkten Sichtkontakt zueinander hatten. Licht anzumachen war keine Option – das hätten die Eltern sofort bemerkt. Doch beide hatten zu ihrem letzten Geburtstag je eine Taschenlampe geschenkt bekommen…</p>
-<p><img src="https://winf-hsos.github.io/university-docs/images/flashlight.png" class="img-fluid"> Hier endet die Geschichte von Max und Ida und ihrer Leidenschaft für Schach. Nun setzen wir unsere Reise in die digitale Welt fort und stellen uns die Frage: Wie können Max und Ida mit nichts weiter als einer Taschenlampe ihre Schachzüge kommunizieren?</p>
+<p><a href="https://winf-hsos.github.io/university-docs/images/flashlight.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://winf-hsos.github.io/university-docs/images/flashlight.png" class="img-fluid"></a></p>
+<p>Hier endet die Geschichte von Max und Ida und ihrer Leidenschaft für Schach. Nun setzen wir unsere Reise in die digitale Welt fort und stellen uns die Frage: Wie können Max und Ida mit nichts weiter als einer Taschenlampe ihre Schachzüge kommunizieren?</p>
 <p>Um diese Frage zu beantworten, müssen wir zuerst verstehen, wie sich die Information eines Schachzugs präzise ausdrücken lässt. Jeder, der schon einmal Schach gespielt hat, weiß, dass das Brett quadratisch ist und aus 64 Feldern besteht, aufgeteilt in schwarze und weiße Quadrate. Durch die Kennzeichnung der horizontalen Reihen mit Buchstaben und der vertikalen Reihen mit Zahlen lässt sich jedes Feld eindeutig identifizieren. So steht beispielsweise der weiße König in der <a href="#fig-chessboard-1" class="quarto-xref">Abbildung&nbsp;<span>2.1</span></a> auf dem Feld d1 – wir sprechen hier von der Koordinate des Feldes. Ein Schachzug lässt sich demnach als Bewegung von einer Koordinate zur nächsten darstellen, wie im Zug c2 nach c4 in <a href="#fig-chess-move" class="quarto-xref">Abbildung&nbsp;<span>2.2</span></a>, der einfach als c2c4 notiert wird. Diese Art der Notation ermöglicht es, den Spielstand nach jedem Zug genau zu erfassen, wobei im professionellen Bereich eine erweiterte Notation, wie etwa die <a href="https://de.wikipedia.org/wiki/Schachnotation#Ausf%C3%BChrliche_Notation">ausführliche algebraische Notation</a>, zum Einsatz kommt, die auch die Schachfiguren und das Schlagen von Gegnern miteinbezieht.</p>
 <div id="fig-chessboard-1" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-chessboard-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://winf-hsos.github.io/university-docs/images/chess_1.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1"><img src="https://winf-hsos.github.io/university-docs/images/chess_1.png" class="img-fluid figure-img"></a>
+<a href="https://winf-hsos.github.io/university-docs/images/chess_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2"><img src="https://winf-hsos.github.io/university-docs/images/chess_1.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-chessboard-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;2.1: Ein Schachbrett im Endspiel. Der weiße König steht auf d1.
@@ -394,7 +425,7 @@ Abbildung&nbsp;2.1: Ein Schachbrett im Endspiel. Der weiße König steht auf d1.
 <div id="fig-chess-move" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-chess-move-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://winf-hsos.github.io/university-docs/images/chess_move.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2"><img src="https://winf-hsos.github.io/university-docs/images/chess_move.png" class="img-fluid figure-img"></a>
+<a href="https://winf-hsos.github.io/university-docs/images/chess_move.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-glightbox="description: .lightbox-desc-3"><img src="https://winf-hsos.github.io/university-docs/images/chess_move.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-chess-move-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;2.2: Der Bauer bewegt sich von c2 nach c4, was wir mit der Zeichenkette c2c4 darstellen.
@@ -405,16 +436,16 @@ Abbildung&nbsp;2.2: Der Bauer bewegt sich von c2 nach c4, was wir mit der Zeiche
 </section>
 <section id="information-braucht-variation" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="information-braucht-variation"><span class="header-section-number">2.2</span> Information braucht Variation</h2>
-<p>Information existiert nur, wenn wir die Freiheit haben, aus einer Reihe verschiedener Symbole in einer Sequenz zu wählen. Dies mag zunächst abstrakt klingen, aber ein Beispiel verdeutlicht es schnell.</p>
+<p>Information existiert nur, wenn wir die Freiheit haben, innerhalb einer Sequenz aus einer Reihe verschiedener Symbole zu wählen. Dies mag zunächst abstrakt klingen, aber ein Beispiel verdeutlicht es schnell.</p>
 <section id="symbolvielfalt" class="level3">
 <h3 class="anchored" data-anchor-id="symbolvielfalt">Symbolvielfalt</h3>
-<p>Stellt euch vor, unser Alphabet bestünde nur aus dem Buchstaben “A”, und zwar ausschließlich in Großbuchstaben. Nehmen wir weiter an, unsere Nachrichten dürften genau zwei Zeichen lang sein. Können wir unter diesen Bedingungen Informationen übermitteln? Die Antwort ist <em>nein</em>, denn unsere einzige Nachricht wäre immer “AA”. Mit diesen Einschränkungen ist unsere Nachricht wertlos, da sie keine Information trägt.</p>
+<p>Stellt euch vor, unser Alphabet bestünde nur aus dem Buchstaben “A”, und zwar ausschließlich in Großbuchstaben. Nehmen wir weiter an, eine Sequenz - oder Nachricht - dürfte genau zwei Zeichen lang sein. Können wir unter diesen Bedingungen Informationen übermitteln? Die Antwort ist <em>nein</em>, denn unsere einzige Nachricht wäre immer “AA”. Mit diesen Einschränkungen ist unsere Nachricht wertlos, da sie keine Information trägt.</p>
 <p>Erst die Variation der Symbole innerhalb einer Nachricht, und damit die Erzeugung unterschiedlicher Nachrichten, ermöglicht die Entstehung von Information. Fügen wir dem “A” ein “B” hinzu, ergeben sich bereits vier mögliche Nachrichten mit der Länge von zwei Zeichen: AA, AB, BA, BB.</p>
 <p>Mit einem dritten Symbol, “C”, erweitert sich unser Repertoire auf neun Nachrichten:</p>
 <div id="fig-perm-3-n2" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-perm-3-n2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://winf-hsos.github.io/university-docs/images/permutations_abc_n2.png" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3"><img src="https://winf-hsos.github.io/university-docs/images/permutations_abc_n2.png" class="img-fluid figure-img"></a>
+<a href="https://winf-hsos.github.io/university-docs/images/permutations_abc_n2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" data-glightbox="description: .lightbox-desc-4"><img src="https://winf-hsos.github.io/university-docs/images/permutations_abc_n2.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-perm-3-n2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;2.3: Mit 2 Stellen und 3 Symbolen gibt es 9 Möglichkeiten.
@@ -425,7 +456,7 @@ Abbildung&nbsp;2.3: Mit 2 Stellen und 3 Symbolen gibt es 9 Möglichkeiten.
 <div id="fig-perm-4-n2" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-perm-4-n2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://winf-hsos.github.io/university-docs/images/permutations_abcd_n2.png" class="lightbox" data-glightbox="description: .lightbox-desc-4" data-gallery="quarto-lightbox-gallery-4"><img src="https://winf-hsos.github.io/university-docs/images/permutations_abcd_n2.png" class="img-fluid figure-img"></a>
+<a href="https://winf-hsos.github.io/university-docs/images/permutations_abcd_n2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" data-glightbox="description: .lightbox-desc-5"><img src="https://winf-hsos.github.io/university-docs/images/permutations_abcd_n2.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-perm-4-n2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;2.4: Mit 2 Stellen und 4 Symbolen gibt es 16 Möglichkeiten.
@@ -442,7 +473,7 @@ Abbildung&nbsp;2.4: Mit 2 Stellen und 4 Symbolen gibt es 16 Möglichkeiten.
 <div id="fig-perm-5-n2" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-perm-5-n2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://winf-hsos.github.io/university-docs/images/permutations_abcde_n2.png" class="lightbox" data-glightbox="description: .lightbox-desc-5" data-gallery="quarto-lightbox-gallery-5"><img src="https://winf-hsos.github.io/university-docs/images/permutations_abcde_n2.png" class="img-fluid figure-img"></a>
+<a href="https://winf-hsos.github.io/university-docs/images/permutations_abcde_n2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" data-glightbox="description: .lightbox-desc-6"><img src="https://winf-hsos.github.io/university-docs/images/permutations_abcde_n2.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-perm-5-n2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;2.5: Mit 2 Stellen und 5 Symbolen gibt es 25 Möglichkeiten.
@@ -488,11 +519,11 @@ N = R^n
 
 
 <div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-1">Abbildung&nbsp;2.1: Ein Schachbrett im Endspiel. Der weiße König steht auf d1.</span>
-<span class="glightbox-desc lightbox-desc-2">Abbildung&nbsp;2.2: Der Bauer bewegt sich von c2 nach c4, was wir mit der Zeichenkette c2c4 darstellen.</span>
-<span class="glightbox-desc lightbox-desc-3">Abbildung&nbsp;2.3: Mit 2 Stellen und 3 Symbolen gibt es 9 Möglichkeiten.</span>
-<span class="glightbox-desc lightbox-desc-4">Abbildung&nbsp;2.4: Mit 2 Stellen und 4 Symbolen gibt es 16 Möglichkeiten.</span>
-<span class="glightbox-desc lightbox-desc-5">Abbildung&nbsp;2.5: Mit 2 Stellen und 5 Symbolen gibt es 25 Möglichkeiten.</span>
+<span class="glightbox-desc lightbox-desc-2">Abbildung&nbsp;2.1: Ein Schachbrett im Endspiel. Der weiße König steht auf d1.</span>
+<span class="glightbox-desc lightbox-desc-3">Abbildung&nbsp;2.2: Der Bauer bewegt sich von c2 nach c4, was wir mit der Zeichenkette c2c4 darstellen.</span>
+<span class="glightbox-desc lightbox-desc-4">Abbildung&nbsp;2.3: Mit 2 Stellen und 3 Symbolen gibt es 9 Möglichkeiten.</span>
+<span class="glightbox-desc lightbox-desc-5">Abbildung&nbsp;2.4: Mit 2 Stellen und 4 Symbolen gibt es 16 Möglichkeiten.</span>
+<span class="glightbox-desc lightbox-desc-6">Abbildung&nbsp;2.5: Mit 2 Stellen und 5 Symbolen gibt es 25 Möglichkeiten.</span>
 </div>
 </section>
 
@@ -897,7 +928,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","loop":false});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","loop":false,"closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
