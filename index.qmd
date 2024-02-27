@@ -10,10 +10,15 @@ Die folgende Abbildung zeigt die Kompetenzen, die in diesem Buch vermittelt werd
 
 Die Abbildungen aus diesem Buch entstammen den zugehörigen Vorlesungsfolien und sind hier zu finden:
 
--   Digitalisierung (Repräsentation, Verarbeitung, Programmierung)
+-   Digitalisierung (Repräsentation, Verarbeitung)
 
     -   [Google Slides](https://docs.google.com/presentation/d/1uxnlvUs4Ik6eqZOXSicL0H2OwoqFmDLiwREq3sD1C9A/edit?usp=sharing)
-    -   [PDF](https://winf-hsos.github.io/university-docs/google_slides/wirtschaftsinformatik/Digitization%20and%20Programming.pdf)
+    -   [PDF](https://winf-hsos.github.io/university-docs/google_slides/wirtschaftsinformatik/Digitization%20-%20Information%20Representation%20and%20Processing.pdf)
+    
+-   Programmierung
+
+    -   [Google Slides](https://docs.google.com/presentation/d/1N-HoYfpsdk4yOKgU7V3hjdLgl7vWHbQZl_6fJ8PEYno/edit?usp=sharing)
+    -   [PDF](https://winf-hsos.github.io/university-docs/google_slides/wirtschaftsinformatik/Programming%20with%20Python.pdf)
 
 -   Künstliche Intelligenz
 
@@ -23,7 +28,7 @@ Die Abbildungen aus diesem Buch entstammen den zugehörigen Vorlesungsfolien und
 -   Datenanalyse
 
     -   [Google Slides](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit?usp=sharing)
-    -   PDF
+    -   [PDF](https://winf-hsos.github.io/university-docs/google_slides/wirtschaftsinformatik/Exploratory%20Data%20Analysis%20with%20R%20and%20Python.pdf)
 
 ## Inspiration für dieses Buch
 

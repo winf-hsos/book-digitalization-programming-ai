@@ -24,7 +24,7 @@
     "href": "index.html#material",
     "title": "Digital Literacy",
     "section": "Material",
-    "text": "Material\nDie Abbildungen aus diesem Buch entstammen den zugehörigen Vorlesungsfolien und sind hier zu finden:\n\nDigitalisierung (Repräsentation, Verarbeitung, Programmierung)\n\nGoogle Slides\nPDF\n\nKünstliche Intelligenz\n\nGoogle Slides\nPDF\n\nDatenanalyse\n\nGoogle Slides\nPDF",
+    "text": "Material\nDie Abbildungen aus diesem Buch entstammen den zugehörigen Vorlesungsfolien und sind hier zu finden:\n\nDigitalisierung (Repräsentation, Verarbeitung)\n\nGoogle Slides\nPDF\n\nProgrammierung\n\nGoogle Slides\nPDF\n\nKünstliche Intelligenz\n\nGoogle Slides\nPDF\n\nDatenanalyse\n\nGoogle Slides\nPDF",
     "crumbs": [
       "Vorwort"
     ]
@@ -37,6 +37,16 @@
     "text": "Inspiration für dieses Buch\nIn dieses Buch sind viele Ideen aus den CS50-Kursen von David J. Malan und seinem fantastischen Team eingeflossen. Ich kann die Kurse sehr empfehlen und euch speziell als Ergänzung zu diesem Buch die folgenden ans Herz legen:\n\nCS50’s Introduction to Programming with Python (2022)\nCS50: Introduction to Computer Science (2023)\n\nBesonders im ersten Teilen dieses Buchs, in denen es um die Grundlagen der Digitalisierung und digitaler Computer geht, hat mich Charles Petzold (2022) mit seinem Buch Code: The Hidden Language of Computer Hardware and Software inspiriert. Es ist ein verständlich geschriebenes und gut lesbares Buch, das mittlerweile in der zweiten Auflage vorliegt. Ich empfehle es allen, die sich für die Grundlagen der Informatik interessieren.\nIm Teil zur Datenanalyse greife ich auf viele Ideen und Beispiele aus dem Klassiker R for Data Science von Hadley Wickham (2023) zurück. Dieses Buch wurde 2023 als überarbeitete zweite Auflage veröffentlicht und ist die beste Einführung in die explorative Datenanalyse mit R, die ich kenne. Dazu empfehle ich den Onlinekurs CS50R - Introdiction to Programming with R von Carter Zenke, dessen Vorlesungen allesamt auf YouTube zu finden sind.\n\n\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer Hardware and Software. 2nd ed. Hoboken: Microsoft Press.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023. R for data science: import, tidy, transform, visualize, and model data. 2nd edition. Sebastopol, CA: O’Reilly Media, Inc.",
     "crumbs": [
       "Vorwort"
+    ]
+  },
+  {
+    "objectID": "parts/part_1_representation.html",
+    "href": "parts/part_1_representation.html",
+    "title": "Repräsentation",
+    "section": "",
+    "text": "In Kapitel 1 schauen wir uns an, wie Abbildung von Problemen der realen Welt und deren Lösung in einem Computer mittels eines einfachen Modells erfolgen kann. Anschließend betrachten wir unterschiedliche Problemlösungsstrategien.\nIn Kapitel 2 klären wir zuerst den Informationsbegriff und lernen, wie wir mit Symbolen beliebige Informationen oder Nachrichten darstellen können. Außerdem führen wir das Bit als Maßeinheit für Informationen ein und erarbeiten uns eine einfache Formel für dessen Berechnung.\nIn Kapitel 3 ordnen wir das Binärsystem ein und erkennen, dass es sich nicht grundsätzlich vom Dezimalsystem unterscheidet, mit dem wir im Alltag verschiedene Dinge zählen. Das Binärsystem beruht auf zwei Zuständen, genau wie das Bit auch, und ist zudem von großer Bedeutung für digitale Computer.",
+    "crumbs": [
+      "Repräsentation"
     ]
   },
   {
