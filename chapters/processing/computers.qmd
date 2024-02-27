@@ -1,0 +1,3 @@
+# Computer
+
+- von-Neumann-Architektur

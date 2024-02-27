@@ -40,47 +40,58 @@
     ]
   },
   {
-    "objectID": "chapters/representation/problems.html",
-    "href": "chapters/representation/problems.html",
-    "title": "1  Probleme",
+    "objectID": "chapters/representation/problem_solving.html",
+    "href": "chapters/representation/problem_solving.html",
+    "title": "1  Problemlösung",
     "section": "",
-    "text": "Ein Modell für die Problemlösung\nAls ehemaliger Berater wurde mir beigebracht, den Begriff “Problem” zu vermeiden, weil er negativ konnotiert ist. Stattdessen sollte man von Herausforderungen sprechen, was den positiven Aspekt hervorhebt. In diesem Kapitel ist der Begriff “Problem” abstrakter gemeint. Es geht um das Bewältigen einer Aufgabe, die komplex, wie das Durchsuchen von mehreren Milliarden Datensätzen, oder einfach, wie das Addieren von 1 und 1, sein kann.\nEgal, wie komplex das Problem ist, wir können seine Lösung mithilfe eines digitalen Computers auf ein einfaches Modell reduzieren. Dieses Modell werden wir im Laufe des Buches an verschiedenen Stellen wiedersehen. Das Modell in Abbildung 1.1 hat drei Bestandteile:\nNehmen wir das Beispiel der Addition zweier ganzer Zahlen \\(a\\) und \\(b\\). Die Eingabe besteht für dieses einfache Problem aus konkreten Werten für \\(a\\) und \\(b\\). Die Lösung für das Problem bekommen wir, wenn wir den Additionsoperator \\(+\\) auf die beiden Zahlen aus der Eingabe anwenden. Als Ergebnis bekommen wir die sogenannte Summe, die wir mit \\(s\\) abkürzen. Also: \\(a + b = s\\)",
+    "text": "Ein Modell für die Problemlösung\nAls ehemaliger Unternehmensberater habe ich gelernt, den Begriff “Problem” zu vermeiden, weil er negativ konnotiert ist. Stattdessen spricht man von besser von Herausforderungen, was den positiven Aspekt hervorhebt. In diesem Kapitel ist der Begriff “Problem” abstrakter gemeint. Es geht um das Bewältigen einer Aufgabe, die komplex, wie das Durchsuchen von mehreren Milliarden Datensätzen, oder einfach, wie das Addieren von 1 und 1, sein kann.\nEgal, wie komplex das Problem ist, wir können seine Lösung mithilfe eines digitalen Computers auf ein einfaches Modell reduzieren. Dieses Modell werden wir im Laufe des Buches an verschiedenen Stellen wiedersehen. Das Modell in Abbildung 1.1 hat drei Bestandteile:\nNehmen wir das Beispiel der Addition zweier ganzer Zahlen \\(a\\) und \\(b\\). Die Eingabe besteht für dieses einfache Problem aus konkreten Werten für \\(a\\) und \\(b\\). Die Lösung für das Problem bekommen wir, wenn wir den Additionsoperator \\(+\\) auf die beiden Zahlen aus der Eingabe anwenden. Als Ergebnis bekommen wir die sogenannte Summe, die wir mit \\(s\\) abkürzen. Also: \\(a + b = s\\)",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Probleme</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Problemlösung</span>"
     ]
   },
   {
-    "objectID": "chapters/representation/problems.html#ein-modell-für-die-problemlösung",
-    "href": "chapters/representation/problems.html#ein-modell-für-die-problemlösung",
-    "title": "1  Probleme",
+    "objectID": "chapters/representation/problem_solving.html#ein-modell-für-die-problemlösung",
+    "href": "chapters/representation/problem_solving.html#ein-modell-für-die-problemlösung",
+    "title": "1  Problemlösung",
     "section": "",
     "text": "Die Eingabe ist das, was wir zur genaueren Beschreibung des Problems wissen müssen. Das können etwa die zwei Zahlen sein, die miteinander addiert werden sollen. Oder sind die Milliarden Datensätze zusammen mit der Information, wonach wir suchen.\nDie Beschreibung der notwendigen Schritte, um das Problem auf Basis der Eingabe zu lösen. Später werden wir hierfür den Begriff Algorithmus einführen.\nDie Ausgabe ist Repräsentation der Lösung des Problems. Das kann eine Zahl sein, wie das Ergebnis der Addition zweier Zahlen. Es kann auch ein Datensatz sein, der aus mehreren Milliarden als der Gesuchte erkannt wurde.\n\n\n\n\n\n\n\nAbbildung 1.1: Ein Modell für das Lösen von Problemen.\n\n\n\n\n\n\n\nAddition als Beispiel für das Lösen eines Problems.",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Probleme</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Problemlösung</span>"
     ]
   },
   {
-    "objectID": "chapters/representation/problems.html#problemlösung-als-informationsverarbeitung",
-    "href": "chapters/representation/problems.html#problemlösung-als-informationsverarbeitung",
-    "title": "1  Probleme",
+    "objectID": "chapters/representation/problem_solving.html#problemlösung-als-informationsverarbeitung",
+    "href": "chapters/representation/problem_solving.html#problemlösung-als-informationsverarbeitung",
+    "title": "1  Problemlösung",
     "section": "Problemlösung als Informationsverarbeitung",
-    "text": "Problemlösung als Informationsverarbeitung\nModelle sind wie vereinfachte Landkarten für komplexe Themen. Stellt euch vor, ihr nehmt einen komplizierten Sachverhalt und entfernt alles, was für euer Ziel nicht wichtig ist. Am Ende bleibt ein Modell übrig, das nur die Kernpunkte beinhaltet. Nehmen wir als Beispiel ein Modell, das erklärt, wie die Informationsverarbeitung in unseren digitalen Computern funktioniert. Hier konzentrieren wir uns auf drei Schlüsselelemente.\nErstens gibt es die Eingabe. Das ist das, was ihr dem Computer sagt oder gebt, also eure Fragen, Informationen oder Befehle. Dann kommt das Programm selbst, das wir zuerst als Blackbox betrachten – also als etwas Geheimnisvolles, dessen Inneres wir bis jetzt nicht kennen. Später werden wir dieses Unbekannte durch unterschiedliche Anwendungen ersetzen. Und schließlich haben wir die Ausgabe, also das, was der Computer nach der Verarbeitung eurer Eingabe zurückgibt.\n\n\n\n\n\n\nAbbildung 1.2: Ein Modell für die Informationsverarbeitung digitaler Computer.",
+    "text": "Problemlösung als Informationsverarbeitung\n\n\n\n\n\n\nAbbildung 1.2: Ein Modell für die Informationsverarbeitung digitaler Computer.",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Probleme</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Problemlösung</span>"
     ]
   },
   {
-    "objectID": "chapters/representation/problems.html#übungen",
-    "href": "chapters/representation/problems.html#übungen",
-    "title": "1  Probleme",
-    "section": "Übungen",
-    "text": "Übungen\n\nFormuliert drei weitere Probleme mithilfe des vorgestellten Modells für die Problemlösung mittels digitaler Computer. Nennt jeweils die Eingabe, Lösung und die Ausgabe des Problems!\n\n\n\n\nAbbildung 1.1: Ein Modell für das Lösen von Problemen.\nAddition als Beispiel für das Lösen eines Problems.\nAbbildung 1.2: Ein Modell für die Informationsverarbeitung digitaler Computer.",
+    "objectID": "chapters/representation/problem_solving.html#problemlösungsstrategien",
+    "href": "chapters/representation/problem_solving.html#problemlösungsstrategien",
+    "title": "1  Problemlösung",
+    "section": "Problemlösungsstrategien",
+    "text": "Problemlösungsstrategien\n\nTeilen und erobern\nDie wichtigste Strategie für die Lösung komplexer Probleme ist die Analyse des Problems und die Idenfizierung von kleineren Teilproblemen, die einfacher zu lösen sind. Durch das Zusammensetzen der einzelnen Teillösungen wird am Ende das große Problem gelöst. Diesen Ansatz nennt man auch Divide and Conquer, was auf Deutsch übersetzt etwa “Teilen und erobern” heißt.\n\n\n\n\n\n\nAbbildung 1.3: Ein großes, komplexes Problem\n\n\n\n\n\n\n\n\n\nAbbildung 1.4: Ein großes, komplexes Problem in vier kleinere Teile zerlegt.\n\n\n\n\n\n\n\n\n\nAbbildung 1.5: Teilprobleme können weiter zerlegt werden, um sie noch einfacher lösen zu können.\n\n\n\n\n\nVerteilte Verarbeitung and Parallelisierung\nManche Probleme lassen sich nicht nur in kleinere Teile zerlegen, die dann einzeln lösbar sind, sondern die einzelnen Teile sind dazu noch unabhängig voneinander lösbar. In diesem Fall müssen die Teile nicht sequenziell hintereinander bearbeitet werden, sondern wir haben die Möglichkeit, die Lösung der Teilprobleme zu parallelisieren.\n\n\n\n\n\n\nAbbildung 1.6: Das Wörterzählen als Informationsverarbeitungsproblem\n\n\n\n\n\n\nWir könnten jede Seite nacheinander bearbeiten und die Wörter zählen\n\n\n\n\n\nWir könnten die Seiten auch auf zwei Studierende aufteilen.\n\n\n\n\n\nDas Problem lässt sich auf beliebig viele Schultern verteilen\n\n\n\n\n\nParallelisierte Lösung des Problems",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Probleme</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Problemlösung</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/representation/problem_solving.html#übungen",
+    "href": "chapters/representation/problem_solving.html#übungen",
+    "title": "1  Problemlösung",
+    "section": "Übungen",
+    "text": "Übungen\n\nFormuliert drei weitere Probleme mithilfe des vorgestellten Modells für die Problemlösung mittels digitaler Computer. Nennt jeweils die Eingabe, Lösung und die Ausgabe des Problems!\nÜberlegt für jedes der folgenden Probleme, wie ihr es in kleinere Teilprobleme zerlegen könntet:\n\nDie Prüfung im Fach “Wirtschaftsinformatik” erfolgreich bestehen!\nEin Haus bauen\nEinen Marathon laufen\n\nAnalysiert die folgenden Probleme und prüft, ob ihr die Schritte zur Lösung verteilen und parallelisieren könnt!\n\nLiteraturrecherche für eure Abschlussarbeit\nRepräsentative Befragung zur Bundestagswahl\nEin Haus bauen\n\n\n\n\n\nAbbildung 1.1: Ein Modell für das Lösen von Problemen.\nAddition als Beispiel für das Lösen eines Problems.\nAbbildung 1.2: Ein Modell für die Informationsverarbeitung digitaler Computer.\nAbbildung 1.3: Ein großes, komplexes Problem\nAbbildung 1.4: Ein großes, komplexes Problem in vier kleinere Teile zerlegt.\nAbbildung 1.5: Teilprobleme können weiter zerlegt werden, um sie noch einfacher lösen zu können.\nAbbildung 1.6: Das Wörterzählen als Informationsverarbeitungsproblem\nWir könnten jede Seite nacheinander bearbeiten und die Wörter zählen\nWir könnten die Seiten auch auf zwei Studierende aufteilen.\nDas Problem lässt sich auf beliebig viele Schultern verteilen\nParallelisierte Lösung des Problems",
+    "crumbs": [
+      "Repräsentation",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Problemlösung</span>"
     ]
   },
   {
@@ -143,7 +154,7 @@
     "href": "chapters/representation/codes.html",
     "title": "5  Codes",
     "section": "",
-    "text": "Abbildung 5.1: Ein Herz als Pixelmatrix.\n\n\n\n\n\n\nAbbildung 5.1: Ein Herz als Pixelmatrix.",
+    "text": "Abbildung 5.1: Ein Herz als Pixelmatrix.\n\n\n\n\n\n\n\n\n\nAbbildung 5.2: Der Buchstabe “A” als Bitfolge kodiert.\n\n\n\n\n\n\nAbbildung 5.1: Ein Herz als Pixelmatrix.\nAbbildung 5.2: Der Buchstabe “A” als Bitfolge kodiert.",
     "crumbs": [
       "Repräsentation",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Codes</span>"
@@ -161,10 +172,32 @@
     ]
   },
   {
+    "objectID": "chapters/processing/computers.html",
+    "href": "chapters/processing/computers.html",
+    "title": "7  Computer",
+    "section": "",
+    "text": "von-Neumann-Architektur",
+    "crumbs": [
+      "Verarbeitung",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer</span>"
+    ]
+  },
+  {
     "objectID": "chapters/processing/arithmetic.html",
     "href": "chapters/processing/arithmetic.html",
     "title": "8  Arithmetik",
     "section": "",
+    "text": "Logik",
+    "crumbs": [
+      "Verarbeitung",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Arithmetik</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/processing/arithmetic.html#binäre-addition",
+    "href": "chapters/processing/arithmetic.html#binäre-addition",
+    "title": "8  Arithmetik",
+    "section": "Binäre Addition",
     "text": "Binäre Addition",
     "crumbs": [
       "Verarbeitung",
@@ -183,6 +216,17 @@
     ]
   },
   {
+    "objectID": "chapters/processing/memory.html",
+    "href": "chapters/processing/memory.html",
+    "title": "9  Speicher",
+    "section": "",
+    "text": "Substratunabhängigkeit von Informationen und Informationsverarbeitung",
+    "crumbs": [
+      "Verarbeitung",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Speicher</span>"
+    ]
+  },
+  {
     "objectID": "parts/part_2_programming.html",
     "href": "parts/part_2_programming.html",
     "title": "Programmieren",
@@ -195,23 +239,23 @@
   {
     "objectID": "chapters/programming/variables.html",
     "href": "chapters/programming/variables.html",
-    "title": "10  Variablen",
+    "title": "11  Variablen",
     "section": "",
     "text": "# Dies ist eine neue Variable mit dem Namen \"x\"\nx = 1",
     "crumbs": [
       "Programmieren",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Variablen</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Variablen</span>"
     ]
   },
   {
     "objectID": "chapters/programming/control_structures.html",
     "href": "chapters/programming/control_structures.html",
-    "title": "11  Kontrollstrukturen",
+    "title": "12  Kontrollstrukturen",
     "section": "",
     "text": "# Eine If-Anweisung in Pyhton\nif True:\n  ...\nelse:\n  ...",
     "crumbs": [
       "Programmieren",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Kontrollstrukturen</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Kontrollstrukturen</span>"
     ]
   },
   {
@@ -227,144 +271,144 @@
   {
     "objectID": "chapters/data/programming_with_r.html",
     "href": "chapters/data/programming_with_r.html",
-    "title": "20  Programmieren mit R",
+    "title": "21  Programmieren mit R",
     "section": "",
     "text": "Variablen",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Programmieren mit R</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Programmieren mit R</span>"
     ]
   },
   {
     "objectID": "chapters/data/programming_with_r.html#kontrollstrukturen",
     "href": "chapters/data/programming_with_r.html#kontrollstrukturen",
-    "title": "20  Programmieren mit R",
+    "title": "21  Programmieren mit R",
     "section": "Kontrollstrukturen",
     "text": "Kontrollstrukturen",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Programmieren mit R</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Programmieren mit R</span>"
     ]
   },
   {
     "objectID": "chapters/data/programming_with_r.html#schleifen",
     "href": "chapters/data/programming_with_r.html#schleifen",
-    "title": "20  Programmieren mit R",
+    "title": "21  Programmieren mit R",
     "section": "Schleifen",
     "text": "Schleifen",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Programmieren mit R</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Programmieren mit R</span>"
     ]
   },
   {
     "objectID": "chapters/data/programming_with_r.html#funktionen",
     "href": "chapters/data/programming_with_r.html#funktionen",
-    "title": "20  Programmieren mit R",
+    "title": "21  Programmieren mit R",
     "section": "Funktionen",
     "text": "Funktionen",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Programmieren mit R</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Programmieren mit R</span>"
     ]
   },
   {
     "objectID": "chapters/data/programming_with_r.html#bibliotheken",
     "href": "chapters/data/programming_with_r.html#bibliotheken",
-    "title": "20  Programmieren mit R",
+    "title": "21  Programmieren mit R",
     "section": "Bibliotheken",
     "text": "Bibliotheken",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Programmieren mit R</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Programmieren mit R</span>"
     ]
   },
   {
     "objectID": "chapters/data/data_analysis_with_r.html",
     "href": "chapters/data/data_analysis_with_r.html",
-    "title": "21  Explorative Datenanalyse",
+    "title": "22  Explorative Datenanalyse",
     "section": "",
     "text": "Vorgehensmodell",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Explorative Datenanalyse</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Explorative Datenanalyse</span>"
     ]
   },
   {
     "objectID": "chapters/data/data_analysis_with_r.html#vorgehensmodell",
     "href": "chapters/data/data_analysis_with_r.html#vorgehensmodell",
-    "title": "21  Explorative Datenanalyse",
+    "title": "22  Explorative Datenanalyse",
     "section": "",
     "text": "Vereinfachtes Prozessmodell für die explorative Datenanalyse.\n\n\n\n\n\nVereinfachtes Prozessmodell für die explorative Datenanalyse.",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Explorative Datenanalyse</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Explorative Datenanalyse</span>"
     ]
   },
   {
     "objectID": "chapters/data/structured_data.html",
     "href": "chapters/data/structured_data.html",
-    "title": "\n22  Strukturierte Daten\n",
+    "title": "\n23  Strukturierte Daten\n",
     "section": "",
     "text": "Vektoren\nEin Vektor ist eine Liste mit Elementen gleichen Typs.",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Strukturierte Daten</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Strukturierte Daten</span>"
     ]
   },
   {
     "objectID": "chapters/data/structured_data.html#tabellen",
     "href": "chapters/data/structured_data.html#tabellen",
-    "title": "\n22  Strukturierte Daten\n",
+    "title": "\n23  Strukturierte Daten\n",
     "section": "Tabellen",
     "text": "Tabellen\nData Frames\nTibbles\n\nstudents &lt;- tibble(\n  first_name = c(\"Amy\", \"Bob\", \"Carl\"),\n  last_name = c(\"Amerson\", \"Barlow\", \"Chow\"),\n  age = c(19, 21, 20)\n)",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Strukturierte Daten</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Strukturierte Daten</span>"
     ]
   },
   {
     "objectID": "chapters/data/load_data.html",
     "href": "chapters/data/load_data.html",
-    "title": "\n23  Daten laden\n",
+    "title": "\n24  Daten laden\n",
     "section": "",
     "text": "CSV-Dateien\nIm ersten Schritt jeder Datenanalyse müssen wir unserem Computer den Datensatz zur Verfügung stellen. Wir sprechen dabei auch vom Laden des Datesatzes. Dabei sagen wir dem Computer, wo die Daten zu finden sind, und dass er sie für den schnelleren Zugriff in seinen Arbeitsspeicher holen soll.\nDaten liegen in den meisten Fällen in Form von Dateien vor. In manchen Fällen sind sie auch in einer Datenbank gespeichert. Im Fall einer Datei kann ein Datensatz in unterschiedlichen Formaten darin gespeichert werden. Ein gängiges Format ist das CSV-Format, das auf einfachen Textdateien basiert.",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Daten laden</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Daten laden</span>"
     ]
   },
   {
     "objectID": "chapters/data/load_data.html#csv-dateien",
     "href": "chapters/data/load_data.html#csv-dateien",
-    "title": "\n23  Daten laden\n",
+    "title": "\n24  Daten laden\n",
     "section": "",
     "text": "Das CSV-Format\nEin weit verbreitetes Format\nTextdateien bieten sich für die Speicherung von Daten an, weil sie auf jedem Betriebsystem mit einem einfachen Texteditor betrachtet und bearbeitet werden können. Das ermöglicht das schnelle Teilen von Daten und somit die Zusammenarbeit. Auch für den Datenaustausch zwischen verschiedenen Informationssystemen wird häufig ein textbasiertes Format verwendet, um spezifisches Formate der jeweiligen Hersteller, wie etwa proprieäte Datenbanken, zu überbrücken. Deshalb bieten die meisten Informationssysteme Schnittstellen für den Export und Import von Textdateien an. Speziell das CSV-Format ist hier sehr beliebt, aus guten Gründen:\n\nDie Verwendung von einfachen Textdateien erlaubt die Speicherung und Verarbeitung auf unterschiedlichen Umgebungen wie Windows, macOS oder Linux.\nDas Format ist einfach zu verstehen und auch für Menschen lesbar.\nCSV ist ein offenes Format, d. h. es gibt keine Organisation, die daran die Rechte besitzt und es kann daher von jeder Software verwendet werden. Es gab lange nicht einmal eine offizielle Spezifikation des Formats. Mittlerweile gibt es eine Spezifikation als offizieller MIME Type.\n\nAuch das E-Commerce-System Shopify, aus dem die vorligenden Verkaufsdaten stammen, bietet eine Möglichkeit zum Exportieren von Textdateien im sogenannten CSV-Format an.\nCSV für strukturierte Daten\nCSV steht für Comma Separated Values und beschreibt ein Format, um strukturierte Daten in einer Textdatei abzuspeichern. Ihr erkennt eine Textdatei im CSV-Format an der Endung .csv.\nDas CSV-Format basiert auf einfachen Textkodierungen, häufig im UTF-8 oder ASCII-Kodierungssystem (letzeres immer seltener wegen der geringen Anzahl verfügbarer Zeichen), die mit fast jedem Werkzeug und Editor gelesen und bearbeitet werden können. Das CSV-Format speichert strukturierte Daten in einer tabellarischen Form, ähnlich wie in Spreadsheets. Die erste Zeile einer CSV-Datei ist üblicherweise der sogenannte Header (Kopfzeile) und beinhaltet die Spaltennamen mit Komma oder Semikolon (Trennzeichen) voneinander getrennt. Jede weitere Zeile stellt eine Beobachtung (Englisch: observation oder case) oder auch Datensatz (Englisch: record) dar. Jeder Datensatz enthält für die im Header definierten Attribute (oder Spalten) die beobachteten Werte, die durch das gleiche Trennzeichen voneinander getrennt sind. Es muss nicht jeder Spaltenwert existieren. Sollte ein Wert für eine Beobachtung nicht vorhanden sein, so wird nach dem Komma nichts eingetragen und es folgen zwei Kommata nacheinander. In R werden fehlende Werte beim Einlesen erkannt und mit NA gekennzeichnet.\nDie Verwendung des Komma als Trennzeichen in CSV-Dateien ist keineswegs verbindlich, auch wenn es Bestandteil des Namens ist. Generell kann jedes Symbol verwendet werden. Häufige Alternativen sind das Semikolon, Leerzeichen oder ein Tabstop. Letzteres wird oft mit der eigenen Endung .tsv für Tab Separated Values gespeichert.\nBeispiel einer CSV-Datei\nDer Auschnitt unten zeigt die ersten vier Zeilen der orders.csv. Die erste Zeile enthält die Namen der hier gezeigten vier Spalten (der Datensatz hat mehr Spalten, das ist nur ein Auszug), die mit einem Komma voneinander getrennt sind. Darunter folgen drei beispielhafte Datensätze:\nid,order_id,name,order_number,app_id,created_at\n1130007101519,B1014,1014,580111,2019-05-24T14:59:16+02:00\n1130014965839,B1015,1015,580111,2019-05-24T15:09:08+02:00\n1130026958927,B1016,1016,580111,2019-05-24T15:22:41+02:00\n...\nCSV-Daten laden mit {readr}\n\nAus einer lokalen Datei\nFür das Laden von Datensätzen aus CSV-Dateien bietet das Tidyverse ein Paket namens readr an. Dieses wird automatisch mit dem tidyverse-Paket mitgeladen. Das Paket bietet für CSV-Dateien, bei denen das Komma als Trennzeichen verwendet wird, die Funktion read_csv() an:\n\nlibrary(tidyverse)\norders &lt;- read_csv(\"data/orders.csv\")\n\n\n\n\n\n\n\nIn einigen Ländern Europas wird häufig ein Semikolon als Trennzeichen und ein Komma als Dezimaltrennzeichen verwendet (wie etwa in Deutschland). Für diesen Fall bietet readr die Funktion read_csv2. Um es selbst in der Hand zu haben, kann die Funktion read_delim verwendet werden und über den Parameter delim das Trennzeichen manuell eingestellt werden.\n\n\n\nAuch der R-Basisumfang bietet eine ähnliche Funktion für genau diesen Anwendungsfall an. Diese heisst read.csv(), man achte hier auf das Detail: Statt eines Unterstrichs _ wird bei der R-Basisfunktion ein Punkt . zwischen den beiden Wörtern read und csv verwendet. Wenn ihr mit dem Tidyverse und mit Tibbles arbeitet (wie in diesem Buch durchgängig), dann achtet darauf, stets die readr-Funktion read_csv() zu verwenden, weil nur diese die Daten als Tibble zurückgibt und zudem einige paar nützliche Zusatzfunktionen bietet.\nNur bestimmte Spalten laden\nDie read_csv()-Funktion erlaubt direkt beim Laden der Daten eine Auswahl der Spalten vorzunehmen. Ich empfehle hier immer die Verwendung der select-Funktion, die wir im nächsten Abschnitt kennenlernen werden. Dennoch möchte ich kurz demonstrieren, wie das Filtern der Spalten direkt beim Laden funktioniert.\nDer folgende Code lädt die Spalten order_id, name, sowie alle Spalten, deren Name mit “customer” beginnen:\n\norders &lt;- read_csv(\n  \"data/orders.csv\",\n  col_select = c(order_id, name, starts_with(\"customer\")))\n\nIm Ergebnis ist der resultierende Tibble dann sehr viel schmaler und beinhaltet nur die gewünschten Spalten:\n\ncolnames(orders)\n\n [1] \"order_id\"                             \n [2] \"name\"                                 \n [3] \"customer_id\"                          \n [4] \"customer_accepts_marketing\"           \n [5] \"customer_accepts_marketing_updated_at\"\n [6] \"customer_marketing_opt_in_level\"      \n [7] \"customer_sms_marketing_consent\"       \n [8] \"customer_created_at\"                  \n [9] \"customer_updated_at\"                  \n[10] \"customer_gender\"                      \n[11] \"customer_is_hsos\"                     \n[12] \"customer_state\"                       \n[13] \"customer_orders_count\"                \n[14] \"customer_total_spent\"                 \n[15] \"customer_last_order_id\"               \n[16] \"customer_note\"                        \n[17] \"customer_verified_email\"              \n[18] \"customer_tax_exempt\"                  \n[19] \"customer_tags\"                        \n[20] \"customer_last_order_name\"             \n\n\nHat man nur eine Filterbedingung, so kann man sich die c()-Funktion auch sparen:\n\norders &lt;- read_csv(\"data/orders.csv\", col_select = starts_with(\"shipping\"))\n\nDas Ergebnis:\n\ncolnames(orders)\n\n[1] \"shipping_address_city\"      \"shipping_address_zip\"      \n[3] \"shipping_address_country\"   \"shipping_address_latitude\" \n[5] \"shipping_address_longitude\"\n\n\nIst man auf möglichst wenige Zeilen Code aus, so kann die Verwendung des col_types-Parameters durchaus Sinn ergeben. Man könnte den gleichen Effekt auch mit einem anschließenden select erzielen:\n\norders &lt;- read_csv(\"data/orders.csv\") |&gt;\n  select(starts_with(\"shipping\"))\n\nMehr zur Auswahl von Spalten mit dplyr erfahrt ihr in ?sec-select_columns.\nDas Dezimaltrennzeichen bestimmen\nWollen wir nur das Dezimaltrennzeichen ändern, weil wir zum Beispiel Daten aus einem deutschen System exportiert haben, das ein Komma verwendet, so können wir das über den locale-Parameter erreichen. Im Beispiel unten verwenden wir zusätzlich das Pipe-Symbol | als Trennzeichen. Beides können wir über read_delim einstellen:\n\n# Daten in sales.csv\n# year,month,turnover\n# 2022|01|2700,85\n# 2022|02|2910,10\n# 2022|03|1802,37\n\nturnover &lt;- \n  read_delim(\n    \"sales.csv\",\n    delim = \"|\",\n    locale = locale(decimal_mark = \",\")\n    )\n\nDas Ergebnis:\n\n\n# A tibble: 3 x 3\n   year month turnover\n  &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt;\n1  2022 01       2701.\n2  2022 02       2910.\n3  2022 03       1802.\n\n\nDatentypen beim Laden setzen\nBeim Laden mit read_csv wird möglicherweise der Datentyp einiger Spalten falsch erkannt. Die Funktion betrachtet die ersten Zeilen und ermittelt darauf basierend den Datentyp. Wird dieser falsch erkannt, so können wir den Datentyp für Spalten explizit angeben. Wie auch das Auswählen von Spalten können wir den Datentyp schon beim Laden mitgeben. Alternativ können wir den Datentyp auch später mit mutate noch verändern.\n\n\n\n\n\n\nManchmal hilft es schon, den Parameter guess_max auf einen größeren Wert zu setzen. Dieser bestimmt, wie viele Werte die Funktion betrachtet, um daraus den Datentyp einer Spalte abzuleiten. Standardmäßig ist dieser Wert auf 1000 begrenzt.\n\n\n\nIn unserem Datensatz orders.csv sind tatsächlich einige Datentypen falsch erkannt worden. Etwa die Spalte order_id, die als Datentyp double erkannt wird. Auch wenn die Werte allesamt als Dezimalzahlen betrachtet werden können, handelt es sich bei einer Bestellnummer nicht um eine Zahl in dem Sinne, dass man damit rechnen möchte. Es ist vielmehr eine Zeichenfolge, die per Konvention nur aus Zahlen besteht (aber nicht müsste). Der Datentyp character wäre somit angebrachter. Das können wir wie folgt ändern:\n\norders &lt;- read_csv(\"data/orders.csv\",\n                   col_types = list(\"order_id\" = col_character()))\n\n# Die Spalte order_id ist jetzt vom Typ &lt;chr&gt;\norders |&gt;\n  select(order_id)\n\n# A tibble: 2,874 x 1\n   order_id     \n   &lt;chr&gt;        \n 1 1130007101519\n 2 1130014965839\n 3 1130026958927\n 4 1130030563407\n 5 1130038853711\n 6 1130045964367\n 7 1130050519119\n 8 1130060283983\n 9 1130102194255\n10 1130106880079\n# i 2,864 more rows\n\n\nDas Gleiche können wir mit beliebig vielen Spalten gleichzeitig durchführen. Denn auch die beiden Spalten mit Postleitzahlen wurden fälschlicherweise als double erkannt:\n\norders &lt;- read_csv(\"data/orders.csv\",\n                   col_types = list(\n                     \"order_id\" = col_character(),\n                     \"app_id\" = col_character(),\n                     \"billing_address_zip\"= col_character(),\n                     \"shipping_address_zip\"= col_character()\n                     )\n                   )\n\n# Die Spalte order_id ist jetzt vom Typ &lt;chr&gt;\norders |&gt;  \n  select(order_id, app_id, billing_address_zip, shipping_address_zip)\n\n# A tibble: 2,874 x 4\n   order_id      app_id billing_address_zip shipping_address_zip\n   &lt;chr&gt;         &lt;chr&gt;  &lt;chr&gt;               &lt;chr&gt;               \n 1 1130007101519 580111 49610               &lt;NA&gt;                \n 2 1130014965839 580111 49088               49088               \n 3 1130026958927 580111 49080               &lt;NA&gt;                \n 4 1130030563407 580111 45888               &lt;NA&gt;                \n 5 1130038853711 580111 49356               &lt;NA&gt;                \n 6 1130045964367 580111 49477               &lt;NA&gt;                \n 7 1130050519119 580111 49090               49090               \n 8 1130060283983 580111 48356               48356               \n 9 1130102194255 580111 49090               49090               \n10 1130106880079 580111 49090               &lt;NA&gt;                \n# i 2,864 more rows\n\n\nDaten von einem Webserver laden\nDie CSV-Datei muss nicht lokal auf dem eigenen Rechner vorliegen, sondern kann mit read_csv über das HTTP-Protkoll direkt von einem Webserver im Internet abgerufen werden. Dabei wird die URL anstelle des lokalen Dateinamens der Funktion übergeben. Der Code unten lädt die tagesaktuelle Version des Covid-19-Datensatzes, der auf den Servern von Our World in Data gehostet wird:\n\ncovid &lt;- read_csv(\"https://covid.ourworldindata.org/data/owid-covid-data.csv\")",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Daten laden</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Daten laden</span>"
     ]
   },
   {
     "objectID": "chapters/data/load_data.html#excel-dateien",
     "href": "chapters/data/load_data.html#excel-dateien",
-    "title": "\n23  Daten laden\n",
+    "title": "\n24  Daten laden\n",
     "section": "Excel-Dateien",
     "text": "Excel-Dateien\nMicrosoft Excel ist ein Programm, das in vielen Unternehmen der Standard für die Arbeit mit Daten verschiedenster Art darstellt. Aus diesem Grund ist es notwendig, dass wir auch dieses Format mit R einlesen und weiterverarbeiten können. Mit dem readxl Paket stehen alle notwendigen Funktionen dafür bereit.\n\nlibrary(readxl)",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Daten laden</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Daten laden</span>"
     ]
   },
   {
     "objectID": "chapters/data/load_data.html#übungen",
     "href": "chapters/data/load_data.html#übungen",
-    "title": "\n23  Daten laden\n",
+    "title": "\n24  Daten laden\n",
     "section": "Übungen",
     "text": "Übungen\n\nLadet den tagesaktuellen Datensatz für die Covid-Daten, lasst aber nur die Spalten date, location und new_cases_smoothed_per_million im Ergebnis!\nKorrigiert alle falsch als &lt;dbl&gt; erkannten ID-Spalten im Campusbier-Verkaufsdatensatz direkt beim Laden der Daten und wandelt sich in &lt;chr&gt; um.",
     "crumbs": [
       "Daten",
-      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Daten laden</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Daten laden</span>"
     ]
   },
   {

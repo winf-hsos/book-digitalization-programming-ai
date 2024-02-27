@@ -1,0 +1,72 @@
+# Problemlösung
+
+*Vom simpelsten Programm bis hin zur fortschrittlichsten Künstlichen Intelligenz – all das können wir auf ein grundlegendes Modell reduzieren. Das ist unser Startpunkt in die Welt der Digitalisierung.*
+
+## Ein Modell für die Problemlösung
+
+Als ehemaliger Unternehmensberater habe ich gelernt, den Begriff "Problem" zu vermeiden, weil er negativ konnotiert ist. Stattdessen spricht man von besser von Herausforderungen, was den positiven Aspekt hervorhebt. In diesem Kapitel ist der Begriff "Problem" abstrakter gemeint. Es geht um das Bewältigen einer Aufgabe, die komplex, wie das Durchsuchen von mehreren Milliarden Datensätzen, oder einfach, wie das Addieren von 1 und 1, sein kann.
+
+Egal, wie komplex das Problem ist, wir können seine Lösung mithilfe eines digitalen Computers auf ein einfaches Modell reduzieren. Dieses Modell werden wir im Laufe des Buches an verschiedenen Stellen wiedersehen. Das Modell in @fig-model-problem-solving hat drei Bestandteile:
+
+1.  Die **Eingabe** ist das, was wir zur genaueren Beschreibung des Problems wissen müssen. Das können etwa die zwei Zahlen sein, die miteinander addiert werden sollen. Oder sind die Milliarden Datensätze zusammen mit der Information, wonach wir suchen.
+
+2.  Die Beschreibung der notwendigen Schritte, um das Problem auf Basis der Eingabe zu lösen. Später werden wir hierfür den Begriff **Algorithmus** einführen.
+
+3.  Die **Ausgabe** ist Repräsentation der Lösung des Problems. Das kann eine Zahl sein, wie das Ergebnis der Addition zweier Zahlen. Es kann auch ein Datensatz sein, der aus mehreren Milliarden als der Gesuchte erkannt wurde.
+
+![Ein Modell für das Lösen von Problemen.](https://winf-hsos.github.io/university-docs/images/problem_model_input_solution_output.png){#fig-model-problem-solving}
+
+Nehmen wir das Beispiel der Addition zweier ganzer Zahlen $a$ und $b$. Die Eingabe besteht für dieses einfache Problem aus konkreten Werten für $a$ und $b$. Die Lösung für das Problem bekommen wir, wenn wir den Additionsoperator $+$ auf die beiden Zahlen aus der Eingabe anwenden. Als Ergebnis bekommen wir die sogenannte Summe, die wir mit $s$ abkürzen. Also: $a + b = s$
+
+![Addition als Beispiel für das Lösen eines Problems.](https://winf-hsos.github.io/university-docs/images/problem_example_addition.png)
+
+## Problemlösung als Informationsverarbeitung
+
+![Ein Modell für die Informationsverarbeitung digitaler Computer.](https://winf-hsos.github.io/university-docs/images/computational_schema_processing_representation.png){#fig-model-computation-general}
+
+## Problemlösungsstrategien
+
+### Teilen und erobern
+
+Die wichtigste Strategie für die Lösung komplexer Probleme ist die Analyse des Problems und die Idenfizierung von kleineren Teilproblemen, die einfacher zu lösen sind. Durch das Zusammensetzen der einzelnen Teillösungen wird am Ende das große Problem gelöst. Diesen Ansatz nennt man auch *Divide and Conquer*, was auf Deutsch übersetzt etwa "Teilen und erobern" heißt.
+
+![Ein großes, komplexes Problem](https://winf-hsos.github.io/university-docs/images/large_complex_problem.png){#fig-large-problem}
+
+![Ein großes, komplexes Problem in vier kleinere Teile zerlegt.](https://winf-hsos.github.io/university-docs/images/large_complex_problem_4_smaller_problems.png){#fig-large-problem-four-pieces}
+
+![Teilprobleme können weiter zerlegt werden, um sie noch einfacher lösen zu können.](https://winf-hsos.github.io/university-docs/images/large_complex_problem_5_smaller_problems.png){#fig-large-problem-five-pieces}
+
+### Verteilte Verarbeitung and Parallelisierung
+
+Manche Probleme lassen sich nicht nur in kleinere Teile zerlegen, die dann einzeln lösbar sind, sondern die einzelnen Teile sind dazu noch unabhängig voneinander lösbar. In diesem Fall müssen die Teile nicht sequenziell hintereinander bearbeitet werden, sondern wir haben die Möglichkeit, die Lösung der Teilprobleme zu parallelisieren.
+
+![Das Wörterzählen als Informationsverarbeitungsproblem](https://winf-hsos.github.io/university-docs/images/problem_word_count.png){#fig-proble-count-words}
+
+![Wir könnten jede Seite nacheinander bearbeiten und die Wörter zählen](https://winf-hsos.github.io/university-docs/images/problem_word_count_linear_sequential.png)
+
+![Wir könnten die Seiten auch auf zwei Studierende aufteilen.](https://winf-hsos.github.io/university-docs/images/problem_word_count_distributed_2.png)
+
+![Das Problem lässt sich auf beliebig viele Schultern verteilen](https://winf-hsos.github.io/university-docs/images/problem_word_count_distributed_4.png)
+
+![Parallelisierte Lösung des Problems](https://winf-hsos.github.io/university-docs/images/problem_word_count_parallelized.png)
+
+## Übungen {.unnumbered}
+
+1.  Formuliert drei weitere Probleme mithilfe des vorgestellten Modells für die Problemlösung mittels digitaler Computer. Nennt jeweils die Eingabe, Lösung und die Ausgabe des Problems!
+
+2.  Überlegt für jedes der folgenden Probleme, wie ihr es in kleinere Teilprobleme zerlegen könntet:
+
+    a.  Die Prüfung im Fach "Wirtschaftsinformatik" erfolgreich bestehen!
+    
+    b.  Ein Haus bauen
+    
+    c.  Einen Marathon laufen
+    
+    
+3.  Analysiert die folgenden Probleme und prüft, ob ihr die Schritte zur Lösung verteilen und parallelisieren könnt!
+
+    a.  Literaturrecherche für eure Abschlussarbeit
+    
+    b.  Repräsentative Befragung zur Bundestagswahl
+    
+    c.  Ein Haus bauen

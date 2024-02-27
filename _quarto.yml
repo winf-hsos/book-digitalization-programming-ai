@@ -22,7 +22,7 @@ book:
 
     - part: parts/part_1_representation.qmd
       chapters:
-        - chapters/representation/problems.qmd
+        - chapters/representation/problem_solving.qmd
         - chapters/representation/information.qmd
         - chapters/representation/counting.qmd
         - chapters/representation/bits.qmd
@@ -32,8 +32,9 @@ book:
     - part: parts/part_2_processing.qmd
       chapters:
         - chapters/processing/algorithms.qmd
-        - chapters/processing/logic.qmd
+        - chapters/processing/computers.qmd
         - chapters/processing/arithmetic.qmd
+        - chapters/processing/memory.qmd
         - chapters/processing/analog_digital.qmd
 
     - part: parts/part_2_programming.qmd

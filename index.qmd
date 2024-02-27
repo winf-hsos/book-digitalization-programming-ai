@@ -4,7 +4,7 @@
 
 Die folgende Abbildung zeigt die Kompetenzen, die in diesem Buch vermittelt werden. Die unteren drei Blöcke stehen für das Wissen, wie Informationen in digitalen Computern abgebildet werden (*representation*), wie sie verarbeitet werden (*processing*) und wie wir beides für unsere Zwecke einsetzen können, um Probleme zu lösen (*programming*). Diese Bereiche sind die Grundlagen der Digitalisierung und deren Beherrschung ist die Voraussetzung für eine weitergehende Auseinandersetzung mit dem Thema. Diese erfolgt im Rahmen dieses Buches mit der Betrachtung der beiden wichtigsten Anwendungsfelder der Digitalisierung aus Sicht einer digital mündigen Person. Zum einen steigen wir in die Hintergründe der Künstlichen Intelligenz (*artificial intelligence*) ein, eine Entwicklung, die ein nie zuvor gesehenens Transformationspotenzial besitzt. Als zweite Säule digitaler Anwendungen beschäftigen wir uns mit den Möglichkeiten der Datenanalyse (*data analysis*), die durch die wachsende Menge digitaler Prozesse und Daten jeden Tag an Relevanz gewinnt.
 
-![](https://winf-hsos.github.io/university-docs/images/digital_literacy_skills.png)
+![](https://winf-hsos.github.io/university-docs/images/digital_literacy_skills_with_languages.png)
 
 ## Material
 
