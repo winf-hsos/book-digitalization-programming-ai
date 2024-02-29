@@ -367,7 +367,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhalt</h2>
+   
+  <ul>
+  <li><a href="#pixel" id="toc-pixel" class="nav-link active" data-scroll-target="#pixel">Pixel</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -391,6 +397,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="pixel" class="level2">
+<h2 class="anchored" data-anchor-id="pixel">Pixel</h2>
+<p>Der Begriff <em>Pixel</em> setzt sich aus den beiden Wörtern <em>Picture Element</em> zusammen.</p>
 <div id="fig-heart-pixel-matrix" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-heart-pixel-matrix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -401,22 +410,18 @@ Abbildung&nbsp;5.1: Ein Herz als Pixelmatrix.
 </figcaption>
 </figure>
 </div>
-<div id="fig-char-a-pixel-matrix" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-char-a-pixel-matrix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://winf-hsos.github.io/university-docs/images/codes_ascii_character_a_pixel_bits.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2"><img src="https://winf-hsos.github.io/university-docs/images/codes_ascii_character_a_pixel_bits.png" class="img-fluid figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-char-a-pixel-matrix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;5.2: Der Buchstabe “A” als Bitfolge kodiert.
-</figcaption>
-</figure>
-</div>
+<p><img src="https://winf-hsos.github.io/university-docs/images/codes_ascii_character_a_pixel_bits.png" id="fig-char-a-pixel-matrix" class="img-fluid" alt="Der Buchstabe “A” als Bitfolge kodiert."> ## Übungen {.unnumbered}</p>
+<ol type="1">
+<li>Welche Textnachricht wurde hier mit ASCII kodiert?<br>
+<br>
+<code>01001000</code> <code>01100101</code> <code>01101100</code> <code>01101100</code> <code>01101111</code> <code>00101110</code></li>
+</ol>
 
 
 <div class="hidden" aria-hidden="true">
 <span class="glightbox-desc lightbox-desc-1">Abbildung&nbsp;5.1: Ein Herz als Pixelmatrix.</span>
-<span class="glightbox-desc lightbox-desc-2">Abbildung&nbsp;5.2: Der Buchstabe “A” als Bitfolge kodiert.</span>
 </div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -839,7 +844,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"closeEffect":"zoom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":false,"descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

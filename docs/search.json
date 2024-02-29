@@ -34,7 +34,7 @@
     "href": "index.html#inspiration-für-dieses-buch",
     "title": "Digital Literacy",
     "section": "Inspiration für dieses Buch",
-    "text": "Inspiration für dieses Buch\nIn dieses Buch sind viele Ideen aus den CS50-Kursen von David J. Malan und seinem fantastischen Team eingeflossen. Ich kann die Kurse sehr empfehlen und euch speziell als Ergänzung zu diesem Buch die folgenden ans Herz legen:\n\nCS50’s Introduction to Programming with Python (2022)\nCS50: Introduction to Computer Science (2023)\n\nBesonders im ersten Teilen dieses Buchs, in denen es um die Grundlagen der Digitalisierung und digitaler Computer geht, hat mich Charles Petzold (2022) mit seinem Buch Code: The Hidden Language of Computer Hardware and Software inspiriert. Es ist ein verständlich geschriebenes und gut lesbares Buch, das mittlerweile in der zweiten Auflage vorliegt. Ich empfehle es allen, die sich für die Grundlagen der Informatik interessieren.\nIm Teil zur Datenanalyse greife ich auf viele Ideen und Beispiele aus dem Klassiker R for Data Science von Hadley Wickham (2023) zurück. Dieses Buch wurde 2023 als überarbeitete zweite Auflage veröffentlicht und ist die beste Einführung in die explorative Datenanalyse mit R, die ich kenne. Dazu empfehle ich den Onlinekurs CS50R - Introdiction to Programming with R von Carter Zenke, dessen Vorlesungen allesamt auf YouTube zu finden sind.\n\n\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer Hardware and Software. 2nd ed. Hoboken: Microsoft Press.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023. R for data science: import, tidy, transform, visualize, and model data. 2nd edition. Sebastopol, CA: O’Reilly Media, Inc.",
+    "text": "Inspiration für dieses Buch\nIn dieses Buch sind viele Ideen aus den CS50-Kursen von David J. Malan und seinem fantastischen Team eingeflossen. Ich kann die Kurse sehr empfehlen und euch speziell als Ergänzung zu diesem Buch die folgenden ans Herz legen:\n\nCS50’s Introduction to Programming with Python (2022)\nCS50: Introduction to Computer Science (2023)\n\nBesonders im ersten Teilen dieses Buchs, in denen es um die Grundlagen der Digitalisierung und digitaler Computer geht, hat mich Charles Petzold (2022) mit seinem Buch Code: The Hidden Language of Computer Hardware and Software inspiriert. Es ist ein verständlich geschriebenes und gut lesbares Buch, das mittlerweile in der zweiten Auflage vorliegt. Ich empfehle es allen, die sich für die Grundlagen der Informatik interessieren.\nAuch das klassische Lehrbuch von Brookshear and Brylow (2020) in der 13. Ausgabe von kann ich empfehlen, wenn auch nicht alle Kapitel daraus für den Nicht-Informatiker relevant sind. Besonders in den Kapiteln 1, 2 und 5 können einige der in hier behandelten Themen nachgelesen werden.\nIm Teil zur Datenanalyse greife ich auf viele Ideen und Beispiele aus dem Klassiker R for Data Science von Hadley Wickham (2023) zurück. Dieses Buch wurde 2023 als überarbeitete zweite Auflage veröffentlicht und ist die beste Einführung in die explorative Datenanalyse mit R, die ich kenne. Dazu empfehle ich den Onlinekurs CS50R - Introdiction to Programming with R von Carter Zenke, dessen Vorlesungen allesamt auf YouTube zu finden sind.\n\n\n\n\nBrookshear, J. Glenn, and Dennis Brylow. 2020. Computer Science: An Overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer Hardware and Software. 2nd ed. Hoboken: Microsoft Press.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023. R for data science: import, tidy, transform, visualize, and model data. 2nd edition. Sebastopol, CA: O’Reilly Media, Inc.",
     "crumbs": [
       "Vorwort"
     ]
@@ -44,7 +44,7 @@
     "href": "parts/part_1_representation.html",
     "title": "Repräsentation",
     "section": "",
-    "text": "In Kapitel 1 schauen wir uns an, wie Abbildung von Problemen der realen Welt und deren Lösung in einem Computer mittels eines einfachen Modells erfolgen kann. Anschließend betrachten wir unterschiedliche Problemlösungsstrategien.\nIn Kapitel 2 klären wir zuerst den Informationsbegriff und lernen, wie wir mit Symbolen beliebige Informationen oder Nachrichten darstellen können. Außerdem führen wir das Bit als Maßeinheit für Informationen ein und erarbeiten uns eine einfache Formel für dessen Berechnung.\nIn Kapitel 3 ordnen wir das Binärsystem ein und erkennen, dass es sich nicht grundsätzlich vom Dezimalsystem unterscheidet, mit dem wir im Alltag verschiedene Dinge zählen. Das Binärsystem beruht auf zwei Zuständen, genau wie das Bit auch, und ist zudem von großer Bedeutung für digitale Computer.",
+    "text": "In Kapitel 1 schauen wir uns an, wie Abbildung von Problemen der realen Welt und deren Lösung in einem Computer mittels eines einfachen Modells erfolgen kann. Anschließend betrachten wir unterschiedliche Problemlösungsstrategien.\nIn Kapitel 2 klären wir zuerst den Informationsbegriff und lernen, wie wir mit Symbolen beliebige Informationen oder Nachrichten darstellen können. Außerdem führen wir das Bit als Maßeinheit für Informationen ein und erarbeiten uns eine einfache Formel für dessen Berechnung.\nIn Kapitel 3 ordnen wir das Binärsystem ein und erkennen, dass es sich nicht grundsätzlich vom Dezimalsystem unterscheidet, mit dem wir im Alltag verschiedene Dinge zählen. Das Binärsystem beruht auf zwei Zuständen, genau wie das Bit auch, und ist zudem von großer Bedeutung für digitale Computer.\nIn",
     "crumbs": [
       "Repräsentation"
     ]
@@ -153,7 +153,18 @@
     "href": "chapters/representation/information.html#morse-code",
     "title": "2  Information",
     "section": "Morse Code",
-    "text": "Morse Code\nHier können Interessierte sich das gesamte Alphabet als Morse Code in Audioform anhören\n\n\n\nAbbildung 2.1: Ein Schachbrett im Endspiel. Der weiße König steht auf d1.\nAbbildung 2.2: Der Bauer bewegt sich von c2 nach c4, was wir mit der Zeichenkette c2c4 darstellen.\nAbbildung 2.3: Mit 2 Stellen und 3 Symbolen gibt es 9 Möglichkeiten.\nAbbildung 2.4: Mit 2 Stellen und 4 Symbolen gibt es 16 Möglichkeiten.\nAbbildung 2.5: Mit 2 Stellen und 5 Symbolen gibt es 25 Möglichkeiten.",
+    "text": "Morse Code\nHier können Interessierte sich das gesamte Alphabet als Morse Code in Audioform anhören",
+    "crumbs": [
+      "Repräsentation",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Information</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/representation/information.html#weiterlesen",
+    "href": "chapters/representation/information.html#weiterlesen",
+    "title": "2  Information",
+    "section": "Weiterlesen",
+    "text": "Weiterlesen\nAdami (2016)\n\n\n\nAbbildung 2.1: Ein Schachbrett im Endspiel. Der weiße König steht auf d1.\nAbbildung 2.2: Der Bauer bewegt sich von c2 nach c4, was wir mit der Zeichenkette c2c4 darstellen.\nAbbildung 2.3: Mit 2 Stellen und 3 Symbolen gibt es 9 Möglichkeiten.\nAbbildung 2.4: Mit 2 Stellen und 4 Symbolen gibt es 16 Möglichkeiten.\nAbbildung 2.5: Mit 2 Stellen und 5 Symbolen gibt es 25 Möglichkeiten.\n\n\n\nAdami, Christoph. 2016. “What Is Information?” Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.",
     "crumbs": [
       "Repräsentation",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Information</span>"
@@ -164,7 +175,18 @@
     "href": "chapters/representation/codes.html",
     "title": "5  Codes",
     "section": "",
-    "text": "Abbildung 5.1: Ein Herz als Pixelmatrix.\n\n\n\n\n\n\n\n\n\nAbbildung 5.2: Der Buchstabe “A” als Bitfolge kodiert.\n\n\n\n\n\n\nAbbildung 5.1: Ein Herz als Pixelmatrix.\nAbbildung 5.2: Der Buchstabe “A” als Bitfolge kodiert.",
+    "text": "Pixel\nDer Begriff Pixel setzt sich aus den beiden Wörtern Picture Element zusammen.\n## Übungen {.unnumbered}",
+    "crumbs": [
+      "Repräsentation",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Codes</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/representation/codes.html#pixel",
+    "href": "chapters/representation/codes.html#pixel",
+    "title": "5  Codes",
+    "section": "",
+    "text": "Abbildung 5.1: Ein Herz als Pixelmatrix.\n\n\n\n\n\nWelche Textnachricht wurde hier mit ASCII kodiert?\n\n01001000 01100101 01101100 01101100 01101111 00101110\n\n\n\n\nAbbildung 5.1: Ein Herz als Pixelmatrix.",
     "crumbs": [
       "Repräsentation",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Codes</span>"
@@ -426,7 +448,7 @@
     "href": "chapters/references.html",
     "title": "Literaturverzeichnis",
     "section": "",
-    "text": "Grolemund, Garrett. 2014. Hands-on Programming with\nR. First edition. Sebastopol, CA: O’Reilly.\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer\nHardware and Software. 2nd ed. Hoboken: Microsoft Press.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023.\nR for data science: import, tidy, transform, visualize, and model\ndata. 2nd edition. Sebastopol, CA: O’Reilly Media, Inc.",
+    "text": "Adami, Christoph. 2016. “What Is Information?”\nPhilosophical Transactions of the Royal Society A: Mathematical,\nPhysical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, and Dennis Brylow. 2020. Computer Science: An\nOverview. 13th edition, global edition. NY, NY: Pearson.\n\n\nGrolemund, Garrett. 2014. Hands-on Programming with\nR. First edition. Sebastopol, CA: O’Reilly.\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer\nHardware and Software. 2nd ed. Hoboken: Microsoft Press.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023.\nR for data science: import, tidy, transform, visualize, and model\ndata. 2nd edition. Sebastopol, CA: O’Reilly Media, Inc.",
     "crumbs": [
       "Literaturverzeichnis"
     ]

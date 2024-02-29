@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -412,6 +432,7 @@ window.Quarto = {
   <li><a href="#bedeutung" id="toc-bedeutung" class="nav-link" data-scroll-target="#bedeutung">Bedeutung</a></li>
   </ul></li>
   <li><a href="#morse-code" id="toc-morse-code" class="nav-link" data-scroll-target="#morse-code">Morse Code</a></li>
+  <li><a href="#weiterlesen" id="toc-weiterlesen" class="nav-link" data-scroll-target="#weiterlesen">Weiterlesen</a></li>
   </ul>
 </nav>
     </div>
@@ -450,7 +471,7 @@ window.Quarto = {
 <div id="fig-chessboard-1" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-chessboard-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://winf-hsos.github.io/university-docs/images/chess_1.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2"><img src="https://winf-hsos.github.io/university-docs/images/chess_1.png" class="img-fluid figure-img"></a>
+<a href="https://winf-hsos.github.io/university-docs/images/chess_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2"><img src="https://winf-hsos.github.io/university-docs/images/chess_1.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-chessboard-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;2.1: Ein Schachbrett im Endspiel. Der weiße König steht auf d1.
@@ -460,7 +481,7 @@ Abbildung&nbsp;2.1: Ein Schachbrett im Endspiel. Der weiße König steht auf d1.
 <div id="fig-chess-move" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-chess-move-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://winf-hsos.github.io/university-docs/images/chess_move.png" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3"><img src="https://winf-hsos.github.io/university-docs/images/chess_move.png" class="img-fluid figure-img"></a>
+<a href="https://winf-hsos.github.io/university-docs/images/chess_move.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-glightbox="description: .lightbox-desc-3"><img src="https://winf-hsos.github.io/university-docs/images/chess_move.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-chess-move-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;2.2: Der Bauer bewegt sich von c2 nach c4, was wir mit der Zeichenkette c2c4 darstellen.
@@ -480,7 +501,7 @@ Abbildung&nbsp;2.2: Der Bauer bewegt sich von c2 nach c4, was wir mit der Zeiche
 <div id="fig-perm-3-n2" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-perm-3-n2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://winf-hsos.github.io/university-docs/images/permutations_abc_n2.png" class="lightbox" data-glightbox="description: .lightbox-desc-4" data-gallery="quarto-lightbox-gallery-4"><img src="https://winf-hsos.github.io/university-docs/images/permutations_abc_n2.png" class="img-fluid figure-img"></a>
+<a href="https://winf-hsos.github.io/university-docs/images/permutations_abc_n2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" data-glightbox="description: .lightbox-desc-4"><img src="https://winf-hsos.github.io/university-docs/images/permutations_abc_n2.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-perm-3-n2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;2.3: Mit 2 Stellen und 3 Symbolen gibt es 9 Möglichkeiten.
@@ -491,7 +512,7 @@ Abbildung&nbsp;2.3: Mit 2 Stellen und 3 Symbolen gibt es 9 Möglichkeiten.
 <div id="fig-perm-4-n2" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-perm-4-n2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://winf-hsos.github.io/university-docs/images/permutations_abcd_n2.png" class="lightbox" data-glightbox="description: .lightbox-desc-5" data-gallery="quarto-lightbox-gallery-5"><img src="https://winf-hsos.github.io/university-docs/images/permutations_abcd_n2.png" class="img-fluid figure-img"></a>
+<a href="https://winf-hsos.github.io/university-docs/images/permutations_abcd_n2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" data-glightbox="description: .lightbox-desc-5"><img src="https://winf-hsos.github.io/university-docs/images/permutations_abcd_n2.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-perm-4-n2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;2.4: Mit 2 Stellen und 4 Symbolen gibt es 16 Möglichkeiten.
@@ -508,7 +529,7 @@ Abbildung&nbsp;2.4: Mit 2 Stellen und 4 Symbolen gibt es 16 Möglichkeiten.
 <div id="fig-perm-5-n2" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-perm-5-n2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://winf-hsos.github.io/university-docs/images/permutations_abcde_n2.png" class="lightbox" data-glightbox="description: .lightbox-desc-6" data-gallery="quarto-lightbox-gallery-6"><img src="https://winf-hsos.github.io/university-docs/images/permutations_abcde_n2.png" class="img-fluid figure-img"></a>
+<a href="https://winf-hsos.github.io/university-docs/images/permutations_abcde_n2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" data-glightbox="description: .lightbox-desc-6"><img src="https://winf-hsos.github.io/university-docs/images/permutations_abcde_n2.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-perm-5-n2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;2.5: Mit 2 Stellen und 5 Symbolen gibt es 25 Möglichkeiten.
@@ -551,6 +572,10 @@ N = R^n
 <section id="morse-code" class="level2">
 <h2 class="anchored" data-anchor-id="morse-code">Morse Code</h2>
 <p><a href="https://upload.wikimedia.org/wikipedia/commons/9/9e/A_through_Z_in_Morse_code.ogg">Hier</a> können Interessierte sich das gesamte Alphabet als Morse Code in Audioform anhören</p>
+</section>
+<section id="weiterlesen" class="level2">
+<h2 class="anchored" data-anchor-id="weiterlesen">Weiterlesen</h2>
+<p><span class="citation" data-cites="adami_what_2016">Adami (<a href="../references.html#ref-adami_what_2016" role="doc-biblioref">2016</a>)</span></p>
 
 
 <div class="hidden" aria-hidden="true">
@@ -559,6 +584,11 @@ N = R^n
 <span class="glightbox-desc lightbox-desc-4">Abbildung&nbsp;2.3: Mit 2 Stellen und 3 Symbolen gibt es 9 Möglichkeiten.</span>
 <span class="glightbox-desc lightbox-desc-5">Abbildung&nbsp;2.4: Mit 2 Stellen und 4 Symbolen gibt es 16 Möglichkeiten.</span>
 <span class="glightbox-desc lightbox-desc-6">Abbildung&nbsp;2.5: Mit 2 Stellen und 5 Symbolen gibt es 25 Möglichkeiten.</span>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-adami_what_2016" class="csl-entry" role="listitem">
+Adami, Christoph. 2016. <span>“What Is <span>Information</span>?”</span> <em>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</em> 374 (2063): 20150230. <a href="https://doi.org/10.1098/rsta.2015.0230">https://doi.org/10.1098/rsta.2015.0230</a>.
+</div>
 </div>
 </section>
 
@@ -983,7 +1013,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -12,7 +12,7 @@ Doch ein Problem stand im Weg: In der Schulzeit war es ihnen nicht gestattet, sp
 
 Glücklicherweise bot sich eine Lösung an: Die Fenster ihrer Kinderzimmer waren so positioniert, dass sie direkten Sichtkontakt zueinander hatten. Licht anzumachen war keine Option – das hätten die Eltern sofort bemerkt. Doch beide hatten zu ihrem letzten Geburtstag je eine Taschenlampe geschenkt bekommen...
 
-![](https://winf-hsos.github.io/university-docs/images/flashlight.png) 
+![](https://winf-hsos.github.io/university-docs/images/flashlight.png)
 
 Hier endet die Geschichte von Max und Ida und ihrer Leidenschaft für Schach. Nun setzen wir unsere Reise in die digitale Welt fort und stellen uns die Frage: Wie können Max und Ida mit nichts weiter als einer Taschenlampe ihre Schachzüge kommunizieren?
 
@@ -32,8 +32,7 @@ Information existiert nur, wenn wir die Freiheit haben, innerhalb einer Sequenz 
 
 Stellt euch vor, unser Alphabet bestünde nur aus dem Buchstaben "A", und zwar ausschließlich in Großbuchstaben. Nehmen wir weiter an, eine Sequenz - oder Nachricht - dürfte genau zwei Zeichen lang sein. Können wir unter diesen Bedingungen Informationen übermitteln? Die Antwort ist *nein*, denn unsere einzige Nachricht wäre immer "AA". Mit diesen Einschränkungen ist unsere Nachricht wertlos, da sie keine Information trägt.
 
-Erst die Variation der Symbole innerhalb einer Nachricht, und damit die Erzeugung unterschiedlicher Nachrichten, ermöglicht die Entstehung von Information. Fügen wir dem "A" ein "B" hinzu, ergeben sich bereits vier mögliche Nachrichten mit der Länge von zwei Zeichen: AA, AB, BA, BB. 
-
+Erst die Variation der Symbole innerhalb einer Nachricht, und damit die Erzeugung unterschiedlicher Nachrichten, ermöglicht die Entstehung von Information. Fügen wir dem "A" ein "B" hinzu, ergeben sich bereits vier mögliche Nachrichten mit der Länge von zwei Zeichen: AA, AB, BA, BB.
 
 Mit einem dritten Symbol, "C", erweitert sich unser Repertoire auf neun Nachrichten:
 
@@ -46,7 +45,7 @@ Fügen wir ein viertes Symbol, "D", hinzu, erreichen wir schon 16 mögliche Nach
 Interessanterweise scheint die Anzahl möglicher Nachrichten mit der Quadratzahl der verfügbaren Symbole zu steigen:
 
 -   1 Symbol → 1 Nachricht
--   2 Symbole →  4 Nachrichten
+-   2 Symbole → 4 Nachrichten
 -   3 Symbole → 9 Nachrichten
 
 Bei fünf Symbolen wären es demnach 25 Nachrichten, was unsere Vermutung bestätigt:
@@ -85,15 +84,18 @@ wobei $R$ die Anzahl der Symbole und $n$ die Anzahl der Stellen in einer Nachric
 
 Wir wissen nun, das Information nur Variation entsteht und dass wir folglich unterschiedliche Nachrichten übermitteln können müssen, um Informationen zu teilen. Das bringt uns zurück zur Max und Idas Taschenlampe. Wenn beide auch nachts weiter Schach spielen wollen, müssen sie sich überlegen, welche Nachrichten sie verwenden wollen, um ihre Züge dem Gegenüber mitzuteilen. Dazu müssen sie sich zunächst einmal zwei Dinge überlegen:
 
-- Welche Symbole sollen in den Nachrichten verwendet werden?
-- Wie lang soll oder muss eine Nachricht sein?
+-   Welche Symbole sollen in den Nachrichten verwendet werden?
+-   Wie lang soll oder muss eine Nachricht sein?
 
 ### Bedeutung
 
-Max und Ida wissen jetzt, wie viele Symbole sie nutzen wollen und wie lang eine Nachricht sein muss, um die die vier Bestandteile eines Schachzuges zu übermitteln. Die beiden müssen sich nun noch darauf einigen, welche Nachricht welche Bedeutung bekommt. Die beiden benötigen ein *Codesystem*.
-driv
-
+Max und Ida wissen jetzt, wie viele Symbole sie nutzen wollen und wie lang eine Nachricht sein muss, um die die vier Bestandteile eines Schachzuges zu übermitteln. Die beiden müssen sich nun noch darauf einigen, welche Nachricht welche Bedeutung bekommt. Die beiden benötigen ein *Codesystem*. driv
 
 ## Morse Code
 
 [Hier](https://upload.wikimedia.org/wikipedia/commons/9/9e/A_through_Z_in_Morse_code.ogg) können Interessierte sich das gesamte Alphabet als Morse Code in Audioform anhören
+
+
+## Weiterlesen
+
+@adami_what_2016

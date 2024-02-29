@@ -1,7 +1,13 @@
 # Codes
 
+## Pixel
+
+Der Begriff *Pixel* setzt sich aus den beiden Wörtern *Picture Element* zusammen.
+
 ![Ein Herz als Pixelmatrix.](https://winf-hsos.github.io/university-docs/images/codes_heart_pixel.png){#fig-heart-pixel-matrix}
 
+![Der Buchstabe "A" als Bitfolge kodiert.](https://winf-hsos.github.io/university-docs/images/codes_ascii_character_a_pixel_bits.png){#fig-char-a-pixel-matrix} \## Übungen {.unnumbered}
 
-![Der Buchstabe "A" als Bitfolge kodiert.](https://winf-hsos.github.io/university-docs/images/codes_ascii_character_a_pixel_bits.png){#fig-char-a-pixel-matrix}
-
+1.  Welche Textnachricht wurde hier mit ASCII kodiert?\
+    \
+    `01001000` `01100101` `01101100` `01101100` `01101111` `00101110`

@@ -3,12 +3,12 @@ format:
   html:
     code-link: true
 ---
+
 # Daten laden
 
 ## CSV-Dateien
 
 Im ersten Schritt jeder Datenanalyse müssen wir unserem Computer den Datensatz zur Verfügung stellen. Wir sprechen dabei auch vom *Laden* des Datesatzes. Dabei sagen wir dem Computer, wo die Daten zu finden sind, und dass er sie für den schnelleren Zugriff in seinen Arbeitsspeicher holen soll.
-
 
 Daten liegen in den meisten Fällen in Form von Dateien vor. In manchen Fällen sind sie auch in einer Datenbank gespeichert. Im Fall einer Datei kann ein Datensatz in unterschiedlichen *Formaten* darin gespeichert werden. Ein gängiges Format ist das CSV-Format, das auf einfachen Textdateien basiert.
 
@@ -28,7 +28,7 @@ Auch das E-Commerce-System Shopify, aus dem die vorligenden Verkaufsdaten stamme
 
 CSV steht für *Comma Separated Values* und beschreibt ein Format, um *strukturierte Daten* in einer Textdatei abzuspeichern. Ihr erkennt eine Textdatei im CSV-Format an der Endung `.csv`.
 
-Das CSV-Format basiert auf einfachen Textkodierungen, häufig im UTF-8 oder ASCII-Kodierungssystem (letzeres immer seltener wegen der geringen Anzahl verfügbarer Zeichen), die mit fast jedem Werkzeug und Editor gelesen und bearbeitet werden können.  Das CSV-Format speichert strukturierte Daten in einer tabellarischen Form, ähnlich wie in Spreadsheets. Die erste Zeile einer CSV-Datei ist üblicherweise der sogenannte Header (Kopfzeile) und beinhaltet die Spaltennamen mit Komma oder Semikolon (Trennzeichen) voneinander getrennt. Jede weitere Zeile stellt eine Beobachtung (Englisch: *observation* oder *case*) oder auch Datensatz (Englisch: *record*) dar. Jeder Datensatz enthält für die im Header definierten Attribute (oder Spalten) die beobachteten Werte, die durch das gleiche Trennzeichen voneinander getrennt sind. Es muss nicht jeder Spaltenwert existieren. Sollte ein Wert für eine Beobachtung nicht vorhanden sein, so wird nach dem Komma nichts eingetragen und es folgen zwei Kommata nacheinander. In R werden fehlende Werte beim Einlesen erkannt und mit `NA` gekennzeichnet.
+Das CSV-Format basiert auf einfachen Textkodierungen, häufig im UTF-8 oder ASCII-Kodierungssystem (letzeres immer seltener wegen der geringen Anzahl verfügbarer Zeichen), die mit fast jedem Werkzeug und Editor gelesen und bearbeitet werden können. Das CSV-Format speichert strukturierte Daten in einer tabellarischen Form, ähnlich wie in Spreadsheets. Die erste Zeile einer CSV-Datei ist üblicherweise der sogenannte Header (Kopfzeile) und beinhaltet die Spaltennamen mit Komma oder Semikolon (Trennzeichen) voneinander getrennt. Jede weitere Zeile stellt eine Beobachtung (Englisch: *observation* oder *case*) oder auch Datensatz (Englisch: *record*) dar. Jeder Datensatz enthält für die im Header definierten Attribute (oder Spalten) die beobachteten Werte, die durch das gleiche Trennzeichen voneinander getrennt sind. Es muss nicht jeder Spaltenwert existieren. Sollte ein Wert für eine Beobachtung nicht vorhanden sein, so wird nach dem Komma nichts eingetragen und es folgen zwei Kommata nacheinander. In R werden fehlende Werte beim Einlesen erkannt und mit `NA` gekennzeichnet.
 
 Die Verwendung des Komma als Trennzeichen in CSV-Dateien ist keineswegs verbindlich, auch wenn es Bestandteil des Namens ist. Generell kann jedes Symbol verwendet werden. Häufige Alternativen sind das Semikolon, Leerzeichen oder ein Tabstop. Letzteres wird oft mit der eigenen Endung `.tsv` für *Tab Separated Values* gespeichert.
 
@@ -36,11 +36,13 @@ Die Verwendung des Komma als Trennzeichen in CSV-Dateien ist keineswegs verbindl
 
 Der Auschnitt unten zeigt die ersten vier Zeilen der `orders.csv`. Die erste Zeile enthält die Namen der hier gezeigten vier Spalten (der Datensatz hat mehr Spalten, das ist nur ein Auszug), die mit einem Komma voneinander getrennt sind. Darunter folgen drei beispielhafte Datensätze:
 
-    id,order_id,name,order_number,app_id,created_at
-    1130007101519,B1014,1014,580111,2019-05-24T14:59:16+02:00
-    1130014965839,B1015,1015,580111,2019-05-24T15:09:08+02:00
-    1130026958927,B1016,1016,580111,2019-05-24T15:22:41+02:00
-    ...
+```         
+id,order_id,name,order_number,app_id,created_at
+1130007101519,B1014,1014,580111,2019-05-24T14:59:16+02:00
+1130014965839,B1015,1015,580111,2019-05-24T15:09:08+02:00
+1130026958927,B1016,1016,580111,2019-05-24T15:22:41+02:00
+...
+```
 
 ### CSV-Daten laden mit `{readr}`
 
@@ -100,7 +102,7 @@ orders <- read_csv("data/orders.csv") |>
   select(starts_with("shipping"))
 ```
 
-Mehr zur Auswahl von Spalten mit `{dplyr}` erfahrt ihr in @sec-select_columns.
+Mehr zur Auswahl von Spalten mit `{dplyr}` erfahrt ihr in @sec-select-variables.
 
 #### Das Dezimaltrennzeichen bestimmen
 
@@ -205,5 +207,4 @@ covid <- read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv",
 covid
 ```
 
-
-2. Korrigiert alle falsch als `<dbl>` erkannten ID-Spalten im Campusbier-Verkaufsdatensatz direkt beim Laden der Daten und wandelt sich in `<chr>` um.
+2.  Korrigiert alle falsch als `<dbl>` erkannten ID-Spalten im Campusbier-Verkaufsdatensatz direkt beim Laden der Daten und wandelt sich in `<chr>` um.

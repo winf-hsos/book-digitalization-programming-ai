@@ -5,3 +5,5 @@ In Kapitel 1 schauen wir uns an, wie Abbildung von Problemen der realen Welt und
 In Kapitel 2 klären wir zuerst den Informationsbegriff und lernen, wie wir mit Symbolen beliebige Informationen oder Nachrichten darstellen können. Außerdem führen wir das Bit als Maßeinheit für Informationen ein und erarbeiten uns eine einfache Formel für dessen Berechnung.
 
 In Kapitel 3 ordnen wir das Binärsystem ein und erkennen, dass es sich nicht grundsätzlich vom Dezimalsystem unterscheidet, mit dem wir im Alltag verschiedene Dinge zählen. Das Binärsystem beruht auf zwei Zuständen, genau wie das Bit auch, und ist zudem von großer Bedeutung für digitale Computer.
+
+In

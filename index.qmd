@@ -14,7 +14,7 @@ Die Abbildungen aus diesem Buch entstammen den zugehörigen Vorlesungsfolien und
 
     -   [Google Slides](https://docs.google.com/presentation/d/1uxnlvUs4Ik6eqZOXSicL0H2OwoqFmDLiwREq3sD1C9A/edit?usp=sharing)
     -   [PDF](https://winf-hsos.github.io/university-docs/google_slides/wirtschaftsinformatik/Digitization%20-%20Information%20Representation%20and%20Processing.pdf)
-    
+
 -   Programmierung
 
     -   [Google Slides](https://docs.google.com/presentation/d/1N-HoYfpsdk4yOKgU7V3hjdLgl7vWHbQZl_6fJ8PEYno/edit?usp=sharing)
@@ -39,5 +39,7 @@ In dieses Buch sind viele Ideen aus den CS50-Kursen von [David J. Malan](https:/
 -   [CS50: Introduction to Computer Science (2023)](https://cs50.harvard.edu/x/2023/ "Gehe direkt zur Website des Kurses")
 
 Besonders im ersten Teilen dieses Buchs, in denen es um die Grundlagen der Digitalisierung und digitaler Computer geht, hat mich Charles Petzold [-@petzold2022] mit seinem Buch [Code: The Hidden Language of Computer Hardware and Software](#0 "Gehe direkt zur Amazon-Produktseite") inspiriert. Es ist ein verständlich geschriebenes und gut lesbares Buch, das mittlerweile in der zweiten Auflage vorliegt. Ich empfehle es allen, die sich für die Grundlagen der Informatik interessieren.
+
+Auch das klassische Lehrbuch von @brookshear_computer_2020 in der 13. Ausgabe von kann ich empfehlen, wenn auch nicht alle Kapitel daraus für den Nicht-Informatiker relevant sind. Besonders in den Kapiteln 1, 2 und 5 können einige der in hier behandelten Themen nachgelesen werden.
 
 Im Teil zur Datenanalyse greife ich auf viele Ideen und Beispiele aus dem Klassiker [R for Data Science](https://r4ds.hadley.nz/) von Hadley Wickham [-@wickham2023] zurück. Dieses Buch wurde 2023 als überarbeitete zweite Auflage veröffentlicht und ist die beste Einführung in die explorative Datenanalyse mit R, die ich kenne. Dazu empfehle ich den Onlinekurs [CS50R - Introdiction to Programming with R](https://cs50.harvard.edu/r/2024/) von [Carter Zenke](https://carterzenke.me/), dessen Vorlesungen allesamt auf YouTube zu finden sind.
